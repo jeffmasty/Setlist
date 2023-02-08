@@ -1,0 +1,366 @@
+{
+  "tracks" : [ {
+    "track" : "Drum1",
+    "file" : "/home/judah/Setlist/midi/Drum1/Sleepwalk",
+    "program" : "BBuddy"
+  }, {
+    "track" : "Drum2",
+    "file" : "/home/judah/Setlist/midi/Drum2/Rap1",
+    "program" : "808"
+  }, {
+    "track" : "Hats",
+    "file" : "/home/judah/Setlist/midi/Hats/Hats1",
+    "program" : "808"
+  }, {
+    "track" : "Fills",
+    "file" : "/home/judah/Setlist/midi/Fills/Fills1",
+    "program" : "Pearl"
+  }, {
+    "track" : "S.One",
+    "file" : "",
+    "program" : "Sleepwalk"
+  }, {
+    "track" : "S.Two",
+    "file" : "",
+    "program" : "TimeX2"
+  }, {
+    "track" : "Bass",
+    "file" : "/home/judah/Setlist/midi/Bass/Sleepwalk",
+    "program" : "none"
+  }, {
+    "track" : "Fluid1",
+    "file" : "",
+    "program" : "Yamaha Grand Piano"
+  }, {
+    "track" : "Fluid2",
+    "file" : "/home/judah/Setlist/midi/Fluid2/SleepString",
+    "program" : "Violin"
+  }, {
+    "track" : "Fluid3",
+    "file" : "",
+    "program" : "Yamaha Grand Piano"
+  } ],
+  "scenes" : [ {
+    "id" : "91043983-528f-4078-a588-c20070676fca",
+    "type" : "LOOP",
+    "notes" : "",
+    "commands" : [ {
+      "cmd" : "Tempo",
+      "val" : 99
+    }, {
+      "cmd" : "Length",
+      "val" : 4
+    }, {
+      "cmd" : "OffTape",
+      "val" : 5
+    } ],
+    "tracks" : [ {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 2,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    } ],
+    "fx" : [ ]
+  }, {
+    "id" : "62c0c608-263a-4b47-b762-80991834744a",
+    "type" : "BAR",
+    "notes" : null,
+    "commands" : [ {
+      "cmd" : "Record",
+      "val" : 0
+    }, {
+      "cmd" : "Latch",
+      "val" : 0
+    } ],
+    "tracks" : [ {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.51
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    } ],
+    "fx" : [ ]
+  }, {
+    "id" : "54189401-ec39-465a-b542-36dd6bfef0f4",
+    "type" : "LOOP",
+    "notes" : null,
+    "commands" : [ {
+      "cmd" : "Mute",
+      "val" : 0
+    } ],
+    "tracks" : [ {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 1,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    } ],
+    "fx" : [ "Fluid" ]
+  }, {
+    "id" : "454ea9b4-5816-4ab2-b3b6-726c53d91bfd",
+    "type" : "REL",
+    "notes" : "YOLO",
+    "commands" : [ {
+      "cmd" : "TimeCode",
+      "val" : 32
+    }, {
+      "cmd" : "Unmute",
+      "val" : 0
+    } ],
+    "tracks" : [ {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    } ],
+    "fx" : [ ]
+  }, {
+    "id" : "8b136ea7-4e13-4bd1-b359-da55a83ffa23",
+    "type" : "LOOP",
+    "notes" : null,
+    "commands" : [ {
+      "cmd" : "Jump",
+      "val" : 2
+    } ],
+    "tracks" : [ {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 2,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    } ],
+    "fx" : [ ]
+  } ],
+  "fx" : [ {
+    "channel" : "Drums",
+    "preset" : "Drumz"
+  }, {
+    "channel" : "S.One",
+    "preset" : "Freelay"
+  }, {
+    "channel" : "Fluid",
+    "preset" : "Freelay"
+  } ]
+}

@@ -1,0 +1,113 @@
+{
+  "tracks" : [ {
+    "track" : "Drum1",
+    "file" : "/home/judah/Setlist/midi/Drum1/Sleepwalk",
+    "program" : "BBuddy"
+  }, {
+    "track" : "Drum2",
+    "file" : "/home/judah/Setlist/midi/Drum2/Rap1",
+    "program" : "909"
+  }, {
+    "track" : "Hats",
+    "file" : "/home/judah/Setlist/midi/Hats/Hats1",
+    "program" : "Hats"
+  }, {
+    "track" : "Fills",
+    "file" : "/home/judah/Setlist/midi/Fills/Fills1",
+    "program" : "VCO"
+  }, {
+    "track" : "S.One",
+    "file" : "/home/judah/Setlist/midi/S.One/CmEbFmG",
+    "program" : "Bass1"
+  }, {
+    "track" : "S.Two",
+    "file" : "/home/judah/Setlist/midi/S.Two/CmEbFmG2",
+    "program" : "Drops1"
+  }, {
+    "track" : "Bass",
+    "file" : "/home/judah/Setlist/midi/Bass/BirdBlues",
+    "program" : "none"
+  }, {
+    "track" : "Fluid1",
+    "file" : "/home/judah/Setlist/midi/Fluid1/CmFlutes",
+    "program" : "Flute"
+  }, {
+    "track" : "Fluid2",
+    "file" : "/home/judah/Setlist/midi/Fluid2/CmArps",
+    "program" : "Pizzicato Section"
+  }, {
+    "track" : "Fluid3",
+    "file" : "/home/judah/Setlist/midi/Fluid3/CmBrass",
+    "program" : "Brass Section"
+  } ],
+  "scenes" : [ {
+    "id" : "ee5bd432-ad41-42f7-b7d1-5fd85ceb0345",
+    "type" : "REL",
+    "notes" : null,
+    "commands" : [ {
+      "cmd" : "Unmute",
+      "val" : 0
+    }, {
+      "cmd" : "Unmute",
+      "val" : 1
+    }, {
+      "cmd" : "Unmute",
+      "val" : 2
+    }, {
+      "cmd" : "Unmute",
+      "val" : 3
+    } ],
+    "tracks" : [ {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    } ]
+  } ],
+  "fx" : [ ]
+}

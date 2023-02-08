@@ -1,0 +1,50 @@
+{
+  "midi" : [ "/home/judah/Setlist/midi/Rap1", null, null, null, null, null, null, null, null, null ],
+  "scenes" : [ {
+    "type" : "CUE",
+    "notes" : "init",
+    "params" : [ ],
+    "tracks" : [ {
+      "active" : false,
+      "cycle" : "AB",
+      "current" : 0
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "current" : 0
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "current" : 0
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "current" : 0
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "current" : 0
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "current" : 0
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "current" : 0
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "current" : 0
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "current" : 0
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "current" : 0
+    } ],
+    "id" : "476ad596-e3b0-4234-8abf-922eb0b86801"
+  } ]
+}

@@ -1,0 +1,166 @@
+{
+  "tracks" : [ {
+    "track" : "Drum1",
+    "file" : "/home/judah/Setlist/midi/Drum1/Rap3",
+    "program" : "BBuddy"
+  }, {
+    "track" : "Drum2",
+    "file" : "",
+    "program" : "808"
+  }, {
+    "track" : "Hats",
+    "file" : "/home/judah/Setlist/midi/Hats/Hats1",
+    "program" : "808"
+  }, {
+    "track" : "Fills",
+    "file" : "/home/judah/Setlist/midi/Fills/Fills1",
+    "program" : "Pearl"
+  }, {
+    "track" : "S.One",
+    "file" : "",
+    "program" : "FeelGood"
+  }, {
+    "track" : "S.Two",
+    "file" : "",
+    "program" : "TimeX2"
+  }, {
+    "track" : "Bass",
+    "file" : "",
+    "program" : "none"
+  }, {
+    "track" : "Fluid1",
+    "file" : "/home/judah/Setlist/midi/Fluid1/LovePiano",
+    "program" : "Yamaha Grand Piano"
+  }, {
+    "track" : "Fluid2",
+    "file" : "",
+    "program" : "Yamaha Grand Piano"
+  }, {
+    "track" : "Fluid3",
+    "file" : "",
+    "program" : "Yamaha Grand Piano"
+  } ],
+  "scenes" : [ {
+    "id" : "20d0a251-dba0-4d4f-957d-95f455b9e9cf",
+    "type" : "REL",
+    "notes" : null,
+    "commands" : [ {
+      "cmd" : "Length",
+      "val" : 8
+    }, {
+      "cmd" : "MPK",
+      "val" : 3
+    }, {
+      "cmd" : "OffTape",
+      "val" : 6
+    } ],
+    "tracks" : [ {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 80
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 80
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 80
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 2,
+      "amp" : 80
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 80
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 80
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 80
+    }, {
+      "active" : false,
+      "cycle" : "ALL",
+      "launch" : 0,
+      "amp" : 80
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 80
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 80
+    } ]
+  }, {
+    "id" : "ff9b78f4-e2d9-4af1-8d8c-3418e5e62403",
+    "type" : "LOOP",
+    "notes" : null,
+    "commands" : [ ],
+    "tracks" : [ {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 80
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 80
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 6,
+      "amp" : 80
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 2,
+      "amp" : 80
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 80
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 80
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 80
+    }, {
+      "active" : true,
+      "cycle" : "ALL",
+      "launch" : 0,
+      "amp" : 80
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 80
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 80
+    } ]
+  } ],
+  "fx" : [ ]
+}

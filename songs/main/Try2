@@ -1,0 +1,136 @@
+{
+  "midi" : [ null, null, null, null, null, null, null, null, null, null ],
+  "scenes" : [ {
+    "type" : "INIT",
+    "notes" : "sdfg",
+    "params" : [ ],
+    "tracks" : [ {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "preset" : "BBuddy",
+      "amp" : 1.0
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "preset" : "808",
+      "amp" : 1.0
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "preset" : "808",
+      "amp" : 1.0
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "preset" : "Pearl",
+      "amp" : 1.0
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "preset" : "FeelGood",
+      "amp" : 0.8
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "preset" : "TimeX2",
+      "amp" : 0.8
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "preset" : "none",
+      "amp" : 0.9
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "preset" : "Yamaha Grand Piano",
+      "amp" : 0.9
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "preset" : "Yamaha Grand Piano",
+      "amp" : 0.9
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "preset" : "Yamaha Grand Piano",
+      "amp" : 0.9
+    } ],
+    "id" : "e95ed157-db8d-42c7-8817-ed5334c83f75"
+  }, {
+    "type" : "CUE",
+    "notes" : "sdfg",
+    "params" : [ ],
+    "tracks" : [ {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "preset" : "BBuddy",
+      "amp" : 1.0
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "preset" : "808",
+      "amp" : 1.0
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "preset" : "808",
+      "amp" : 1.0
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "preset" : "Pearl",
+      "amp" : 1.0
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "preset" : "FeelGood",
+      "amp" : 0.8
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "preset" : "TimeX2",
+      "amp" : 0.8
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "preset" : "none",
+      "amp" : 0.9
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "preset" : "Yamaha Grand Piano",
+      "amp" : 0.9
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "preset" : "Yamaha Grand Piano",
+      "amp" : 0.9
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "preset" : "Yamaha Grand Piano",
+      "amp" : 0.9
+    } ],
+    "id" : "a99fbcb3-f63c-451b-9caa-0ad7fdb7a671"
+  } ]
+}

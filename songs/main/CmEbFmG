@@ -1,0 +1,402 @@
+{
+  "tracks" : [ {
+    "track" : "Drum1",
+    "file" : "/home/judah/Setlist/midi/Drum1/Sleepwalk",
+    "program" : "Pearl"
+  }, {
+    "track" : "Drum2",
+    "file" : "/home/judah/Setlist/midi/Drum2/Rap1",
+    "program" : "909"
+  }, {
+    "track" : "Hats",
+    "file" : "/home/judah/Setlist/midi/Hats/Hats1",
+    "program" : "Hats"
+  }, {
+    "track" : "Fills",
+    "file" : "/home/judah/Setlist/midi/Fills/Fills1",
+    "program" : "VCO"
+  }, {
+    "track" : "S.One",
+    "file" : "/home/judah/Setlist/midi/S.One/CmEbFmG",
+    "program" : "Bass1"
+  }, {
+    "track" : "S.Two",
+    "file" : "/home/judah/Setlist/midi/S.Two/CmEbFmG2",
+    "program" : "Drops1"
+  }, {
+    "track" : "Bass",
+    "file" : "/home/judah/Setlist/midi/Bass/CEbFG",
+    "program" : "none"
+  }, {
+    "track" : "Fluid1",
+    "file" : "/home/judah/Setlist/midi/Fluid1/CmFlutes",
+    "program" : "Flute"
+  }, {
+    "track" : "Fluid2",
+    "file" : "/home/judah/Setlist/midi/Fluid2/CmArps",
+    "program" : "Pizzicato Section"
+  }, {
+    "track" : "Fluid3",
+    "file" : "/home/judah/Setlist/midi/Fluid3/CmBrass",
+    "program" : "Brass Section"
+  } ],
+  "scenes" : [ {
+    "id" : "256a5c6c-2a2e-4a3f-b6d1-9b0b4ba777a2",
+    "type" : "BAR",
+    "notes" : null,
+    "commands" : [ {
+      "cmd" : "Length",
+      "val" : 4
+    }, {
+      "cmd" : "SoloCh",
+      "val" : 0
+    }, {
+      "cmd" : "Solo",
+      "val" : 1
+    }, {
+      "cmd" : "Tempo",
+      "val" : 118
+    }, {
+      "cmd" : "OffTape",
+      "val" : 3
+    }, {
+      "cmd" : "MPK",
+      "val" : 2
+    } ],
+    "tracks" : [ {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 6,
+      "amp" : 0.84999996
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.56
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.84999996
+    } ]
+  }, {
+    "id" : "291a675a-3d34-46b6-9c84-cd015fdae282",
+    "type" : "LOOP",
+    "notes" : null,
+    "commands" : [ {
+      "cmd" : "Solo",
+      "val" : 0
+    } ],
+    "tracks" : [ {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 6,
+      "amp" : 0.84999996
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.53999996
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.71999997
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.84999996
+    } ]
+  }, {
+    "id" : "882de1c5-27aa-4465-8371-007a8dfd7613",
+    "type" : "LOOP",
+    "notes" : null,
+    "commands" : [ ],
+    "tracks" : [ {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 5,
+      "amp" : 0.84999996
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.53999996
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.66999996
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.84999996
+    } ]
+  }, {
+    "id" : "f9a46f55-2c93-4454-90d5-0f40a023bc0e",
+    "type" : "LOOP",
+    "notes" : null,
+    "commands" : [ ],
+    "tracks" : [ {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 5,
+      "amp" : 0.84999996
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.31
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.56
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 2,
+      "amp" : 0.81
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.77
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.98999995
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 1.0
+    } ]
+  }, {
+    "id" : "43de98d7-bc81-4062-9af1-00f7cb78ec98",
+    "type" : "LOOP",
+    "notes" : null,
+    "commands" : [ ],
+    "tracks" : [ {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 4,
+      "amp" : 0.84999996
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.26
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.41
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 2,
+      "amp" : 0.66999996
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.55
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 1.0
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.83
+    } ]
+  }, {
+    "id" : "5b7c92fe-dc45-4ac5-912c-5d7a2650f3b8",
+    "type" : "LOOP",
+    "notes" : null,
+    "commands" : [ ],
+    "tracks" : [ {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 5,
+      "amp" : 0.84999996
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.84999996
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.68
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 2,
+      "amp" : 0.77
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.32999998
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.98999995
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.78999996
+    } ]
+  } ],
+  "fx" : [ ]
+}

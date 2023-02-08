@@ -23,7 +23,7 @@ Reverb(21/100/4)
 Chorus(31/39/66)
 Reverb(70/95/21)
 [Freelay]
-Delay(36/15)
+Delay(65/15)
 Reverb(41/82/20)
 [Freedist]
 Overdrive(2)
@@ -41,3 +41,6 @@ Reverb(50/95/8)
 Chorus(33/24/27)
 [TimeAfterGtr]
 Chorus(40/40/74)
+[Drumz]
+EQ(65/35/41)
+Compressor(52/68/27/55/32)
