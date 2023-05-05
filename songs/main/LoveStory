@@ -1,11 +1,11 @@
 {
   "tracks" : [ {
     "track" : "Drum1",
-    "file" : "/home/judah/Setlist/midi/Drum1/Rap3",
+    "file" : "/home/judah/Setlist/midi/Drum1/Bossa1",
     "program" : "BBuddy"
   }, {
     "track" : "Drum2",
-    "file" : "",
+    "file" : "/home/judah/Setlist/midi/Drum2/Rap1",
     "program" : "808"
   }, {
     "track" : "Hats",
@@ -17,15 +17,15 @@
     "program" : "Pearl"
   }, {
     "track" : "S.One",
-    "file" : "",
+    "file" : "/home/judah/Setlist/midi/S.One/ChaCha",
     "program" : "FeelGood"
   }, {
     "track" : "S.Two",
-    "file" : "",
+    "file" : "/home/judah/Setlist/midi/S.Two/SleepArp",
     "program" : "TimeX2"
   }, {
     "track" : "Bass",
-    "file" : "",
+    "file" : "/home/judah/Setlist/midi/Bass/Sleepwalk",
     "program" : "none"
   }, {
     "track" : "Fluid1",
@@ -33,11 +33,11 @@
     "program" : "Yamaha Grand Piano"
   }, {
     "track" : "Fluid2",
-    "file" : "",
+    "file" : "/home/judah/Setlist/midi/Fluid2/SleepString",
     "program" : "Yamaha Grand Piano"
   }, {
     "track" : "Fluid3",
-    "file" : "",
+    "file" : "/home/judah/Setlist/midi/Fluid3/CmBrass",
     "program" : "Yamaha Grand Piano"
   } ],
   "scenes" : [ {
@@ -51,60 +51,61 @@
       "cmd" : "MPK",
       "val" : 3
     }, {
-      "cmd" : "OffTape",
+      "cmd" : "OnTape",
       "val" : 6
     } ],
     "tracks" : [ {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 80
+      "amp" : 0.79999995
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 80
+      "amp" : 0.79999995
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 80
+      "amp" : 0.79999995
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 2,
-      "amp" : 80
+      "amp" : 0.79999995
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 80
+      "amp" : 0.79999995
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 80
+      "amp" : 0.79999995
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 80
+      "amp" : 0.79999995
     }, {
       "active" : false,
       "cycle" : "ALL",
       "launch" : 0,
-      "amp" : 80
+      "amp" : 0.79999995
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 80
+      "amp" : 0.79999995
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 80
-    } ]
+      "amp" : 0.79999995
+    } ],
+    "fx" : [ ]
   }, {
     "id" : "ff9b78f4-e2d9-4af1-8d8c-3418e5e62403",
     "type" : "LOOP",
@@ -114,53 +115,72 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 80
+      "amp" : 80.0
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 80
+      "amp" : 80.0
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 6,
-      "amp" : 80
+      "amp" : 80.0
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 2,
-      "amp" : 80
+      "amp" : 80.0
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 80
+      "amp" : 80.0
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 80
+      "amp" : 80.0
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 80
+      "amp" : 80.0
     }, {
       "active" : true,
       "cycle" : "ALL",
       "launch" : 0,
-      "amp" : 80
+      "amp" : 80.0
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 80
+      "amp" : 80.0
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 80
-    } ]
+      "amp" : 80.0
+    } ],
+    "fx" : [ ]
   } ],
-  "fx" : [ ]
+  "fx" : [ {
+    "channel" : "A",
+    "preset" : "LfoPanVerb"
+  }, {
+    "channel" : "Gtr",
+    "preset" : "Freedist"
+  }, {
+    "channel" : "Drums",
+    "preset" : "Drumz"
+  }, {
+    "channel" : "S.One",
+    "preset" : "Freelay"
+  }, {
+    "channel" : "S.Two",
+    "preset" : "RevCho"
+  }, {
+    "channel" : "Fluid",
+    "preset" : "Freelay"
+  } ]
 }

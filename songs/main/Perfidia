@@ -1,102 +1,114 @@
 {
   "tracks" : [ {
     "track" : "Drum1",
-    "file" : "/home/judah/Setlist/midi/Drum1/Rock1",
+    "file" : "",
     "program" : "Pearl"
   }, {
     "track" : "Drum2",
-    "file" : "/home/judah/Setlist/midi/Drum2/Rap1",
+    "file" : "/home/judah/Setlist/midi/Drum2/Reqggea1",
     "program" : "808"
   }, {
     "track" : "Hats",
     "file" : "/home/judah/Setlist/midi/Hats/Hats1",
-    "program" : "808"
+    "program" : "Hats"
   }, {
     "track" : "Fills",
     "file" : "/home/judah/Setlist/midi/Fills/Fills1",
     "program" : "VCO"
   }, {
     "track" : "S.One",
-    "file" : "/home/judah/Setlist/midi/S.One/ChaCha",
+    "file" : "",
     "program" : "FeelGood"
   }, {
     "track" : "S.Two",
-    "file" : "/home/judah/Setlist/midi/S.Two/Peggy2",
+    "file" : "",
     "program" : "Drops1"
   }, {
     "track" : "Bass",
-    "file" : "/home/judah/Setlist/midi/Bass/BirdBlues",
+    "file" : "",
     "program" : "none"
   }, {
     "track" : "Fluid1",
-    "file" : "/home/judah/Setlist/midi/Fluid1/CmFlutes",
-    "program" : "Yamaha Grand Piano"
+    "file" : "",
+    "program" : "Acoustic Bass"
   }, {
     "track" : "Fluid2",
-    "file" : "/home/judah/Setlist/midi/Fluid2/CmArps",
-    "program" : "Yamaha Grand Piano"
+    "file" : "",
+    "program" : "Rock Organ"
   }, {
     "track" : "Fluid3",
-    "file" : "/home/judah/Setlist/midi/Fluid3/CmBrass",
-    "program" : "Yamaha Grand Piano"
+    "file" : "",
+    "program" : "Harp"
   } ],
   "scenes" : [ {
-    "id" : "6e19ae55-bc98-4196-b625-25c0482f0822",
-    "type" : "REL",
-    "notes" : null,
-    "commands" : [ ],
+    "id" : "f3eefa2b-1e68-4b03-b0ef-88f1cf4d984b",
+    "type" : "BAR",
+    "notes" : "7-1 Crave",
+    "commands" : [ {
+      "cmd" : "Tempo",
+      "val" : 95
+    }, {
+      "cmd" : "Length",
+      "val" : 8
+    }, {
+      "cmd" : "Latch",
+      "val" : 1
+    }, {
+      "cmd" : "Mute",
+      "val" : 0
+    } ],
     "tracks" : [ {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 1.0
+      "amp" : 0.65
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 1.0
+      "amp" : 0.65
     }, {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 5,
-      "amp" : 1.0
-    }, {
-      "active" : false,
-      "cycle" : "AB",
-      "launch" : 3,
-      "amp" : 1.0
+      "launch" : 0,
+      "amp" : 0.65
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 1.0
+      "amp" : 0.65
     }, {
-      "active" : true,
+      "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 1.0
+      "amp" : 0.65
     }, {
       "active" : false,
-      "cycle" : "AB",
+      "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 1.0
+      "amp" : 0.65
     }, {
       "active" : false,
-      "cycle" : "AB",
+      "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 1.0
+      "amp" : 0.65
     }, {
       "active" : false,
-      "cycle" : "AB",
+      "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 1.0
+      "amp" : 0.65
     }, {
       "active" : false,
-      "cycle" : "AB",
+      "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 1.0
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
     } ],
-    "fx" : [ ]
+    "fx" : [ "Gtr", "Mic" ]
   } ],
   "fx" : [ {
     "channel" : "Drums",

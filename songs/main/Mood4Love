@@ -1,7 +1,7 @@
 {
   "tracks" : [ {
     "track" : "Drum1",
-    "file" : "/home/judah/Setlist/midi/Drum1/Rap1",
+    "file" : "/home/judah/Setlist/midi/Drum1/Sleepwalk",
     "program" : "BBuddy"
   }, {
     "track" : "Drum2",
@@ -49,7 +49,7 @@
       "val" : 99
     }, {
       "cmd" : "Length",
-      "val" : 4
+      "val" : 8
     }, {
       "cmd" : "MPK",
       "val" : 3
@@ -364,17 +364,20 @@
     "notes" : "Arp",
     "commands" : [ {
       "cmd" : "Unmute",
-      "val" : 0
-    }, {
-      "cmd" : "Unmute",
       "val" : 1
     }, {
-      "cmd" : "Unmute",
-      "val" : 2
+      "cmd" : "Mute",
+      "val" : 0
+    }, {
+      "cmd" : "Length",
+      "val" : 8
+    }, {
+      "cmd" : "Sync",
+      "val" : 1
     } ],
     "tracks" : [ {
       "active" : true,
-      "cycle" : "A3B",
+      "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.79999995
     }, {
@@ -384,8 +387,8 @@
       "amp" : 0.79999995
     }, {
       "active" : true,
-      "cycle" : "A3B",
-      "launch" : 1,
+      "cycle" : "ABCD",
+      "launch" : 6,
       "amp" : 0.79999995
     }, {
       "active" : false,
@@ -398,12 +401,12 @@
       "launch" : 0,
       "amp" : 0.79999995
     }, {
-      "active" : true,
+      "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.45
     }, {
-      "active" : true,
+      "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.79999995
@@ -423,7 +426,7 @@
       "launch" : 0,
       "amp" : 0.79999995
     } ],
-    "fx" : [ "S.Two" ]
+    "fx" : [ "Drums", "S.Two" ]
   } ],
   "fx" : [ {
     "channel" : "A",

@@ -42,7 +42,7 @@
   } ],
   "scenes" : [ {
     "id" : "256a5c6c-2a2e-4a3f-b6d1-9b0b4ba777a2",
-    "type" : "BAR",
+    "type" : "LOOP",
     "notes" : null,
     "commands" : [ {
       "cmd" : "Length",
@@ -50,9 +50,6 @@
     }, {
       "cmd" : "SoloCh",
       "val" : 0
-    }, {
-      "cmd" : "Solo",
-      "val" : 1
     }, {
       "cmd" : "Tempo",
       "val" : 118
@@ -72,7 +69,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.45
     }, {
       "active" : true,
       "cycle" : "AB",
@@ -87,33 +84,34 @@
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
+      "amp" : 0.31
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
       "amp" : 0.56
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.81
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.77
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.98999995
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.84999996
-    }, {
-      "active" : false,
-      "cycle" : "ABCD",
-      "launch" : 0,
-      "amp" : 0.84999996
-    } ]
+      "amp" : 1.0
+    } ],
+    "fx" : [ ]
   }, {
     "id" : "291a675a-3d34-46b6-9c84-cd015fdae282",
     "type" : "LOOP",
@@ -131,7 +129,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.45999998
     }, {
       "active" : true,
       "cycle" : "AB",
@@ -146,37 +144,38 @@
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.53999996
+      "amp" : 0.31
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.71999997
+      "amp" : 0.56
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.81
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.77
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.98999995
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.84999996
-    } ]
+      "amp" : 1.0
+    } ],
+    "fx" : [ ]
   }, {
     "id" : "882de1c5-27aa-4465-8371-007a8dfd7613",
     "type" : "LOOP",
-    "notes" : null,
+    "notes" : "Bass",
     "commands" : [ ],
     "tracks" : [ {
       "active" : false,
@@ -202,37 +201,38 @@
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.53999996
+      "amp" : 0.42
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.66999996
+      "amp" : 0.45
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.44
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.77
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.98999995
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.84999996
-    } ]
+      "amp" : 1.0
+    } ],
+    "fx" : [ ]
   }, {
     "id" : "f9a46f55-2c93-4454-90d5-0f40a023bc0e",
     "type" : "LOOP",
-    "notes" : null,
+    "notes" : "Flutes",
     "commands" : [ ],
     "tracks" : [ {
       "active" : false,
@@ -243,7 +243,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.48
     }, {
       "active" : true,
       "cycle" : "AB",
@@ -268,12 +268,12 @@
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 2,
-      "amp" : 0.81
+      "amp" : 0.48
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.77
+      "amp" : 0.53999996
     }, {
       "active" : false,
       "cycle" : "ABCD",
@@ -284,11 +284,12 @@
       "cycle" : "ABCD",
       "launch" : 0,
       "amp" : 1.0
-    } ]
+    } ],
+    "fx" : [ ]
   }, {
     "id" : "43de98d7-bc81-4062-9af1-00f7cb78ec98",
     "type" : "LOOP",
-    "notes" : null,
+    "notes" : "Arps",
     "commands" : [ ],
     "tracks" : [ {
       "active" : false,
@@ -299,7 +300,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.53
     }, {
       "active" : true,
       "cycle" : "AB",
@@ -314,37 +315,38 @@
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.26
+      "amp" : 0.31
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.41
+      "amp" : 0.56
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 2,
-      "amp" : 0.66999996
-    }, {
-      "active" : true,
-      "cycle" : "ABCD",
-      "launch" : 0,
       "amp" : 0.55
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 1.0
+      "amp" : 0.52
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.72999996
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.83
-    } ]
+      "amp" : 1.0
+    } ],
+    "fx" : [ ]
   }, {
     "id" : "5b7c92fe-dc45-4ac5-912c-5d7a2650f3b8",
     "type" : "LOOP",
-    "notes" : null,
+    "notes" : "Horns",
     "commands" : [ ],
     "tracks" : [ {
       "active" : false,
@@ -355,12 +357,12 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.65999997
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 5,
-      "amp" : 0.84999996
+      "amp" : 0.57
     }, {
       "active" : false,
       "cycle" : "AB",
@@ -370,33 +372,46 @@
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.68
+      "amp" : 0.31
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.56
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 2,
+      "amp" : 0.53
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.41
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.56
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
       "amp" : 0.65
-    }, {
-      "active" : true,
-      "cycle" : "ABCD",
-      "launch" : 2,
-      "amp" : 0.77
-    }, {
-      "active" : true,
-      "cycle" : "ABCD",
-      "launch" : 0,
-      "amp" : 0.32999998
-    }, {
-      "active" : true,
-      "cycle" : "ABCD",
-      "launch" : 0,
-      "amp" : 0.98999995
-    }, {
-      "active" : true,
-      "cycle" : "ABCD",
-      "launch" : 0,
-      "amp" : 0.78999996
-    } ]
+    } ],
+    "fx" : [ ]
   } ],
-  "fx" : [ ]
+  "fx" : [ {
+    "channel" : "Gtr",
+    "preset" : "Freedist"
+  }, {
+    "channel" : "Drums",
+    "preset" : "Drumz"
+  }, {
+    "channel" : "S.Two",
+    "preset" : "RevCho"
+  }, {
+    "channel" : "Fluid",
+    "preset" : "Freelay"
+  } ]
 }

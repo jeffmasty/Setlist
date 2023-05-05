@@ -44,3 +44,10 @@ Chorus(40/40/74)
 [Drumz]
 EQ(65/35/41)
 Compressor(52/68/27/55/32)
+[LfoPanVerb]
+LFO(0/10/90/96)
+Reverb(41/100/49)
+[RevCho]
+CutFilter(5/67/96)
+Chorus(47/40/19)
+Reverb(40/100/25)

@@ -1,7 +1,7 @@
 {
   "tracks" : [ {
     "track" : "Drum1",
-    "file" : "/home/judah/Setlist/midi/Drum1/Rock1",
+    "file" : "/home/judah/Setlist/midi/Drum1/Swing1",
     "program" : "Pearl"
   }, {
     "track" : "Drum2",
@@ -10,96 +10,123 @@
   }, {
     "track" : "Hats",
     "file" : "/home/judah/Setlist/midi/Hats/Hats1",
-    "program" : "808"
+    "program" : "Hats"
   }, {
     "track" : "Fills",
     "file" : "/home/judah/Setlist/midi/Fills/Fills1",
     "program" : "VCO"
   }, {
     "track" : "S.One",
-    "file" : "/home/judah/Setlist/midi/S.One/ChaCha",
+    "file" : "/home/judah/Setlist/midi/S.One/CmEbFmG",
     "program" : "FeelGood"
   }, {
     "track" : "S.Two",
-    "file" : "/home/judah/Setlist/midi/S.Two/Peggy2",
+    "file" : "/home/judah/Setlist/midi/S.Two/CmEbFmG2",
     "program" : "Drops1"
   }, {
     "track" : "Bass",
-    "file" : "/home/judah/Setlist/midi/Bass/BirdBlues",
+    "file" : "/home/judah/Setlist/midi/Bass/CEbFG",
     "program" : "none"
   }, {
     "track" : "Fluid1",
     "file" : "/home/judah/Setlist/midi/Fluid1/CmFlutes",
-    "program" : "Yamaha Grand Piano"
+    "program" : "Acoustic Bass"
   }, {
     "track" : "Fluid2",
     "file" : "/home/judah/Setlist/midi/Fluid2/CmArps",
-    "program" : "Yamaha Grand Piano"
+    "program" : "Rock Organ"
   }, {
     "track" : "Fluid3",
     "file" : "/home/judah/Setlist/midi/Fluid3/CmBrass",
-    "program" : "Yamaha Grand Piano"
+    "program" : "Harp"
   } ],
   "scenes" : [ {
-    "id" : "6e19ae55-bc98-4196-b625-25c0482f0822",
-    "type" : "REL",
+    "id" : "1262fbf8-b0e5-40bf-bea3-fff4e1aca785",
+    "type" : "BAR",
     "notes" : null,
-    "commands" : [ ],
+    "commands" : [ {
+      "cmd" : "MPK",
+      "val" : 3
+    }, {
+      "cmd" : "Tempo",
+      "val" : 82
+    }, {
+      "cmd" : "Length",
+      "val" : 12
+    }, {
+      "cmd" : "OnTape",
+      "val" : 6
+    } ],
     "tracks" : [ {
-      "active" : false,
-      "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 1.0
-    }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 1.0
-    }, {
-      "active" : true,
-      "cycle" : "AB",
-      "launch" : 5,
-      "amp" : 1.0
-    }, {
-      "active" : false,
-      "cycle" : "AB",
-      "launch" : 3,
-      "amp" : 1.0
+      "amp" : 0.74
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 1.0
+      "amp" : 0.65
     }, {
-      "active" : true,
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.34
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 1.0
+      "amp" : 0.65
     }, {
       "active" : false,
-      "cycle" : "AB",
+      "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 1.0
+      "amp" : 0.65
     }, {
       "active" : false,
-      "cycle" : "AB",
+      "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 1.0
+      "amp" : 0.65
     }, {
       "active" : false,
-      "cycle" : "AB",
+      "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 1.0
+      "amp" : 0.65
     }, {
       "active" : false,
-      "cycle" : "AB",
+      "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 1.0
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
     } ],
-    "fx" : [ ]
+    "fx" : [ "Drums" ]
   } ],
   "fx" : [ {
+    "channel" : "A",
+    "preset" : "LfoPanVerb"
+  }, {
+    "channel" : "Gtr",
+    "preset" : "Freedist"
+  }, {
     "channel" : "Drums",
     "preset" : "Drumz"
+  }, {
+    "channel" : "S.One",
+    "preset" : "Freelay"
+  }, {
+    "channel" : "S.Two",
+    "preset" : "RevCho"
+  }, {
+    "channel" : "Fluid",
+    "preset" : "Freelay"
   } ]
 }

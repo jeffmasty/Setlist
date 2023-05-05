@@ -1,77 +1,70 @@
 {
   "tracks" : [ {
     "track" : "Drum1",
-    "file" : "/home/judah/Setlist/midi/Drum1/Rock1",
-    "program" : "Pearl"
+    "file" : "/home/judah/Setlist/midi/Drum1/4x4",
+    "program" : "VOX"
   }, {
     "track" : "Drum2",
-    "file" : "/home/judah/Setlist/midi/Drum2/Rap1",
-    "program" : "808"
+    "file" : "/home/judah/Setlist/midi/Drum2/Reqggea1",
+    "program" : "808-UFO"
   }, {
     "track" : "Hats",
     "file" : "/home/judah/Setlist/midi/Hats/Hats1",
-    "program" : "808"
+    "program" : "VCO"
   }, {
     "track" : "Fills",
     "file" : "/home/judah/Setlist/midi/Fills/Fills1",
-    "program" : "Pearl"
+    "program" : "VCO"
   }, {
     "track" : "S.One",
-    "file" : "/home/judah/Setlist/midi/S.One/ChaCha",
-    "program" : "FeelGood"
+    "file" : "/home/judah/Setlist/midi/S.One/CmEbFmG",
+    "program" : "Sleepwalk"
   }, {
     "track" : "S.Two",
-    "file" : "/home/judah/Setlist/midi/S.Two/Peggy2",
-    "program" : "TimeX2"
+    "file" : "/home/judah/Setlist/midi/S.Two/CmEbFmG2",
+    "program" : "Drops1"
   }, {
     "track" : "Bass",
-    "file" : "/home/judah/Setlist/midi/Bass/BlueGreen",
+    "file" : "/home/judah/Setlist/midi/Bass/BirdBlues",
     "program" : "none"
   }, {
     "track" : "Fluid1",
-    "file" : "/home/judah/Setlist/midi/Fluid1/BlueGreen",
-    "program" : "Harp"
+    "file" : "/home/judah/Setlist/midi/Fluid1/CmFlutes",
+    "program" : "Flute"
   }, {
     "track" : "Fluid2",
     "file" : "/home/judah/Setlist/midi/Fluid2/CmArps",
-    "program" : "Yamaha Grand Piano"
+    "program" : "Pizzicato Section"
   }, {
     "track" : "Fluid3",
     "file" : "/home/judah/Setlist/midi/Fluid3/CmBrass",
-    "program" : "Yamaha Grand Piano"
+    "program" : "Brass Section"
   } ],
   "scenes" : [ {
-    "id" : "32a050e6-afe1-42d9-9e59-f6b4e81f758c",
+    "id" : "ee5bd432-ad41-42f7-b7d1-5fd85ceb0345",
     "type" : "BAR",
     "notes" : null,
     "commands" : [ {
       "cmd" : "Length",
-      "val" : 10
+      "val" : 8
     }, {
-      "cmd" : "OffTape",
-      "val" : 6
+      "cmd" : "Tempo",
+      "val" : 94
     }, {
-      "cmd" : "OffTape",
-      "val" : 5
+      "cmd" : "Unmute",
+      "val" : 2
+    }, {
+      "cmd" : "Unmute",
+      "val" : 3
     } ],
     "tracks" : [ {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.79999995
-    }, {
-      "active" : false,
-      "cycle" : "AB",
-      "launch" : 0,
+      "launch" : 1,
       "amp" : 0.79999995
     }, {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 5,
-      "amp" : 0.79999995
-    }, {
-      "active" : false,
-      "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.79999995
     }, {
@@ -90,8 +83,18 @@
       "launch" : 0,
       "amp" : 0.79999995
     }, {
-      "active" : true,
-      "cycle" : "ABCD",
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.79999995
     }, {
@@ -105,54 +108,51 @@
       "launch" : 0,
       "amp" : 0.79999995
     } ],
-    "fx" : [ "Gtr" ]
+    "fx" : [ "Drums" ]
   }, {
-    "id" : "ef240a9b-4c14-4457-81f6-6a0cb92b48de",
+    "id" : "348a50fd-9e7b-4a39-b488-491610cb243c",
     "type" : "BAR",
-    "notes" : null,
-    "commands" : [ {
-      "cmd" : "Record",
-      "val" : 0
-    } ],
+    "notes" : "EPIC",
+    "commands" : [ ],
     "tracks" : [ {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.79999995
-    }, {
-      "active" : false,
-      "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.79999995
-    }, {
-      "active" : true,
-      "cycle" : "AB",
-      "launch" : 7,
-      "amp" : 0.79999995
-    }, {
-      "active" : false,
-      "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.79999995
-    }, {
-      "active" : false,
-      "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.79999995
-    }, {
-      "active" : false,
-      "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.79999995
-    }, {
-      "active" : true,
-      "cycle" : "ALL",
       "launch" : 1,
       "amp" : 0.79999995
     }, {
-      "active" : true,
-      "cycle" : "ALL",
-      "launch" : 1,
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
       "amp" : 0.79999995
     }, {
       "active" : false,
@@ -165,10 +165,25 @@
       "launch" : 0,
       "amp" : 0.79999995
     } ],
-    "fx" : [ "Gtr" ]
+    "fx" : [ "Drums" ]
   } ],
   "fx" : [ {
+    "channel" : "A",
+    "preset" : "LfoPanVerb"
+  }, {
+    "channel" : "Gtr",
+    "preset" : "Freedist"
+  }, {
     "channel" : "Drums",
     "preset" : "Drumz"
+  }, {
+    "channel" : "S.One",
+    "preset" : "Freelay"
+  }, {
+    "channel" : "S.Two",
+    "preset" : "RevCho"
+  }, {
+    "channel" : "Fluid",
+    "preset" : "Freelay"
   } ]
 }
