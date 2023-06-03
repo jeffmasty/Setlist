@@ -1,0 +1,105 @@
+{
+  "tracks" : [ {
+    "track" : "Drum1",
+    "file" : "/home/judah/Setlist/midi/Drum1/RapVCO",
+    "program" : "808-UFO"
+  }, {
+    "track" : "Drum2",
+    "file" : "/home/judah/Setlist/midi/Drum2/Rap1",
+    "program" : "808"
+  }, {
+    "track" : "Hats",
+    "file" : "/home/judah/Setlist/midi/Hats/Hats1",
+    "program" : "Hats"
+  }, {
+    "track" : "Fills",
+    "file" : "/home/judah/Setlist/midi/Fills/Fills1",
+    "program" : "VCO"
+  }, {
+    "track" : "S.One",
+    "file" : "/home/judah/Setlist/midi/S.One/Groovy",
+    "program" : "Groovy"
+  }, {
+    "track" : "S.Two",
+    "file" : "",
+    "program" : "FeelGood"
+  }, {
+    "track" : "Bass",
+    "file" : "",
+    "program" : "none"
+  }, {
+    "track" : "Fluid1",
+    "file" : "/home/judah/Setlist/midi/Fluid1/Groovy",
+    "program" : "Rhodes EP"
+  }, {
+    "track" : "Fluid2",
+    "file" : "",
+    "program" : "Rock Organ"
+  }, {
+    "track" : "Fluid3",
+    "file" : "",
+    "program" : "Harp"
+  } ],
+  "scenes" : [ {
+    "id" : "76ee8a02-b79a-48b0-8820-64f1461f8dbe",
+    "type" : "BAR",
+    "notes" : null,
+    "commands" : [ ],
+    "tracks" : [ {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.45999998
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    } ],
+    "fx" : [ "Drums" ]
+  } ],
+  "fx" : [ {
+    "channel" : "Drums",
+    "preset" : "Drumz"
+  } ]
+}

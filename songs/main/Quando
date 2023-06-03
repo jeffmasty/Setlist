@@ -17,7 +17,7 @@
     "program" : "VCO"
   }, {
     "track" : "S.One",
-    "file" : "",
+    "file" : "/home/judah/Setlist/midi/S.One/CmEbFmG",
     "program" : "FeelGood"
   }, {
     "track" : "S.Two",
@@ -46,22 +46,22 @@
     "notes" : null,
     "commands" : [ {
       "cmd" : "Mute",
-      "val" : 0
+      "val" : "A"
     }, {
       "cmd" : "OffTape",
-      "val" : 5
+      "val" : "Bass"
     }, {
       "cmd" : "Length",
-      "val" : 8
+      "val" : "8"
     }, {
       "cmd" : "Sync",
-      "val" : 1
+      "val" : "B"
     }, {
       "cmd" : "Mute",
-      "val" : 0
+      "val" : "A"
     }, {
       "cmd" : "OffTape",
-      "val" : 6
+      "val" : "Fluid"
     } ],
     "tracks" : [ {
       "active" : true,
@@ -121,7 +121,7 @@
     "notes" : "Bridge",
     "commands" : [ {
       "cmd" : "Record",
-      "val" : 0
+      "val" : "A"
     } ],
     "tracks" : [ {
       "active" : true,
@@ -181,13 +181,13 @@
     "notes" : "Main",
     "commands" : [ {
       "cmd" : "TimeCode",
-      "val" : 32
+      "val" : "32"
     }, {
       "cmd" : "Mute",
-      "val" : 0
+      "val" : "A"
     }, {
       "cmd" : "Unmute",
-      "val" : 1
+      "val" : "B"
     } ],
     "tracks" : [ {
       "active" : true,
@@ -247,10 +247,10 @@
     "notes" : "Bridge  ",
     "commands" : [ {
       "cmd" : "Mute",
-      "val" : 1
+      "val" : "B"
     }, {
       "cmd" : "Unmute",
-      "val" : 0
+      "val" : "A"
     } ],
     "tracks" : [ {
       "active" : true,
@@ -310,13 +310,13 @@
     "notes" : "Main",
     "commands" : [ {
       "cmd" : "TimeCode",
-      "val" : 32
+      "val" : "32"
     }, {
       "cmd" : "Mute",
-      "val" : 0
+      "val" : "A"
     }, {
       "cmd" : "Unmute",
-      "val" : 1
+      "val" : "B"
     } ],
     "tracks" : [ {
       "active" : true,
@@ -376,10 +376,10 @@
     "notes" : "LOOP+",
     "commands" : [ {
       "cmd" : "Mute",
-      "val" : 1
+      "val" : "B"
     }, {
       "cmd" : "Unmute",
-      "val" : 0
+      "val" : "A"
     } ],
     "tracks" : [ {
       "active" : true,
@@ -439,13 +439,13 @@
     "notes" : "Main+",
     "commands" : [ {
       "cmd" : "Mute",
-      "val" : 0
+      "val" : "A"
     }, {
       "cmd" : "Unmute",
-      "val" : 1
+      "val" : "B"
     }, {
       "cmd" : "TimeCode",
-      "val" : 32
+      "val" : "32"
     } ],
     "tracks" : [ {
       "active" : true,
@@ -505,7 +505,7 @@
     "notes" : null,
     "commands" : [ {
       "cmd" : "Jump",
-      "val" : 5
+      "val" : "5"
     } ],
     "tracks" : [ {
       "active" : true,
@@ -561,7 +561,22 @@
     "fx" : [ ]
   } ],
   "fx" : [ {
+    "channel" : "A",
+    "preset" : "LfoPanVerb"
+  }, {
+    "channel" : "Gtr",
+    "preset" : "Freedist"
+  }, {
     "channel" : "Drums",
     "preset" : "Drumz"
+  }, {
+    "channel" : "S.One",
+    "preset" : "Freelay"
+  }, {
+    "channel" : "S.Two",
+    "preset" : "RevCho"
+  }, {
+    "channel" : "Fluid",
+    "preset" : "Freelay"
   } ]
 }

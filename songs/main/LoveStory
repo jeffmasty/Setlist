@@ -6,7 +6,7 @@
   }, {
     "track" : "Drum2",
     "file" : "/home/judah/Setlist/midi/Drum2/Rap1",
-    "program" : "808"
+    "program" : "Pearl"
   }, {
     "track" : "Hats",
     "file" : "/home/judah/Setlist/midi/Hats/Hats1",
@@ -46,13 +46,16 @@
     "notes" : null,
     "commands" : [ {
       "cmd" : "Length",
-      "val" : 8
+      "val" : "8"
     }, {
       "cmd" : "MPK",
-      "val" : 3
+      "val" : "Fluid1"
     }, {
       "cmd" : "OnTape",
-      "val" : 6
+      "val" : "Fluid"
+    }, {
+      "cmd" : "Tempo",
+      "val" : "102"
     } ],
     "tracks" : [ {
       "active" : true,
@@ -109,58 +112,187 @@
   }, {
     "id" : "ff9b78f4-e2d9-4af1-8d8c-3418e5e62403",
     "type" : "LOOP",
-    "notes" : null,
+    "notes" : "Piano and Hats",
     "commands" : [ ],
     "tracks" : [ {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 80.0
+      "amp" : 0.79999995
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 80.0
+      "amp" : 0.79999995
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 6,
-      "amp" : 80.0
+      "amp" : 0.79999995
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 2,
-      "amp" : 80.0
+      "amp" : 0.79999995
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 80.0
+      "amp" : 0.79999995
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 80.0
+      "amp" : 0.79999995
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 80.0
+      "amp" : 0.79999995
     }, {
       "active" : true,
       "cycle" : "ALL",
       "launch" : 0,
-      "amp" : 80.0
+      "amp" : 0.79999995
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 80.0
+      "amp" : 0.79999995
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 80.0
+      "amp" : 0.79999995
+    } ],
+    "fx" : [ ]
+  }, {
+    "id" : "949c1e82-fba6-4367-aa89-1ccbaad27527",
+    "type" : "LOOP",
+    "notes" : null,
+    "commands" : [ {
+      "cmd" : "Mute",
+      "val" : "A"
+    }, {
+      "cmd" : "Mute",
+      "val" : "B"
+    } ],
+    "tracks" : [ {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 2,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : true,
+      "cycle" : "ALL",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    } ],
+    "fx" : [ "Gtr" ]
+  }, {
+    "id" : "623787bf-4c18-4fb7-bc82-9b84174804f3",
+    "type" : "REL",
+    "notes" : "",
+    "commands" : [ {
+      "cmd" : "Unmute",
+      "val" : "A"
+    }, {
+      "cmd" : "Unmute",
+      "val" : "B"
+    }, {
+      "cmd" : "TimeCode",
+      "val" : "64"
+    } ],
+    "tracks" : [ {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 2,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : true,
+      "cycle" : "ALL",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
     } ],
     "fx" : [ ]
   } ],

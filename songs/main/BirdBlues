@@ -46,19 +46,19 @@
     "notes" : null,
     "commands" : [ {
       "cmd" : "Length",
-      "val" : 12
+      "val" : "12"
     }, {
       "cmd" : "Mute",
-      "val" : 1
+      "val" : "B"
     }, {
       "cmd" : "OffTape",
-      "val" : 6
+      "val" : "Fluid"
     }, {
       "cmd" : "Unmute",
-      "val" : 0
+      "val" : "A"
     }, {
       "cmd" : "Tempo",
-      "val" : 113
+      "val" : "113"
     } ],
     "tracks" : [ {
       "active" : true,
@@ -118,7 +118,7 @@
     "notes" : "Double Time",
     "commands" : [ {
       "cmd" : "Latch",
-      "val" : 0
+      "val" : "Gtr"
     } ],
     "tracks" : [ {
       "active" : true,

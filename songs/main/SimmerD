@@ -18,7 +18,7 @@
   }, {
     "track" : "S.One",
     "file" : "/home/judah/Setlist/midi/S.One/ChaCha",
-    "program" : "FeelGood"
+    "program" : "Drops1"
   }, {
     "track" : "S.Two",
     "file" : "/home/judah/Setlist/midi/S.Two/Skank2",
@@ -46,16 +46,79 @@
     "notes" : null,
     "commands" : [ {
       "cmd" : "Length",
-      "val" : 4
+      "val" : "4"
     }, {
       "cmd" : "Tempo",
-      "val" : 115
+      "val" : "115"
     }, {
       "cmd" : "OffTape",
-      "val" : 5
+      "val" : "Bass"
     }, {
       "cmd" : "MPK",
-      "val" : 3
+      "val" : "Fluid1"
+    } ],
+    "tracks" : [ {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.79999995
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "ALL",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    } ],
+    "fx" : [ "Drums" ]
+  }, {
+    "id" : "5271a640-5cfc-4bd6-8ac8-500c96adc635",
+    "type" : "BAR",
+    "notes" : "Arps",
+    "commands" : [ {
+      "cmd" : "MPK",
+      "val" : "S.One"
+    }, {
+      "cmd" : "FX",
+      "val" : "S.One"
     } ],
     "tracks" : [ {
       "active" : true,

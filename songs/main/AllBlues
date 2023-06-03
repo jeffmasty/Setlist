@@ -9,7 +9,7 @@
     "program" : "808"
   }, {
     "track" : "Hats",
-    "file" : "/home/judah/Setlist/midi/Hats/Hats1",
+    "file" : "/home/judah/Setlist/midi/Hats/SwingHats",
     "program" : "Hats"
   }, {
     "track" : "Fills",
@@ -17,7 +17,7 @@
     "program" : "VCO"
   }, {
     "track" : "S.One",
-    "file" : "/home/judah/Setlist/midi/S.One/CmEbFmG",
+    "file" : "/home/judah/Setlist/midi/S.One/Chords1",
     "program" : "FeelGood"
   }, {
     "track" : "S.Two",
@@ -39,6 +39,7 @@
     "track" : "Fluid3",
     "file" : "/home/judah/Setlist/midi/Fluid3/CmBrass",
     "program" : "Harp"
+
   } ],
   "scenes" : [ {
     "id" : "1262fbf8-b0e5-40bf-bea3-fff4e1aca785",
@@ -46,16 +47,19 @@
     "notes" : null,
     "commands" : [ {
       "cmd" : "MPK",
-      "val" : 3
+      "val" : "Fluid1"
     }, {
       "cmd" : "Tempo",
-      "val" : 82
+      "val" : "82"
     }, {
       "cmd" : "Length",
-      "val" : 12
+      "val" : "12"
     }, {
       "cmd" : "OnTape",
-      "val" : 6
+      "val" : "Fluid"
+    }, {
+      "cmd" : "TimeSig",
+      "val" : "Swing"
     } ],
     "tracks" : [ {
       "active" : true,
@@ -78,7 +82,7 @@
       "launch" : 0,
       "amp" : 0.65
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
       "amp" : 0.65
@@ -128,5 +132,9 @@
   }, {
     "channel" : "Fluid",
     "preset" : "Freelay"
-  } ]
+  } ],
+  "timeSig" : "SWING",
+  "chordpro" : "/home/judah/Setlist/chordpro/AllBlues.pro",
+  "key" : "G",
+  "scale" : "BLUES"
 }

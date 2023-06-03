@@ -46,16 +46,16 @@
     "notes" : null,
     "commands" : [ {
       "cmd" : "Length",
-      "val" : 8
+      "val" : "8"
     }, {
       "cmd" : "Tempo",
-      "val" : 94
+      "val" : "94"
     }, {
       "cmd" : "Unmute",
-      "val" : 2
+      "val" : "C"
     }, {
       "cmd" : "Unmute",
-      "val" : 3
+      "val" : "D"
     } ],
     "tracks" : [ {
       "active" : true,

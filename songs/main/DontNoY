@@ -1,0 +1,267 @@
+{
+  "tracks" : [ {
+    "track" : "Drum1",
+    "file" : "/home/judah/Setlist/midi/Drum1/Rock1",
+    "program" : "Pearl",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "Drum2",
+    "file" : "/home/judah/Setlist/midi/Drum2/Rap1",
+    "program" : "808-UFO",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "Hats",
+    "file" : "/home/judah/Setlist/midi/Hats/Hats1",
+    "program" : "Hats",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "Fills",
+    "file" : "/home/judah/Setlist/midi/Fills/Fills1",
+    "program" : "VCO",
+    "cue" : "Hot",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "S.One",
+    "file" : "/home/judah/Setlist/midi/S.One/Wholes",
+    "program" : "FeelGood",
+    "cue" : "Bar",
+    "gate" : "WHOLE",
+    "arp" : {
+      "algo" : "CHRD",
+      "range" : 24
+    }
+  }, {
+    "track" : "S.Two",
+    "file" : null,
+    "program" : "Drops1",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
+  }, {
+    "track" : "Bass",
+    "file" : "/home/judah/Setlist/midi/Bass/Bass2",
+    "program" : "none",
+    "cue" : "Bar",
+    "gate" : "EIGHTH",
+    "arp" : {
+      "algo" : "BASS",
+      "range" : 24
+    }
+  }, {
+    "track" : "Fluid1",
+    "file" : "/home/judah/Setlist/midi/Fluid1/Quaters",
+    "program" : "Polysynth",
+    "cue" : "Bar",
+    "gate" : "EIGHTH",
+    "arp" : {
+      "algo" : "DWN",
+      "range" : 12
+    }
+  }, {
+    "track" : "Fluid2",
+    "file" : "/home/judah/Setlist/midi/Fluid2/CRDSKNK",
+    "program" : "Palm Muted Guitar",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "CHRD",
+      "range" : 12
+    }
+  }, {
+    "track" : "Fluid3",
+    "file" : "/home/judah/Setlist/midi/Fluid3/Synco",
+    "program" : "Harp",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "RND",
+      "range" : 24
+    }
+  } ],
+  "scenes" : [ {
+    "id" : "9b125cea-deef-4d0a-a82d-e041243df990",
+    "type" : "BAR",
+    "notes" : null,
+    "commands" : [ {
+      "cmd" : "Tempo",
+      "val" : "89"
+    } ],
+    "tracks" : [ {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "A",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "A",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "A",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "A",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "A",
+      "launch" : 0,
+      "amp" : 0.65
+    } ],
+    "fx" : [ "Drums" ]
+  }, {
+    "id" : "e1d47b0c-e592-4bd6-b18f-4056969e5c85",
+    "type" : "BAR",
+    "notes" : null,
+    "commands" : [ ],
+    "tracks" : [ {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "A",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "A",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "A",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "A",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "A",
+      "launch" : 0,
+      "amp" : 0.65
+    } ],
+    "fx" : [ "Drums" ]
+  }, {
+    "id" : "c2650dc4-18bd-46d0-88f0-9a9853afc384",
+    "type" : "BAR",
+    "notes" : null,
+    "commands" : [ ],
+    "tracks" : [ {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "A",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "A",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "A",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    } ],
+    "fx" : [ "Drums" ]
+  } ],
+  "fx" : [ {
+    "channel" : "Drums",
+    "preset" : "Drumz"
+  } ],
+  "chordpro" : "/home/judah/Setlist/chordpro/DontNoY.pro"
+}

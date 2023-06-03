@@ -17,7 +17,7 @@
     "program" : "VCO"
   }, {
     "track" : "S.One",
-    "file" : "",
+    "file" : "/home/judah/Setlist/midi/S.One/CmEbFmG",
     "program" : "FeelGood"
   }, {
     "track" : "S.Two",
@@ -25,11 +25,11 @@
     "program" : "Drops1"
   }, {
     "track" : "Bass",
-    "file" : "/home/judah/Setlist/midi/Bass/Sleepwalk",
+    "file" : "/home/judah/Setlist/midi/Bass/ChordBass",
     "program" : "none"
   }, {
     "track" : "Fluid1",
-    "file" : "",
+    "file" : "/home/judah/Setlist/midi/Fluid1/CmFlutes",
     "program" : "Rhodes EP"
   }, {
     "track" : "Fluid2",
@@ -37,7 +37,7 @@
     "program" : "Rock Organ"
   }, {
     "track" : "Fluid3",
-    "file" : "",
+    "file" : null,
     "program" : "Harp"
   } ],
   "scenes" : [ {
@@ -46,22 +46,22 @@
     "notes" : "Crave 4-5",
     "commands" : [ {
       "cmd" : "Length",
-      "val" : 16
+      "val" : "16"
     }, {
       "cmd" : "SoloCh",
-      "val" : 5
+      "val" : "Bass"
     }, {
       "cmd" : "Solo",
-      "val" : 1
+      "val" : "true"
     }, {
       "cmd" : "MPK",
-      "val" : 2
+      "val" : "Bass"
     }, {
       "cmd" : "Tempo",
-      "val" : 118
+      "val" : "118"
     }, {
       "cmd" : "Latch",
-      "val" : 0
+      "val" : "Gtr"
     } ],
     "tracks" : [ {
       "active" : true,
@@ -76,7 +76,7 @@
     }, {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 5,
+      "launch" : 6,
       "amp" : 0.65
     }, {
       "active" : false,
@@ -94,8 +94,8 @@
       "launch" : 0,
       "amp" : 0.65
     }, {
-      "active" : false,
-      "cycle" : "ABCD",
+      "active" : true,
+      "cycle" : "A",
       "launch" : 0,
       "amp" : 0.65
     }, {
@@ -114,16 +114,26 @@
       "launch" : 0,
       "amp" : 0.65
     } ],
-    "fx" : [ "Gtr", "Drums", "S.Two" ]
+    "fx" : [ "Drums", "S.Two" ]
   } ],
   "fx" : [ {
+    "channel" : "A",
+    "preset" : "LfoPanVerb"
+  }, {
     "channel" : "Gtr",
     "preset" : "Freedist"
   }, {
     "channel" : "Drums",
     "preset" : "Drumz"
   }, {
+    "channel" : "S.One",
+    "preset" : "Freelay"
+  }, {
+    "channel" : "S.Two",
+    "preset" : "RevCho"
+  }, {
     "channel" : "Fluid",
     "preset" : "Freelay"
-  } ]
+  } ],
+  "chordpro" : "/home/judah/Setlist/chordpro/Watermelon.pro"
 }

@@ -25,7 +25,7 @@
     "program" : "Drops1"
   }, {
     "track" : "Bass",
-    "file" : "/home/judah/Setlist/midi/Bass/CEbFG",
+    "file" : "",
     "program" : "none"
   }, {
     "track" : "Fluid1",
@@ -46,19 +46,19 @@
     "notes" : null,
     "commands" : [ {
       "cmd" : "Length",
-      "val" : 4
+      "val" : "4"
     }, {
       "cmd" : "SoloCh",
-      "val" : 0
+      "val" : "Gtr"
     }, {
       "cmd" : "Tempo",
-      "val" : 118
+      "val" : "118"
     }, {
       "cmd" : "OffTape",
-      "val" : 3
+      "val" : "S.One"
     }, {
       "cmd" : "MPK",
-      "val" : 2
+      "val" : "Bass"
     } ],
     "tracks" : [ {
       "active" : false,
@@ -118,7 +118,7 @@
     "notes" : null,
     "commands" : [ {
       "cmd" : "Solo",
-      "val" : 0
+      "val" : null
     } ],
     "tracks" : [ {
       "active" : false,
@@ -402,11 +402,17 @@
     "fx" : [ ]
   } ],
   "fx" : [ {
+    "channel" : "A",
+    "preset" : "LfoPanVerb"
+  }, {
     "channel" : "Gtr",
     "preset" : "Freedist"
   }, {
     "channel" : "Drums",
     "preset" : "Drumz"
+  }, {
+    "channel" : "S.One",
+    "preset" : "Freelay"
   }, {
     "channel" : "S.Two",
     "preset" : "RevCho"
