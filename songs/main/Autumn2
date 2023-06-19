@@ -1,91 +1,94 @@
 {
+  "timeSig" : "FOURFOUR",
+  "chordpro" : "AutumnLeaves",
+  "key" : "E",
+  "scale" : "HARMONIC",
   "tracks" : [ {
     "track" : "Drum1",
-    "file" : "/home/judah/Setlist/midi/Drum1/Rock1",
+    "file" : "Rock1",
     "program" : "Pearl",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Drum2",
-    "file" : "/home/judah/Setlist/midi/Drum2/Rap1",
+    "file" : "Rap1",
     "program" : "808",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Hats",
-    "file" : "/home/judah/Setlist/midi/Hats/Hats1",
+    "file" : "Hats1",
     "program" : "Hats",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Fills",
-    "file" : "/home/judah/Setlist/midi/Fills/Fills1",
+    "file" : "Fills1",
     "program" : "VCO",
     "cue" : "Hot",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "S.One",
-    "file" : "/home/judah/Setlist/midi/S.One/8ths",
+    "file" : "0s",
     "program" : "FeelGood",
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
     "arp" : {
-      "algo" : "UPDN",
+      "algo" : "Off",
       "range" : 24
     }
   }, {
     "track" : "S.Two",
-    "file" : null,
+    "file" : "16ths",
     "program" : "Drops1",
-    "cue" : "Bar",
-    "gate" : "QUARTER",
-    "arp" : {
-      "algo" : "DWN",
-      "range" : 24
-    }
-  }, {
-    "track" : "Bass",
-    "file" : "/home/judah/Setlist/midi/Bass/Bass2",
-    "program" : "none",
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
     "arp" : {
-      "algo" : "BASS",
+      "algo" : "Off",
       "range" : 24
     }
   }, {
     "track" : "Fluid1",
-    "file" : null,
+    "file" : "8ths",
     "program" : "Rhodes EP",
     "cue" : "Bar",
-    "gate" : "WHOLE",
+    "gate" : "SIXTEENTH",
     "arp" : {
-      "algo" : "CHRD",
+      "algo" : "Off",
       "range" : 24
     }
   }, {
     "track" : "Fluid2",
-    "file" : "/home/judah/Setlist/midi/Fluid2/CRDSKNK",
+    "file" : "CRDSKNK",
     "program" : "Palm Muted Guitar",
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
     "arp" : {
-      "algo" : "CHRD",
+      "algo" : "Off",
       "range" : 24
     }
   }, {
     "track" : "Fluid3",
-    "file" : "/home/judah/Setlist/midi/Fluid3/Synco",
-    "program" : "Slow Strings",
+    "file" : "Synco",
+    "program" : "Harp",
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
     "arp" : {
-      "algo" : "RND",
+      "algo" : "Off",
+      "range" : 24
+    }
+  }, {
+    "track" : "Bass",
+    "file" : "Bass2",
+    "program" : "none",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
       "range" : 24
     }
   } ],
   "scenes" : [ {
-    "id" : "f5754816-51b7-44d6-b93a-031f36f885fc",
     "type" : "BAR",
     "notes" : null,
     "commands" : [ {
@@ -144,12 +147,65 @@
       "amp" : 0.22
     } ],
     "fx" : [ "Drums" ]
+  }, {
+    "type" : "BAR",
+    "notes" : null,
+    "commands" : [ ],
+    "tracks" : [ {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "A",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "A",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "A",
+      "launch" : 0,
+      "amp" : 0.59999996
+    }, {
+      "active" : true,
+      "cycle" : "A",
+      "launch" : 0,
+      "amp" : 1.0
+    }, {
+      "active" : true,
+      "cycle" : "A",
+      "launch" : 0,
+      "amp" : 0.22
+    } ],
+    "fx" : [ "Drums" ]
   } ],
   "fx" : [ {
     "channel" : "Drums",
     "preset" : "Drumz"
-  } ],
-  "chordpro" : "/home/judah/Setlist/chordpro/AutumnLeaves.pro",
-  "key" : "E",
-  "scale" : "MAJOR"
+  } ]
 }

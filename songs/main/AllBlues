@@ -1,48 +1,94 @@
 {
+  "timeSig" : "SWING",
+  "chordpro" : "AllBlues",
+  "key" : "G",
+  "scale" : "DOM7",
   "tracks" : [ {
     "track" : "Drum1",
-    "file" : "/home/judah/Setlist/midi/Drum1/Swing1",
-    "program" : "Pearl"
+    "file" : null,
+    "program" : "Pearl",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Drum2",
-    "file" : "/home/judah/Setlist/midi/Drum2/Rap1",
-    "program" : "808"
+    "file" : null,
+    "program" : "808",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Hats",
-    "file" : "/home/judah/Setlist/midi/Hats/SwingHats",
-    "program" : "Hats"
+    "file" : null,
+    "program" : "Hats",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Fills",
-    "file" : "/home/judah/Setlist/midi/Fills/Fills1",
-    "program" : "VCO"
+    "file" : null,
+    "program" : "VCO",
+    "cue" : "Hot",
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "S.One",
-    "file" : "/home/judah/Setlist/midi/S.One/Chords1",
-    "program" : "FeelGood"
+    "file" : null,
+    "program" : "FeelGood",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   }, {
     "track" : "S.Two",
-    "file" : "/home/judah/Setlist/midi/S.Two/CmEbFmG2",
-    "program" : "Drops1"
-  }, {
-    "track" : "Bass",
-    "file" : "/home/judah/Setlist/midi/Bass/CEbFG",
-    "program" : "none"
+    "file" : "16ths",
+    "program" : "Drops1",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   }, {
     "track" : "Fluid1",
-    "file" : "/home/judah/Setlist/midi/Fluid1/CmFlutes",
-    "program" : "Acoustic Bass"
+    "file" : "8ths",
+    "program" : "Rhodes EP",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   }, {
     "track" : "Fluid2",
-    "file" : "/home/judah/Setlist/midi/Fluid2/CmArps",
-    "program" : "Rock Organ"
+    "file" : null,
+    "program" : "Palm Muted Guitar",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   }, {
     "track" : "Fluid3",
-    "file" : "/home/judah/Setlist/midi/Fluid3/CmBrass",
-    "program" : "Harp"
-
+    "file" : null,
+    "program" : "Harp",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
+  }, {
+    "track" : "Bass",
+    "file" : "Bass2",
+    "program" : "none",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   } ],
   "scenes" : [ {
-    "id" : "1262fbf8-b0e5-40bf-bea3-fff4e1aca785",
     "type" : "BAR",
     "notes" : null,
     "commands" : [ {
@@ -57,14 +103,11 @@
     }, {
       "cmd" : "OnTape",
       "val" : "Fluid"
-    }, {
-      "cmd" : "TimeSig",
-      "val" : "Swing"
     } ],
     "tracks" : [ {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 0,
+      "launch" : 2,
       "amp" : 0.74
     }, {
       "active" : false,
@@ -72,7 +115,7 @@
       "launch" : 0,
       "amp" : 0.65
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.34
@@ -80,11 +123,67 @@
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
+      "amp" : 0.82
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 2,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
       "amp" : 0.65
     }, {
       "active" : true,
-      "cycle" : "ABCD",
+      "cycle" : "AB",
       "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 2,
+      "amp" : 0.29999998
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 10,
+      "amp" : 0.82
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.94
+    } ],
+    "fx" : [ "Drums" ]
+  }, {
+    "type" : "BAR",
+    "notes" : null,
+    "commands" : [ ],
+    "tracks" : [ {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 2,
+      "amp" : 0.74
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.34
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.82
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 2,
       "amp" : 0.65
     }, {
       "active" : false,
@@ -92,49 +191,30 @@
       "launch" : 0,
       "amp" : 0.65
     }, {
-      "active" : false,
-      "cycle" : "ABCD",
+      "active" : true,
+      "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.65
     }, {
-      "active" : false,
-      "cycle" : "ABCD",
+      "active" : true,
+      "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.65
+      "amp" : 0.29999998
     }, {
-      "active" : false,
-      "cycle" : "ABCD",
-      "launch" : 0,
-      "amp" : 0.65
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 10,
+      "amp" : 0.82
     }, {
-      "active" : false,
-      "cycle" : "ABCD",
+      "active" : true,
+      "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.65
+      "amp" : 0.94
     } ],
     "fx" : [ "Drums" ]
   } ],
   "fx" : [ {
-    "channel" : "A",
-    "preset" : "LfoPanVerb"
-  }, {
-    "channel" : "Gtr",
-    "preset" : "Freedist"
-  }, {
     "channel" : "Drums",
     "preset" : "Drumz"
-  }, {
-    "channel" : "S.One",
-    "preset" : "Freelay"
-  }, {
-    "channel" : "S.Two",
-    "preset" : "RevCho"
-  }, {
-    "channel" : "Fluid",
-    "preset" : "Freelay"
-  } ],
-  "timeSig" : "SWING",
-  "chordpro" : "/home/judah/Setlist/chordpro/AllBlues.pro",
-  "key" : "G",
-  "scale" : "BLUES"
+  } ]
 }

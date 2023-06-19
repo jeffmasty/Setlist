@@ -1,47 +1,91 @@
 {
+  "timeSig" : "FOURFOUR",
   "tracks" : [ {
     "track" : "Drum1",
-    "file" : "/home/judah/Setlist/midi/Drum1/Sleepwalk",
-    "program" : "Pearl"
+    "file" : null,
+    "program" : "Pearl",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Drum2",
-    "file" : "/home/judah/Setlist/midi/Drum2/Rap1",
-    "program" : "909"
+    "file" : null,
+    "program" : "808",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Hats",
-    "file" : "/home/judah/Setlist/midi/Hats/Hats1",
-    "program" : "Hats"
+    "file" : null,
+    "program" : "Hats",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Fills",
-    "file" : "/home/judah/Setlist/midi/Fills/Fills1",
-    "program" : "VCO"
+    "file" : null,
+    "program" : "VCO",
+    "cue" : "Hot",
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "S.One",
-    "file" : "/home/judah/Setlist/midi/S.One/CmEbFmG",
-    "program" : "Bass1"
+    "file" : null,
+    "program" : "FeelGood",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   }, {
     "track" : "S.Two",
-    "file" : "/home/judah/Setlist/midi/S.Two/CmEbFmG2",
-    "program" : "Drops1"
-  }, {
-    "track" : "Bass",
-    "file" : "",
-    "program" : "none"
+    "file" : null,
+    "program" : "Drops1",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   }, {
     "track" : "Fluid1",
-    "file" : "/home/judah/Setlist/midi/Fluid1/CmFlutes",
-    "program" : "Flute"
+    "file" : null,
+    "program" : "Rhodes EP",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   }, {
     "track" : "Fluid2",
-    "file" : "/home/judah/Setlist/midi/Fluid2/CmArps",
-    "program" : "Pizzicato Section"
+    "file" : null,
+    "program" : "Palm Muted Guitar",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   }, {
     "track" : "Fluid3",
-    "file" : "/home/judah/Setlist/midi/Fluid3/CmBrass",
-    "program" : "Brass Section"
+    "file" : null,
+    "program" : "Harp",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
+  }, {
+    "track" : "Bass",
+    "file" : null,
+    "program" : "none",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   } ],
   "scenes" : [ {
-    "id" : "256a5c6c-2a2e-4a3f-b6d1-9b0b4ba777a2",
     "type" : "LOOP",
     "notes" : null,
     "commands" : [ {
@@ -73,7 +117,7 @@
     }, {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 6,
+      "launch" : 12,
       "amp" : 0.84999996
     }, {
       "active" : false,
@@ -113,7 +157,6 @@
     } ],
     "fx" : [ ]
   }, {
-    "id" : "291a675a-3d34-46b6-9c84-cd015fdae282",
     "type" : "LOOP",
     "notes" : null,
     "commands" : [ {
@@ -133,7 +176,7 @@
     }, {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 6,
+      "launch" : 12,
       "amp" : 0.84999996
     }, {
       "active" : false,
@@ -173,7 +216,6 @@
     } ],
     "fx" : [ ]
   }, {
-    "id" : "882de1c5-27aa-4465-8371-007a8dfd7613",
     "type" : "LOOP",
     "notes" : "Bass",
     "commands" : [ ],
@@ -190,7 +232,7 @@
     }, {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 5,
+      "launch" : 10,
       "amp" : 0.84999996
     }, {
       "active" : false,
@@ -230,7 +272,6 @@
     } ],
     "fx" : [ ]
   }, {
-    "id" : "f9a46f55-2c93-4454-90d5-0f40a023bc0e",
     "type" : "LOOP",
     "notes" : "Flutes",
     "commands" : [ ],
@@ -247,7 +288,7 @@
     }, {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 5,
+      "launch" : 10,
       "amp" : 0.84999996
     }, {
       "active" : false,
@@ -267,7 +308,7 @@
     }, {
       "active" : true,
       "cycle" : "ABCD",
-      "launch" : 2,
+      "launch" : 4,
       "amp" : 0.48
     }, {
       "active" : true,
@@ -287,7 +328,6 @@
     } ],
     "fx" : [ ]
   }, {
-    "id" : "43de98d7-bc81-4062-9af1-00f7cb78ec98",
     "type" : "LOOP",
     "notes" : "Arps",
     "commands" : [ ],
@@ -304,7 +344,7 @@
     }, {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 4,
+      "launch" : 8,
       "amp" : 0.84999996
     }, {
       "active" : false,
@@ -324,7 +364,7 @@
     }, {
       "active" : true,
       "cycle" : "ABCD",
-      "launch" : 2,
+      "launch" : 4,
       "amp" : 0.55
     }, {
       "active" : true,
@@ -344,7 +384,6 @@
     } ],
     "fx" : [ ]
   }, {
-    "id" : "5b7c92fe-dc45-4ac5-912c-5d7a2650f3b8",
     "type" : "LOOP",
     "notes" : "Horns",
     "commands" : [ ],
@@ -361,7 +400,7 @@
     }, {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 5,
+      "launch" : 10,
       "amp" : 0.57
     }, {
       "active" : false,
@@ -381,7 +420,7 @@
     }, {
       "active" : true,
       "cycle" : "ABCD",
-      "launch" : 2,
+      "launch" : 4,
       "amp" : 0.53
     }, {
       "active" : true,
@@ -402,22 +441,7 @@
     "fx" : [ ]
   } ],
   "fx" : [ {
-    "channel" : "A",
-    "preset" : "LfoPanVerb"
-  }, {
-    "channel" : "Gtr",
-    "preset" : "Freedist"
-  }, {
     "channel" : "Drums",
     "preset" : "Drumz"
-  }, {
-    "channel" : "S.One",
-    "preset" : "Freelay"
-  }, {
-    "channel" : "S.Two",
-    "preset" : "RevCho"
-  }, {
-    "channel" : "Fluid",
-    "preset" : "Freelay"
   } ]
 }

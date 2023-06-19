@@ -1,47 +1,91 @@
 {
+  "timeSig" : "FOURFOUR",
   "tracks" : [ {
     "track" : "Drum1",
-    "file" : "/home/judah/Setlist/midi/Drum1/Rap1",
-    "program" : "BBuddy"
+    "file" : "Rock1",
+    "program" : "Pearl",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Drum2",
-    "file" : "/home/judah/Setlist/midi/Drum2/Funky1",
-    "program" : "Pearl"
+    "file" : "Rap1",
+    "program" : "808",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Hats",
-    "file" : "/home/judah/Setlist/midi/Hats/Hats1",
-    "program" : "Hats"
+    "file" : "Hats1",
+    "program" : "Hats",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Fills",
-    "file" : "/home/judah/Setlist/midi/Fills/Fills1",
-    "program" : "VCO"
+    "file" : "Fills1",
+    "program" : "VCO",
+    "cue" : "Hot",
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "S.One",
-    "file" : "/home/judah/Setlist/midi/S.One/ChaCha",
-    "program" : "Bass1"
+    "file" : "0s",
+    "program" : "FeelGood",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   }, {
     "track" : "S.Two",
-    "file" : "/home/judah/Setlist/midi/S.Two/Skank2",
-    "program" : "Skank"
-  }, {
-    "track" : "Bass",
-    "file" : "/home/judah/Setlist/midi/Bass/Skank",
-    "program" : "none"
+    "file" : "16ths",
+    "program" : "Drops1",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   }, {
     "track" : "Fluid1",
-    "file" : "/home/judah/Setlist/midi/Fluid1/Skank2",
-    "program" : "Clean Guitar"
+    "file" : "8ths",
+    "program" : "Rhodes EP",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   }, {
     "track" : "Fluid2",
-    "file" : "/home/judah/Setlist/midi/Fluid2/Skank2",
-    "program" : "Saw Wave"
+    "file" : "CRDSKNK",
+    "program" : "Palm Muted Guitar",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   }, {
     "track" : "Fluid3",
-    "file" : "/home/judah/Setlist/midi/Fluid3/CmBrass",
-    "program" : "Ocarina"
+    "file" : "SleepArp",
+    "program" : "Harp",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
+  }, {
+    "track" : "Bass",
+    "file" : "Bass2",
+    "program" : "none",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   } ],
   "scenes" : [ {
-    "id" : "ee5bd432-ad41-42f7-b7d1-5fd85ceb0345",
     "type" : "BAR",
     "notes" : null,
     "commands" : [ {
@@ -113,7 +157,6 @@
     } ],
     "fx" : [ ]
   }, {
-    "id" : "cc21f69c-70df-461a-a637-390cb80e1dc1",
     "type" : "BAR",
     "notes" : null,
     "commands" : [ ],
@@ -170,7 +213,6 @@
     } ],
     "fx" : [ ]
   }, {
-    "id" : "8eb933ea-c527-4e4e-99b8-10b08597e9cd",
     "type" : "BAR",
     "notes" : null,
     "commands" : [ ],
@@ -187,7 +229,7 @@
     }, {
       "active" : false,
       "cycle" : "A",
-      "launch" : 2,
+      "launch" : 4,
       "amp" : 0.65
     }, {
       "active" : false,
@@ -227,7 +269,6 @@
     } ],
     "fx" : [ "Drums", "Bass" ]
   }, {
-    "id" : "72e67ffe-2cef-4b3a-8138-82820841c1ea",
     "type" : "BAR",
     "notes" : null,
     "commands" : [ ],
@@ -269,7 +310,7 @@
     }, {
       "active" : false,
       "cycle" : "AB",
-      "launch" : 2,
+      "launch" : 4,
       "amp" : 0.89
     }, {
       "active" : false,
@@ -284,7 +325,6 @@
     } ],
     "fx" : [ "Drums", "S.Two" ]
   }, {
-    "id" : "b32fc22d-b52d-4751-8f7a-60ffc2d9542c",
     "type" : "BAR",
     "notes" : null,
     "commands" : [ ],
@@ -342,22 +382,11 @@
     "fx" : [ "Drums", "S.Two" ]
   } ],
   "fx" : [ {
-    "channel" : "A",
-    "preset" : "LfoPanVerb"
-  }, {
-    "channel" : "Gtr",
-    "preset" : "Freedist"
-  }, {
     "channel" : "Drums",
     "preset" : "Drumz"
   }, {
-    "channel" : "S.One",
-    "preset" : "Freelay"
-  }, {
-    "channel" : "S.Two",
-    "preset" : "RevCho"
-  }, {
     "channel" : "Fluid",
-    "preset" : "Freelay"
-  } ]
+    "preset" : "Xtraverb"
+  } ],
+  "record" : [ "Gtr" ]
 }

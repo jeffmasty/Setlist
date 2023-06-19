@@ -1,31 +1,35 @@
 {
+  "timeSig" : "FOURFOUR",
+  "chordpro" : "LampLow",
+  "key" : "A",
+  "scale" : "MINOR",
   "tracks" : [ {
     "track" : "Drum1",
-    "file" : "/home/judah/Setlist/midi/Drum1/RapVCO",
-    "program" : "VCO",
+    "file" : "Rock1",
+    "program" : "Pearl",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Drum2",
-    "file" : "/home/judah/Setlist/midi/Drum2/Rap1",
+    "file" : "Rap1",
     "program" : "808",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Hats",
-    "file" : "/home/judah/Setlist/midi/Hats/Lamp",
+    "file" : "Hats1",
     "program" : "Hats",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Fills",
-    "file" : "/home/judah/Setlist/midi/Fills/Fills1",
+    "file" : "Fills1",
     "program" : "VCO",
-    "cue" : "Bar",
+    "cue" : "Hot",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "S.One",
-    "file" : null,
+    "file" : "0s",
     "program" : "FeelGood",
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
@@ -35,57 +39,56 @@
     }
   }, {
     "track" : "S.Two",
-    "file" : "/home/judah/Setlist/midi/S.Two/synco",
+    "file" : "16ths",
     "program" : "Drops1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
     "arp" : {
-      "algo" : "RND",
-      "range" : 24
-    }
-  }, {
-    "track" : "Bass",
-    "file" : "/home/judah/Setlist/midi/Bass/Bass2",
-    "program" : "none",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "arp" : {
-      "algo" : "BASS",
+      "algo" : "Off",
       "range" : 24
     }
   }, {
     "track" : "Fluid1",
-    "file" : "/home/judah/Setlist/midi/Fluid1/test",
-    "program" : "Viola",
+    "file" : "8ths",
+    "program" : "Rhodes EP",
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
     "arp" : {
-      "algo" : "CHRD",
+      "algo" : "Off",
       "range" : 24
     }
   }, {
     "track" : "Fluid2",
-    "file" : "/home/judah/Setlist/midi/Fluid2/CRDSKNK",
+    "file" : "CRDSKNK",
     "program" : "Palm Muted Guitar",
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
     "arp" : {
-      "algo" : "CHRD",
-      "range" : 12
+      "algo" : "Off",
+      "range" : 24
     }
   }, {
     "track" : "Fluid3",
-    "file" : "/home/judah/Setlist/midi/Fluid3/Synco",
-    "program" : "Oboe",
+    "file" : "Synco",
+    "program" : "Harp",
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
     "arp" : {
-      "algo" : "UP",
+      "algo" : "Off",
+      "range" : 24
+    }
+  }, {
+    "track" : "Bass",
+    "file" : "Bass2",
+    "program" : "none",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
       "range" : 24
     }
   } ],
   "scenes" : [ {
-    "id" : "791b1aeb-3a4b-48ab-b737-e4ef7c8cac14",
     "type" : "BAR",
     "notes" : null,
     "commands" : [ {
@@ -120,7 +123,7 @@
     }, {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 3,
+      "launch" : 6,
       "amp" : 0.45999998
     }, {
       "active" : false,
@@ -160,7 +163,6 @@
     } ],
     "fx" : [ "S.Two" ]
   }, {
-    "id" : "a1004a8a-685a-48cb-a3c3-c48a153199fe",
     "type" : "BAR",
     "notes" : null,
     "commands" : [ {
@@ -186,7 +188,7 @@
     }, {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 3,
+      "launch" : 6,
       "amp" : 0.39
     }, {
       "active" : false,
@@ -226,7 +228,6 @@
     } ],
     "fx" : [ ]
   }, {
-    "id" : "dc03102e-bcc6-403b-b05d-6559a56425a9",
     "type" : "BAR",
     "notes" : null,
     "commands" : [ ],
@@ -243,7 +244,7 @@
     }, {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 3,
+      "launch" : 6,
       "amp" : 0.41
     }, {
       "active" : false,
@@ -286,11 +287,5 @@
   "fx" : [ {
     "channel" : "Drums",
     "preset" : "Drumz"
-  }, {
-    "channel" : "S.Two",
-    "preset" : "Drops"
-  } ],
-  "chordpro" : "/home/judah/Setlist/chordpro/LampLow..pro",
-  "key" : "A",
-  "scale" : "MINOR"
+  } ]
 }

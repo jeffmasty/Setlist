@@ -1,25 +1,29 @@
 {
+  "timeSig" : "FOURFOUR",
+  "chordpro" : "More",
+  "key" : "E",
+  "scale" : "DOM7",
   "tracks" : [ {
     "track" : "Drum1",
-    "file" : "/home/judah/Setlist/midi/Drum1/Rock1",
+    "file" : null,
     "program" : "Pearl",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Drum2",
-    "file" : "/home/judah/Setlist/midi/Drum2/Rap1",
+    "file" : null,
     "program" : "808",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Hats",
-    "file" : "/home/judah/Setlist/midi/Hats/Hats1",
+    "file" : null,
     "program" : "Hats",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Fills",
-    "file" : "/home/judah/Setlist/midi/Fills/Fills1",
+    "file" : null,
     "program" : "VCO",
     "cue" : "Hot",
     "gate" : "SIXTEENTH"
@@ -35,42 +39,32 @@
     }
   }, {
     "track" : "S.Two",
-    "file" : "/home/judah/Setlist/midi/S.Two/16ths",
+    "file" : null,
     "program" : "Drops1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
     "arp" : {
-      "algo" : "UPDN",
-      "range" : 24
-    }
-  }, {
-    "track" : "Bass",
-    "file" : "/home/judah/Setlist/midi/Bass/Bass2",
-    "program" : "none",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "arp" : {
-      "algo" : "BASS",
+      "algo" : "Off",
       "range" : 24
     }
   }, {
     "track" : "Fluid1",
-    "file" : "/home/judah/Setlist/midi/Fluid1/Vibes",
-    "program" : "Vibraphone",
+    "file" : null,
+    "program" : "Rhodes EP",
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
     "arp" : {
-      "algo" : "CHRD",
+      "algo" : "Off",
       "range" : 24
     }
   }, {
     "track" : "Fluid2",
-    "file" : "/home/judah/Setlist/midi/Fluid2/CRDSKNK",
-    "program" : "Rock Organ",
+    "file" : null,
+    "program" : "Palm Muted Guitar",
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
     "arp" : {
-      "algo" : "CHRD",
+      "algo" : "Off",
       "range" : 24
     }
   }, {
@@ -83,9 +77,18 @@
       "algo" : "Off",
       "range" : 24
     }
+  }, {
+    "track" : "Bass",
+    "file" : null,
+    "program" : "none",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   } ],
   "scenes" : [ {
-    "id" : "17ea8f09-8a0a-4f7d-8b1c-11450fb070c8",
     "type" : "BAR",
     "notes" : null,
     "commands" : [ {
@@ -125,10 +128,10 @@
     }, {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 2,
+      "launch" : 4,
       "amp" : 0.65
     }, {
-      "active" : true,
+      "active" : false,
       "cycle" : "A",
       "launch" : 0,
       "amp" : 0.97999996
@@ -148,8 +151,5 @@
   "fx" : [ {
     "channel" : "Drums",
     "preset" : "Drumz"
-  } ],
-  "chordpro" : "/home/judah/Setlist/chordpro/More.pro",
-  "key" : "G",
-  "scale" : "MAJOR"
+  } ]
 }

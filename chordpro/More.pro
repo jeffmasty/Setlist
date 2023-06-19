@@ -1,6 +1,7 @@
 {t: More}
 {artist: Onolani/Oliviero}
 {key: G}
+{x_zone_loop}
 
 	[Gmaj7]	[Em7]  		[Am7] 	[D9]  	
 	[Gmaj7]	[Em7]	  	[Am7] 	[D9]

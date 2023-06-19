@@ -18,6 +18,10 @@ Overdrive(0)
 [Distcho]
 Chorus(50/40/40)
 Overdrive(2)
+[Drops]
+CutFilter(5/71/48)
+Overdrive(21)
+Reverb(29/100/25)
 [Drumz]
 EQ(65/35/41)
 Compressor(55/78/21/75/42)
@@ -40,6 +44,11 @@ Reverb(32/82/17)
 [LfoPanVerb]
 LFO(0/10/90/96)
 Reverb(41/100/49)
+[Maria]
+CutFilter(5/71/48)
+Chorus(23/34/40)
+Delay(61/47)
+Reverb(2/100/22)
 [RevCho]
 Chorus(29/31/25)
 Reverb(40/100/25)
@@ -50,7 +59,5 @@ Chorus(33/24/27)
 [Zouk@125]
 Delay(14/51)
 Reverb(37/54/34)
-[Drops]
-CutFilter(5/71/48)
-Overdrive(21)
-Reverb(29/100/25)
+[Xtraverb]
+Reverb(32/82/17)

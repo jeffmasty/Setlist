@@ -1,47 +1,94 @@
 {
+  "timeSig" : "FOURFOUR",
+  "chordpro" : "AllBlues.pro",
+  "key" : "G",
+  "scale" : "DOM7",
   "tracks" : [ {
     "track" : "Drum1",
-    "file" : "/home/judah/Setlist/midi/Drum1/Rock1",
-    "program" : "Pearl"
+    "file" : null,
+    "program" : "Pearl",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Drum2",
-    "file" : "/home/judah/Setlist/midi/Drum2/Rap1",
-    "program" : "808"
+    "file" : null,
+    "program" : "808",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Hats",
-    "file" : "/home/judah/Setlist/midi/Hats/Hats1",
-    "program" : "Hats"
+    "file" : null,
+    "program" : "Hats",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Fills",
-    "file" : "/home/judah/Setlist/midi/Fills/Fills1",
-    "program" : "VCO"
+    "file" : null,
+    "program" : "VCO",
+    "cue" : "Hot",
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "S.One",
-    "file" : "/home/judah/Setlist/midi/S.One/CmEbFmG",
-    "program" : "FeelGood"
+    "file" : null,
+    "program" : "FeelGood",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   }, {
     "track" : "S.Two",
-    "file" : "/home/judah/Setlist/midi/S.Two/SleepArp",
-    "program" : "Drops1"
-  }, {
-    "track" : "Bass",
-    "file" : "/home/judah/Setlist/midi/Bass/ChordBass",
-    "program" : "none"
+    "file" : null,
+    "program" : "Drops1",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   }, {
     "track" : "Fluid1",
-    "file" : "/home/judah/Setlist/midi/Fluid1/CmFlutes",
-    "program" : "Rhodes EP"
+    "file" : null,
+    "program" : "Rhodes EP",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   }, {
     "track" : "Fluid2",
     "file" : null,
-    "program" : "Rock Organ"
+    "program" : "Palm Muted Guitar",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   }, {
     "track" : "Fluid3",
-    "file" : "/home/judah/Setlist/midi/Fluid3/CmBrass",
-    "program" : "Harp"
+    "file" : null,
+    "program" : "Harp",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
+  }, {
+    "track" : "Bass",
+    "file" : null,
+    "program" : "none",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   } ],
   "scenes" : [ {
-    "id" : "9ecda36b-8826-49bf-9fa8-433bdfa58cd8",
     "type" : "BAR",
     "notes" : null,
     "commands" : [ {
@@ -102,23 +149,7 @@
     "fx" : [ ]
   } ],
   "fx" : [ {
-    "channel" : "A",
-    "preset" : "LfoPanVerb"
-  }, {
-    "channel" : "Gtr",
-    "preset" : "Freedist"
-  }, {
     "channel" : "Drums",
     "preset" : "Drumz"
-  }, {
-    "channel" : "S.One",
-    "preset" : "Freelay"
-  }, {
-    "channel" : "S.Two",
-    "preset" : "RevCho"
-  }, {
-    "channel" : "Fluid",
-    "preset" : "Freelay"
-  } ],
-  "chordpro" : "/home/judah/Setlist/chordpro/AllBlues.pro"
+  } ]
 }

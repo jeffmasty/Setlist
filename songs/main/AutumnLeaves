@@ -1,56 +1,100 @@
 {
+  "timeSig" : "FOURFOUR",
+  "chordpro" : "AutumnLeaves",
+  "key" : "E",
+  "scale" : "HARMONIC",
   "tracks" : [ {
     "track" : "Drum1",
-    "file" : "/home/judah/Setlist/midi/Drum1/Rock1",
-    "program" : "Pearl"
+    "file" : "Rock1",
+    "program" : "Pearl",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Drum2",
-    "file" : "/home/judah/Setlist/midi/Drum2/Rap1",
-    "program" : "808"
+    "file" : "Rap1",
+    "program" : "808",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Hats",
-    "file" : "/home/judah/Setlist/midi/Hats/Hats1",
-    "program" : "Hats"
+    "file" : "Hats1",
+    "program" : "Hats",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Fills",
-    "file" : "/home/judah/Setlist/midi/Fills/Fills1",
-    "program" : "VCO"
+    "file" : "Fills1",
+    "program" : "VCO",
+    "cue" : "Hot",
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "S.One",
-    "file" : "/home/judah/Setlist/midi/S.One/Chords1",
+    "file" : "0s",
     "program" : "FeelGood",
-    "mode" : "CRD"
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "CHRD",
+      "range" : 24
+    }
   }, {
     "track" : "S.Two",
-    "file" : null,
+    "file" : "16ths",
     "program" : "Drops1",
-    "mode" : "OFF"
-  }, {
-    "track" : "Bass",
-    "file" : "/home/judah/Setlist/midi/Bass/ChordBass",
-    "program" : "none",
-    "mode" : "CRD"
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   }, {
     "track" : "Fluid1",
-    "file" : null,
+    "file" : "8ths",
     "program" : "Rhodes EP",
-    "mode" : "OFF"
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "RND",
+      "range" : 24
+    }
   }, {
     "track" : "Fluid2",
-    "file" : null,
-    "program" : "Rock Organ",
-    "mode" : "OFF"
+    "file" : "CRDSKNK",
+    "program" : "Palm Muted Guitar",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   }, {
     "track" : "Fluid3",
-    "file" : null,
+    "file" : "Synco",
     "program" : "Harp",
-    "mode" : "OFF"
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
+  }, {
+    "track" : "Bass",
+    "file" : "Bass2",
+    "program" : "none",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "BASS",
+      "range" : 24
+    }
   } ],
   "scenes" : [ {
-    "id" : "819e58ea-7227-400d-ad98-b518a82dc745",
     "type" : "BAR",
     "notes" : null,
-    "commands" : [ ],
+    "commands" : [ {
+      "cmd" : "Tempo",
+      "val" : "92"
+    } ],
     "tracks" : [ {
       "active" : true,
       "cycle" : "AB",
@@ -74,31 +118,31 @@
     }, {
       "active" : true,
       "cycle" : "A",
-      "launch" : 2,
+      "launch" : 4,
+      "amp" : 0.26999998
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "A",
+      "launch" : 4,
       "amp" : 0.65
     }, {
       "active" : false,
       "cycle" : "ABCD",
+      "launch" : 4,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.65
     }, {
       "active" : true,
-      "cycle" : "A",
-      "launch" : 0,
-      "amp" : 0.65
-    }, {
-      "active" : false,
-      "cycle" : "ABCD",
-      "launch" : 0,
-      "amp" : 0.65
-    }, {
-      "active" : false,
-      "cycle" : "ABCD",
-      "launch" : 0,
-      "amp" : 0.65
-    }, {
-      "active" : false,
-      "cycle" : "ABCD",
+      "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.65
     } ],
@@ -108,7 +152,5 @@
     "channel" : "Drums",
     "preset" : "Drumz"
   } ],
-  "chordpro" : "/home/judah/Setlist/chordpro/AutumnLeaves.pro",
-  "key" : "E",
-  "scale" : "HARMONIC"
+  "record" : [ "Gtr" ]
 }

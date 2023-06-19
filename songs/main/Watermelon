@@ -1,47 +1,94 @@
 {
+  "timeSig" : "FOURFOUR",
+  "chordpro" : "Watermelon",
+  "key" : "F",
+  "scale" : "DOM7",
   "tracks" : [ {
     "track" : "Drum1",
-    "file" : "/home/judah/Setlist/midi/Drum1/Rock1",
-    "program" : "Sunset"
+    "file" : null,
+    "program" : "Pearl",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Drum2",
-    "file" : "/home/judah/Setlist/midi/Drum2/Fills1",
-    "program" : "Hats"
+    "file" : null,
+    "program" : "808",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Hats",
-    "file" : "/home/judah/Setlist/midi/Hats/Hats1",
-    "program" : "Hats"
+    "file" : null,
+    "program" : "Hats",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Fills",
-    "file" : "/home/judah/Setlist/midi/Fills/Fills1",
-    "program" : "VCO"
+    "file" : null,
+    "program" : "VCO",
+    "cue" : "Hot",
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "S.One",
-    "file" : "/home/judah/Setlist/midi/S.One/CmEbFmG",
-    "program" : "FeelGood"
+    "file" : null,
+    "program" : "FeelGood",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   }, {
     "track" : "S.Two",
-    "file" : "/home/judah/Setlist/midi/S.Two/SleepArp",
-    "program" : "Drops1"
-  }, {
-    "track" : "Bass",
-    "file" : "/home/judah/Setlist/midi/Bass/ChordBass",
-    "program" : "none"
+    "file" : null,
+    "program" : "Drops1",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   }, {
     "track" : "Fluid1",
-    "file" : "/home/judah/Setlist/midi/Fluid1/CmFlutes",
-    "program" : "Rhodes EP"
+    "file" : null,
+    "program" : "Rhodes EP",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   }, {
     "track" : "Fluid2",
-    "file" : "/home/judah/Setlist/midi/Fluid2/SleepString",
-    "program" : "Rock Organ"
+    "file" : null,
+    "program" : "Palm Muted Guitar",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   }, {
     "track" : "Fluid3",
     "file" : null,
-    "program" : "Harp"
+    "program" : "Harp",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
+  }, {
+    "track" : "Bass",
+    "file" : null,
+    "program" : "none",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
   } ],
   "scenes" : [ {
-    "id" : "ca54ca47-27c5-4fda-9957-808f7e22886f",
     "type" : "BAR",
     "notes" : "Crave 4-5",
     "commands" : [ {
@@ -71,12 +118,12 @@
     }, {
       "active" : false,
       "cycle" : "AB",
-      "launch" : 1,
+      "launch" : 2,
       "amp" : 0.65
     }, {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 6,
+      "launch" : 12,
       "amp" : 0.65
     }, {
       "active" : false,
@@ -117,23 +164,7 @@
     "fx" : [ "Drums", "S.Two" ]
   } ],
   "fx" : [ {
-    "channel" : "A",
-    "preset" : "LfoPanVerb"
-  }, {
-    "channel" : "Gtr",
-    "preset" : "Freedist"
-  }, {
     "channel" : "Drums",
     "preset" : "Drumz"
-  }, {
-    "channel" : "S.One",
-    "preset" : "Freelay"
-  }, {
-    "channel" : "S.Two",
-    "preset" : "RevCho"
-  }, {
-    "channel" : "Fluid",
-    "preset" : "Freelay"
-  } ],
-  "chordpro" : "/home/judah/Setlist/chordpro/Watermelon.pro"
+  } ]
 }

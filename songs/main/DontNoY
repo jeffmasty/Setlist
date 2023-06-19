@@ -1,36 +1,40 @@
 {
+  "timeSig" : "FOURFOUR",
+  "chordpro" : "DontNoY",
+  "key" : "G",
+  "scale" : "MAJOR",
   "tracks" : [ {
     "track" : "Drum1",
-    "file" : "/home/judah/Setlist/midi/Drum1/Rock1",
+    "file" : null,
     "program" : "Pearl",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Drum2",
-    "file" : "/home/judah/Setlist/midi/Drum2/Rap1",
-    "program" : "808-UFO",
+    "file" : null,
+    "program" : "808",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Hats",
-    "file" : "/home/judah/Setlist/midi/Hats/Hats1",
+    "file" : null,
     "program" : "Hats",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Fills",
-    "file" : "/home/judah/Setlist/midi/Fills/Fills1",
+    "file" : null,
     "program" : "VCO",
     "cue" : "Hot",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "S.One",
-    "file" : "/home/judah/Setlist/midi/S.One/Wholes",
+    "file" : null,
     "program" : "FeelGood",
     "cue" : "Bar",
-    "gate" : "WHOLE",
+    "gate" : "SIXTEENTH",
     "arp" : {
-      "algo" : "CHRD",
+      "algo" : "Off",
       "range" : 24
     }
   }, {
@@ -44,48 +48,47 @@
       "range" : 24
     }
   }, {
-    "track" : "Bass",
-    "file" : "/home/judah/Setlist/midi/Bass/Bass2",
-    "program" : "none",
+    "track" : "Fluid1",
+    "file" : null,
+    "program" : "Rhodes EP",
     "cue" : "Bar",
-    "gate" : "EIGHTH",
+    "gate" : "SIXTEENTH",
     "arp" : {
-      "algo" : "BASS",
+      "algo" : "Off",
       "range" : 24
     }
   }, {
-    "track" : "Fluid1",
-    "file" : "/home/judah/Setlist/midi/Fluid1/Quaters",
-    "program" : "Polysynth",
-    "cue" : "Bar",
-    "gate" : "EIGHTH",
-    "arp" : {
-      "algo" : "DWN",
-      "range" : 12
-    }
-  }, {
     "track" : "Fluid2",
-    "file" : "/home/judah/Setlist/midi/Fluid2/CRDSKNK",
+    "file" : null,
     "program" : "Palm Muted Guitar",
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
     "arp" : {
-      "algo" : "CHRD",
-      "range" : 12
+      "algo" : "Off",
+      "range" : 24
     }
   }, {
     "track" : "Fluid3",
-    "file" : "/home/judah/Setlist/midi/Fluid3/Synco",
+    "file" : null,
     "program" : "Harp",
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
     "arp" : {
-      "algo" : "RND",
+      "algo" : "Off",
+      "range" : 24
+    }
+  }, {
+    "track" : "Bass",
+    "file" : null,
+    "program" : "none",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
       "range" : 24
     }
   } ],
   "scenes" : [ {
-    "id" : "9b125cea-deef-4d0a-a82d-e041243df990",
     "type" : "BAR",
     "notes" : null,
     "commands" : [ {
@@ -145,7 +148,6 @@
     } ],
     "fx" : [ "Drums" ]
   }, {
-    "id" : "e1d47b0c-e592-4bd6-b18f-4056969e5c85",
     "type" : "BAR",
     "notes" : null,
     "commands" : [ ],
@@ -202,7 +204,6 @@
     } ],
     "fx" : [ "Drums" ]
   }, {
-    "id" : "c2650dc4-18bd-46d0-88f0-9a9853afc384",
     "type" : "BAR",
     "notes" : null,
     "commands" : [ ],
@@ -262,6 +263,5 @@
   "fx" : [ {
     "channel" : "Drums",
     "preset" : "Drumz"
-  } ],
-  "chordpro" : "/home/judah/Setlist/chordpro/DontNoY.pro"
+  } ]
 }

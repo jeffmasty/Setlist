@@ -2,10 +2,13 @@
 {artist:Johnny Mercer}
 {key: Em}
 
+
 {start_of_intro}
 [F#dim7] [B7] [Em] [Em]
 {end_of_intro}
 
+{x_zone_loop}
+{x_zone_length}
 The falling [Am7]leaves [D7] drift by my [Gmaj7]window  [Cmaj7] the autumn
 [F#dim7]leaves [B7] of red and [Em] gold.  //        
 I see your [Am7]lips [D7] the summer [Gmaj7]kisses,  [Cmaj7] the sunburned

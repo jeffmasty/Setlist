@@ -1,6 +1,7 @@
 {t: The Loco-Motion}
 {artist: Carole King, Gerry Goffin}
 {key: Eb}
+{x_zone_loop}
 
 	[Eb] 	[Cm]  	[Eb] 	[Cm]  	
 	[Eb] 	[Cm]  	[Eb] 	[Cm]  	
