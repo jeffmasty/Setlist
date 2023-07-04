@@ -40,6 +40,9 @@ Reverb(33/95/32)
 Delay(65/15)
 Reverb(41/82/20)
 [Freeverb]
+Reverb(32/82/26)
+[Juicy]
+Chorus(18/28/64)
 Reverb(32/82/17)
 [LfoPanVerb]
 LFO(0/10/90/96)
@@ -56,8 +59,11 @@ Reverb(40/100/25)
 Chorus(40/40/74)
 [TimeAfterTime]
 Chorus(33/24/27)
+[Xtraverb]
+Reverb(32/82/17)
 [Zouk@125]
 Delay(14/51)
 Reverb(37/54/34)
-[Xtraverb]
-Reverb(32/82/17)
+[RevComp]
+Reverb(29/100/40)
+Compressor(61/68/24/55/35)

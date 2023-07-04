@@ -7,9 +7,9 @@ xinput --map-to-output 14 eDP-1
 ~/git/midiclock/midiclock -s -t95 &
 
 # connect midiclock to DI (5din to Crave Synth)
-aconnect 129:0 24:0
+#aconnect 129:0 24:0
 # connect midiclock to MPK Arp
-aconnect 129:0 44:0
+#aconnect 129:0 44:0
 
 # START JACK
 jackd -P99 -dalsa -dhw:UMC1820 -r48000 -p512 -n2 &

@@ -1,32 +1,35 @@
 {
   "timeSig" : "FOURFOUR",
+  "chordpro" : "Detalhes",
+  "key" : "Bb",
+  "scale" : "DOM7",
   "tracks" : [ {
     "track" : "Drum1",
-    "file" : null,
+    "file" : "Bossa1",
     "program" : "Pearl",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Drum2",
-    "file" : null,
-    "program" : "808",
+    "file" : "RapVCO",
+    "program" : "VCO",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Hats",
-    "file" : null,
+    "file" : "Hats1",
     "program" : "Hats",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Fills",
-    "file" : null,
-    "program" : "VCO",
-    "cue" : "Hot",
+    "file" : "Brushes",
+    "program" : "Brushes",
+    "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "S.One",
-    "file" : null,
+    "file" : "0s",
     "program" : "FeelGood",
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
@@ -36,7 +39,7 @@
     }
   }, {
     "track" : "S.Two",
-    "file" : null,
+    "file" : "16ths",
     "program" : "Drops1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
@@ -46,17 +49,17 @@
     }
   }, {
     "track" : "Fluid1",
-    "file" : null,
-    "program" : "Rhodes EP",
+    "file" : "0s",
+    "program" : "Slow Strings",
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
     "arp" : {
-      "algo" : "Off",
+      "algo" : "CHRD",
       "range" : 24
     }
   }, {
     "track" : "Fluid2",
-    "file" : null,
+    "file" : "CRDSKNK",
     "program" : "Palm Muted Guitar",
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
@@ -66,17 +69,17 @@
     }
   }, {
     "track" : "Fluid3",
-    "file" : null,
-    "program" : "Harp",
+    "file" : "8ths",
+    "program" : "Oboe",
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
     "arp" : {
-      "algo" : "Off",
+      "algo" : "RND",
       "range" : 24
     }
   }, {
     "track" : "Bass",
-    "file" : null,
+    "file" : "Bass2",
     "program" : "none",
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
@@ -102,12 +105,12 @@
       "val" : "B"
     } ],
     "tracks" : [ {
-      "active" : true,
-      "cycle" : "AB",
+      "active" : false,
+      "cycle" : "A",
       "launch" : 0,
       "amp" : 0.45
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.65
@@ -119,7 +122,63 @@
     }, {
       "active" : false,
       "cycle" : "AB",
+      "launch" : 18,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
       "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 1,
+      "amp" : 0.39
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.76
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    } ],
+    "fx" : [ "Drums" ]
+  }, {
+    "type" : "BAR",
+    "notes" : null,
+    "commands" : [ ],
+    "tracks" : [ {
+      "active" : true,
+      "cycle" : "A",
+      "launch" : 0,
+      "amp" : 0.62
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 18,
       "amp" : 0.65
     }, {
       "active" : false,
@@ -152,10 +211,129 @@
       "launch" : 0,
       "amp" : 0.65
     } ],
+    "fx" : [ ]
+  }, {
+    "type" : "LOOP",
+    "notes" : null,
+    "commands" : [ {
+      "cmd" : "Chords",
+      "val" : "play"
+    } ],
+    "tracks" : [ {
+      "active" : false,
+      "cycle" : "A",
+      "launch" : 0,
+      "amp" : 0.58
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 18,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 1,
+      "amp" : 0.39
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.76
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 4,
+      "amp" : 0.55
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    } ],
+    "fx" : [ "Gtr", "Drums", "Fluid" ]
+  }, {
+    "type" : "LOOP",
+    "notes" : null,
+    "commands" : [ ],
+    "tracks" : [ {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.45
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.76
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 16,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 2,
+      "amp" : 0.44
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.76
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 6,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    } ],
     "fx" : [ "Gtr", "Drums" ]
   } ],
   "fx" : [ {
     "channel" : "Drums",
     "preset" : "Drumz"
-  } ]
+  }, {
+    "channel" : "S.One",
+    "preset" : "Freedist"
+  } ],
+  "record" : [ "Gtr" ]
 }

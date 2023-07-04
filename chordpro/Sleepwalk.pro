@@ -1,6 +1,6 @@
 {t: Sleepwalk}
-{artist: Onolani/Oliviero}
-{key: G}
+{artist: Santo, John & Ann Farina}
+{key: C}
 {x_zone_versechorus}
 {x_zone_loop}
 

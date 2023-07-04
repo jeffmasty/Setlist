@@ -2,6 +2,7 @@
 {artist: Bill Evans}
 {key: C}
 {x_zone_loop}
+{x_zone_length}
 
 
 [Cmaj7] [Am7] [Dm7] [G7] 

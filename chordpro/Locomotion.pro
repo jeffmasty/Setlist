@@ -3,6 +3,7 @@
 {key: Eb}
 {x_zone_loop}
 
+{som}
 	[Eb] 	[Cm]  	[Eb] 	[Cm]  	
 	[Eb] 	[Cm]  	[Eb] 	[Cm]  	
 
@@ -10,3 +11,4 @@
 	|[Eb] [Bb9]| [Bb9] [Eb] [Eb]	  	
 	[Ab]	//  	[Eb]		//
 	| [Bb7]	 [Bb7] | [Bb7] 		
+{eom}

@@ -1,32 +1,35 @@
 {
   "timeSig" : "FOURFOUR",
+  "chordpro" : "SimmerD",
+  "key" : "Bb",
+  "scale" : "MAJOR",
   "tracks" : [ {
     "track" : "Drum1",
-    "file" : null,
+    "file" : "Rock1",
     "program" : "Pearl",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Drum2",
-    "file" : null,
+    "file" : "Rap1",
     "program" : "808",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Hats",
-    "file" : null,
+    "file" : "Hats1",
     "program" : "Hats",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Fills",
-    "file" : null,
+    "file" : "Fills1",
     "program" : "VCO",
-    "cue" : "Hot",
+    "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "S.One",
-    "file" : null,
+    "file" : "0s",
     "program" : "FeelGood",
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
@@ -47,7 +50,7 @@
   }, {
     "track" : "Fluid1",
     "file" : "8ths",
-    "program" : "Rhodes EP",
+    "program" : "Trombone",
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
     "arp" : {
@@ -56,7 +59,7 @@
     }
   }, {
     "track" : "Fluid2",
-    "file" : null,
+    "file" : "CRDSKNK",
     "program" : "Palm Muted Guitar",
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
@@ -66,7 +69,7 @@
     }
   }, {
     "track" : "Fluid3",
-    "file" : null,
+    "file" : "Synco",
     "program" : "Harp",
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
@@ -81,7 +84,7 @@
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
     "arp" : {
-      "algo" : "Off",
+      "algo" : "BASS",
       "range" : 24
     }
   } ],
@@ -95,9 +98,6 @@
       "cmd" : "Tempo",
       "val" : "115"
     }, {
-      "cmd" : "OffTape",
-      "val" : "Bass"
-    }, {
       "cmd" : "MPK",
       "val" : "Fluid1"
     } ],
@@ -105,7 +105,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.78999996
     }, {
       "active" : false,
       "cycle" : "AB",
@@ -132,7 +132,7 @@
       "launch" : 0,
       "amp" : 0.65
     }, {
-      "active" : true,
+      "active" : false,
       "cycle" : "ALL",
       "launch" : 0,
       "amp" : 0.65
@@ -147,9 +147,9 @@
       "launch" : 0,
       "amp" : 0.65
     }, {
-      "active" : false,
-      "cycle" : "ABCD",
-      "launch" : 0,
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 8,
       "amp" : 0.65
     } ],
     "fx" : [ "Drums" ]
@@ -219,5 +219,6 @@
   "fx" : [ {
     "channel" : "Drums",
     "preset" : "Drumz"
-  } ]
+  } ],
+  "record" : [ "Gtr", "Fluid" ]
 }

@@ -3,7 +3,9 @@
 {key: Bb}
 {tempo: 84}
 
+
 {x_zone_length}
+{x_zone_loop}
 
 |[Bb]	[Gm6]	| [Bb/F]   [F7]	| [Gm]			| [Cm/Eb]	[F7]  |
 |[Bb]			| [BbAug]  [Gm]	| [Edim/A][A7]	| [F#dim7] 	 	  |

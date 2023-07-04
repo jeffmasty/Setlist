@@ -1,0 +1,218 @@
+{
+  "timeSig" : "SWING",
+  "chordpro" : "AllBlues",
+  "key" : "G",
+  "scale" : "DOM7",
+  "tracks" : [ {
+    "track" : "Drum1",
+    "file" : "Shuffle.mid",
+    "program" : "Pearl",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "Drum2",
+    "file" : "Rap1",
+    "program" : "808",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "Hats",
+    "file" : "Hats",
+    "program" : "Hats",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "Fills",
+    "file" : "Fills1",
+    "program" : "VCO",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "S.One",
+    "file" : "0s",
+    "program" : "FeelGood",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
+  }, {
+    "track" : "S.Two",
+    "file" : null,
+    "program" : "Drops1",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
+  }, {
+    "track" : "Fluid1",
+    "file" : null,
+    "program" : "Acoustic Bass",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
+  }, {
+    "track" : "Fluid2",
+    "file" : "CRDSKNK",
+    "program" : "Palm Muted Guitar",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
+  }, {
+    "track" : "Fluid3",
+    "file" : "Synco",
+    "program" : "Harp",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
+  }, {
+    "track" : "Bass",
+    "file" : null,
+    "program" : "none",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH",
+    "arp" : {
+      "algo" : "Off",
+      "range" : 24
+    }
+  } ],
+  "scenes" : [ {
+    "type" : "BAR",
+    "notes" : null,
+    "commands" : [ {
+      "cmd" : "MPK",
+      "val" : "Fluid1"
+    }, {
+      "cmd" : "Tempo",
+      "val" : "82"
+    }, {
+      "cmd" : "Length",
+      "val" : "12"
+    } ],
+    "tracks" : [ {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.74
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.34
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.82
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 2,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 2,
+      "amp" : 0.29
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 10,
+      "amp" : 0.82
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.94
+    } ],
+    "fx" : [ "Drums" ]
+  }, {
+    "type" : "BAR",
+    "notes" : null,
+    "commands" : [ ],
+    "tracks" : [ {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 2,
+      "amp" : 0.74
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.34
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.82
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 2,
+      "amp" : 0.65
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.29999998
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 10,
+      "amp" : 0.82
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.94
+    } ],
+    "fx" : [ "Drums" ]
+  } ],
+  "fx" : [ {
+    "channel" : "Drums",
+    "preset" : "Drumz"
+  } ],
+  "record" : [ "Gtr", "Fluid" ]
+}

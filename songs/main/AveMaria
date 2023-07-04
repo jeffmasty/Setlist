@@ -25,7 +25,7 @@
     "track" : "Fills",
     "file" : "Fills1",
     "program" : "VCO",
-    "cue" : "Hot",
+    "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "S.One",
@@ -39,12 +39,12 @@
     }
   }, {
     "track" : "S.Two",
-    "file" : "8ths",
+    "file" : "16ths",
     "program" : "FeelDrops",
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
     "arp" : {
-      "algo" : "DNUP",
+      "algo" : "UPDN",
       "range" : 24
     }
   }, {
@@ -64,7 +64,7 @@
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
     "arp" : {
-      "algo" : "Off",
+      "algo" : "CHRD",
       "range" : 24
     }
   }, {
@@ -74,7 +74,7 @@
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
     "arp" : {
-      "algo" : "CHRD",
+      "algo" : "BASS",
       "range" : 24
     }
   }, {
@@ -90,7 +90,7 @@
   } ],
   "scenes" : [ {
     "type" : "BAR",
-    "notes" : null,
+    "notes" : "",
     "commands" : [ {
       "cmd" : "Tempo",
       "val" : "84"
@@ -121,35 +121,35 @@
       "launch" : 2,
       "amp" : 0.34
     }, {
-      "active" : true,
+      "active" : false,
       "cycle" : "AB",
-      "launch" : 4,
-      "amp" : 0.28
+      "launch" : 2,
+      "amp" : 0.24
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.32999998
+      "amp" : 0.21
     }, {
-      "active" : true,
+      "active" : false,
       "cycle" : "AB",
       "launch" : 12,
-      "amp" : 0.65
+      "amp" : 0.22
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 4,
-      "amp" : 0.53
+      "amp" : 0.52
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 4,
       "amp" : 0.84999996
     } ],
-    "fx" : [ ]
+    "fx" : [ "Gtr", "S.Two" ]
   }, {
     "type" : "BAR",
-    "notes" : null,
+    "notes" : "Different",
     "commands" : [ ],
     "tracks" : [ {
       "active" : true,
@@ -177,25 +177,25 @@
       "launch" : 2,
       "amp" : 0.34
     }, {
-      "active" : false,
-      "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.65
-    }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.65
+      "amp" : 0.14
     }, {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 12,
-      "amp" : 0.65
+      "launch" : 2,
+      "amp" : 0.58
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.84999996
+      "launch" : 8,
+      "amp" : 0.58
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 4,
+      "amp" : 0.35999998
     }, {
       "active" : true,
       "cycle" : "AB",
@@ -205,7 +205,11 @@
     "fx" : [ "S.One" ]
   } ],
   "fx" : [ {
+    "channel" : "Gtr",
+    "preset" : "RevComp"
+  }, {
     "channel" : "Drums",
     "preset" : "Drumz"
-  } ]
+  } ],
+  "record" : [ "Gtr", "Mic" ]
 }
