@@ -6,87 +6,53 @@
   "tracks" : [ {
     "track" : "Drum1",
     "file" : "HipHop",
-    "program" : "BBuddy",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Drum2",
     "file" : "RapVCO",
-    "program" : "VCO",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Hats",
     "file" : "Hats1",
-    "program" : "Hats",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Fills",
     "file" : "Fills1",
-    "program" : "VCO",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "S.One",
     "file" : "0s",
-    "program" : "FeelGood",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "arp" : {
-      "algo" : "Off",
-      "range" : 24
-    }
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "S.Two",
     "file" : "16ths",
-    "program" : "Drops1",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "arp" : {
-      "algo" : "Off",
-      "range" : 24
-    }
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Fluid1",
     "file" : "8ths",
-    "program" : "Rhodes EP",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "arp" : {
-      "algo" : "Off",
-      "range" : 24
-    }
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Fluid2",
     "file" : "CRDSKNK",
-    "program" : "Percussive Organ",
     "cue" : "Bar",
-    "gate" : "WHOLE",
-    "arp" : {
-      "algo" : "CHRD",
-      "range" : 12
-    }
+    "gate" : "WHOLE"
   }, {
     "track" : "Fluid3",
     "file" : "Synco",
-    "program" : "Harp",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "arp" : {
-      "algo" : "Off",
-      "range" : 24
-    }
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Bass",
     "file" : "Bass2",
-    "program" : "none",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "arp" : {
-      "algo" : "BASS",
-      "range" : 24
-    }
+    "gate" : "SIXTEENTH"
   } ],
   "scenes" : [ {
     "type" : "LOOP",
@@ -105,52 +71,96 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 18,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "BBuddy"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "VCO"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "Hats"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "VCO"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "FeelGood",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "Drops1",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.42
+      "amp" : 0.42,
+      "mode" : null,
+      "program" : "Rhodes EP",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 32,
-      "amp" : 0.38
+      "amp" : 0.38,
+      "mode" : null,
+      "program" : "Percussive Organ",
+      "arp" : {
+        "algo" : "CHRD",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "Harp",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "none",
+      "arp" : {
+        "algo" : "BASS",
+        "range" : 24
+      }
     } ],
     "fx" : [ "S.One" ]
   }, {
@@ -167,52 +177,96 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 18,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "BBuddy"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "VCO"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "Hats"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "VCO"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "FeelGood",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "Drops1",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 4,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "Rhodes EP",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 32,
-      "amp" : 0.29999998
+      "amp" : 0.29999998,
+      "mode" : null,
+      "program" : "Percussive Organ",
+      "arp" : {
+        "algo" : "CHRD",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "Harp",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 6,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "none",
+      "arp" : {
+        "algo" : "BASS",
+        "range" : 24
+      }
     } ],
     "fx" : [ ]
   }, {
@@ -229,58 +283,108 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 18,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "BBuddy"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "VCO"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "Hats"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "VCO"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "FeelGood",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "Drops1",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "Rhodes EP",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 34,
-      "amp" : 0.35999998
+      "amp" : 0.35999998,
+      "mode" : null,
+      "program" : "Percussive Organ",
+      "arp" : {
+        "algo" : "CHRD",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "Harp",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "none",
+      "arp" : {
+        "algo" : "BASS",
+        "range" : 24
+      }
     } ],
     "fx" : [ "Fluid" ]
   } ],
   "fx" : [ {
+    "channel" : "Gtr",
+    "preset" : "RevComp"
+  }, {
     "channel" : "Drums",
     "preset" : "Drumz"
+  }, {
+    "channel" : "S.One",
+    "preset" : "Freedist"
   }, {
     "channel" : "Fluid",
     "preset" : "Juicy"

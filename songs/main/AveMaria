@@ -6,87 +6,53 @@
   "tracks" : [ {
     "track" : "Drum1",
     "file" : "Rock1",
-    "program" : "Pearl",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Drum2",
     "file" : "Rap1",
-    "program" : "808",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Hats",
     "file" : "Hats1",
-    "program" : "Hats",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Fills",
     "file" : "Fills1",
-    "program" : "VCO",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "S.One",
     "file" : "0s",
-    "program" : "FeelGood",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "arp" : {
-      "algo" : "Off",
-      "range" : 24
-    }
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "S.Two",
     "file" : "16ths",
-    "program" : "FeelDrops",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "arp" : {
-      "algo" : "UPDN",
-      "range" : 24
-    }
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Fluid1",
     "file" : "8ths",
-    "program" : "Rhodes EP",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "arp" : {
-      "algo" : "DNUP",
-      "range" : 24
-    }
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Fluid2",
     "file" : "CRDSKNK",
-    "program" : "Palm Muted Guitar",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "arp" : {
-      "algo" : "CHRD",
-      "range" : 24
-    }
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Fluid3",
     "file" : "0s",
-    "program" : "Slow Strings",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "arp" : {
-      "algo" : "BASS",
-      "range" : 24
-    }
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Bass",
     "file" : "Bass2",
-    "program" : "none",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "arp" : {
-      "algo" : "BASS",
-      "range" : 24
-    }
+    "gate" : "SIXTEENTH"
   } ],
   "scenes" : [ {
     "type" : "BAR",
@@ -99,52 +65,72 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.65
+      "amp" : 0.65,
+      "mode" : null,
+      "program" : "Pearl"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.65
+      "amp" : 0.65,
+      "mode" : null,
+      "program" : null
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.65
+      "amp" : 0.65,
+      "mode" : null,
+      "program" : null
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.65
+      "amp" : 0.65,
+      "mode" : null,
+      "program" : null
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 2,
-      "amp" : 0.34
+      "amp" : 0.34,
+      "mode" : null,
+      "program" : null
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 2,
-      "amp" : 0.24
+      "amp" : 0.24,
+      "mode" : null,
+      "program" : null
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.21
+      "amp" : 0.21,
+      "mode" : null,
+      "program" : null
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 12,
-      "amp" : 0.22
+      "amp" : 0.22,
+      "mode" : null,
+      "program" : null
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 4,
-      "amp" : 0.52
+      "amp" : 0.52,
+      "mode" : null,
+      "program" : "Tremolo"
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 4,
-      "amp" : 0.84999996
+      "amp" : 0.84999996,
+      "mode" : null,
+      "program" : null
     } ],
     "fx" : [ "Gtr", "S.Two" ]
   }, {
@@ -155,52 +141,72 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.65
+      "amp" : 0.65,
+      "mode" : null,
+      "program" : null
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.65
+      "amp" : 0.65,
+      "mode" : null,
+      "program" : null
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.65
+      "amp" : 0.65,
+      "mode" : null,
+      "program" : null
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.65
+      "amp" : 0.65,
+      "mode" : null,
+      "program" : null
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 2,
-      "amp" : 0.34
+      "amp" : 0.34,
+      "mode" : null,
+      "program" : null
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.14
+      "amp" : 0.21,
+      "mode" : null,
+      "program" : null
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 2,
-      "amp" : 0.58
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 8,
-      "amp" : 0.58
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 4,
-      "amp" : 0.35999998
+      "amp" : 0.35999998,
+      "mode" : null,
+      "program" : null
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 4,
-      "amp" : 0.84999996
+      "amp" : 0.84999996,
+      "mode" : null,
+      "program" : null
     } ],
     "fx" : [ "S.One" ]
   } ],

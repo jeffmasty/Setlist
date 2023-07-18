@@ -10,5 +10,8 @@
 
 {start_of_two}
 {x_zone_loop}
+| [Bb]			| [Bb] [Bb7] 	|
+|[Eb]			| [Adim7]		|
+
 
 {end_of_two}

@@ -19,7 +19,7 @@ Overdrive(0)
 Chorus(50/40/40)
 Overdrive(2)
 [Drops]
-CutFilter(5/71/48)
+Filter1(0/71/48)
 Overdrive(21)
 Reverb(29/100/25)
 [Drumz]
@@ -48,13 +48,15 @@ Reverb(32/82/17)
 LFO(0/10/90/96)
 Reverb(41/100/49)
 [Maria]
-CutFilter(5/71/48)
-Chorus(23/34/40)
-Delay(61/47)
+Chorus(23/34/40/0/0)
+Delay(59/47/0/0)
 Reverb(2/100/22)
 [RevCho]
 Chorus(29/31/25)
 Reverb(40/100/25)
+[RevComp]
+Reverb(29/100/40)
+Compressor(61/68/24/55/35)
 [TimeAfterGtr]
 Chorus(40/40/74)
 [TimeAfterTime]
@@ -64,6 +66,3 @@ Reverb(32/82/17)
 [Zouk@125]
 Delay(14/51)
 Reverb(37/54/34)
-[RevComp]
-Reverb(29/100/40)
-Compressor(61/68/24/55/35)

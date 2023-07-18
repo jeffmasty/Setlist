@@ -6,87 +6,53 @@
   "tracks" : [ {
     "track" : "Drum1",
     "file" : "Rock1",
-    "program" : "Pearl",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Drum2",
     "file" : "Rap1",
-    "program" : "808",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Hats",
     "file" : "Hats1",
-    "program" : "Hats",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Fills",
     "file" : "Fills1",
-    "program" : "VCO",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "S.One",
     "file" : "0s",
-    "program" : "FeelGood",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "arp" : {
-      "algo" : "Off",
-      "range" : 24
-    }
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "S.Two",
     "file" : "SleepArp",
-    "program" : "Drops1",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "arp" : {
-      "algo" : "Off",
-      "range" : 24
-    }
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Fluid1",
     "file" : "SleepString",
-    "program" : "Slow Strings",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "arp" : {
-      "algo" : "Off",
-      "range" : 24
-    }
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Fluid2",
     "file" : "CRDSKNK",
-    "program" : "Tenor Sax",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "arp" : {
-      "algo" : "Off",
-      "range" : 24
-    }
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Fluid3",
     "file" : "SleepArp",
-    "program" : "Harp",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "arp" : {
-      "algo" : "Off",
-      "range" : 24
-    }
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Bass",
     "file" : "Sleepwalk",
-    "program" : "none",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "arp" : {
-      "algo" : "Off",
-      "range" : 24
-    }
+    "gate" : "SIXTEENTH"
   } ],
   "scenes" : [ {
     "type" : "LOOP",
@@ -105,52 +71,96 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "Pearl"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "808"
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 2,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "Hats"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "VCO"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "FeelGood",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "Drops1",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "Tenor Sax",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.90999997
+      "amp" : 0.90999997,
+      "mode" : null,
+      "program" : "Tenor Sax",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "Harp",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "none",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     } ],
     "fx" : [ "Gtr", "S.One", "Fluid" ]
   }, {
@@ -164,52 +174,96 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "Pearl"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "808"
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "Hats"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "VCO"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "FeelGood",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "Drops1",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "Tenor Sax",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "Tenor Sax",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "Harp",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "none",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     } ],
     "fx" : [ "Gtr", "S.One" ]
   }, {
@@ -218,57 +272,107 @@
     "commands" : [ {
       "cmd" : "Mute",
       "val" : "A"
+    }, {
+      "cmd" : "Mute",
+      "val" : "B"
+    }, {
+      "cmd" : "OffTape",
+      "val" : "Fluid"
     } ],
     "tracks" : [ {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "Pearl"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "808"
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "Hats"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "VCO"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "FeelGood",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "Drops1",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.45
+      "amp" : 0.45,
+      "mode" : null,
+      "program" : "Slow Strings",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "Tenor Sax",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.44
+      "amp" : 0.44,
+      "mode" : null,
+      "program" : "Harp",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 2,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "none",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     } ],
     "fx" : [ "Gtr", "Fluid" ]
   }, {
@@ -285,52 +389,96 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "Pearl"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "808"
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "Hats"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "VCO"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "FeelGood",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.45
+      "amp" : 0.45,
+      "mode" : null,
+      "program" : "Drops1",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.44
+      "amp" : 0.44,
+      "mode" : null,
+      "program" : "Slow Strings",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "Tenor Sax",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "Harp",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "none",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     } ],
     "fx" : [ "Gtr", "Fluid" ]
   }, {
@@ -344,52 +492,96 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "Pearl"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "808"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "Hats"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "VCO"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "FeelGood",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "Drops1",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 4,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "Slow Strings",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "Tenor Sax",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "Harp",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "none",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     } ],
     "fx" : [ ]
   }, {
@@ -409,52 +601,96 @@
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "Pearl"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "808"
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "Hats"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "VCO"
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "FeelGood",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "Drops1",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "Slow Strings",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.90999997
+      "amp" : 0.90999997,
+      "mode" : null,
+      "program" : "Tenor Sax",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "Harp",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "none",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     } ],
     "fx" : [ "Gtr" ]
   }, {
@@ -474,52 +710,96 @@
       "active" : true,
       "cycle" : "A3B",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "Pearl"
     }, {
       "active" : false,
       "cycle" : "A3B",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "808"
     }, {
       "active" : true,
       "cycle" : "A3B",
       "launch" : 20,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "Hats"
     }, {
       "active" : false,
       "cycle" : "A3B",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "VCO"
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 2,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "FeelGood",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.45
+      "amp" : 0.45,
+      "mode" : null,
+      "program" : "Drops1",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 2,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "Slow Strings",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 2,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "Tenor Sax",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "Harp",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995
+      "amp" : 0.79999995,
+      "mode" : null,
+      "program" : "none",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
     } ],
     "fx" : [ "B", "Gtr", "S.Two" ]
   } ],

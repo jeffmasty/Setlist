@@ -3,7 +3,7 @@
 {key: G}
 
 {soi}
-[Em7] |[Asus7][A7] | [Dmaj7] | [D7]  |
+[Em7] | [Asus7][A7] | [Dmaj7] | [D7]  |
 {eoi}
 
 {start_of_verse: one} 
@@ -23,7 +23,8 @@
 {start_of_chorus: C1}
 |[Gmaj7]One day | [GmMaj7] I will stop falling in| [F#m7]love with | [B7] you
 |[Em7] Some day | [A7] Someone will like me like | [D] I [C] Like  | [B7] you
-|[Em7]Until then I’ll drink my coffee |[Asus]Eat my pie[A]Pretend that we are|[D] more [C] than |[B7] friends
+|[Em7]Until then I’ll drink my coffee |[Asus]Eat my pie[A]Pretend that we are|
+|[D] more [C] than |[B7] friends
 |[Em7]Then of course I’ll let you break my |[A7sus] heart [A7]  a-| [Dmaj7]gain
 {end_of_chorus} 
  
