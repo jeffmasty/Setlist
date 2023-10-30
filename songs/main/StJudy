@@ -70,28 +70,44 @@
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "Pearl"
+      "program" : "Pearl",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "808"
+      "program" : "808",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "Hats"
+      "program" : "Hats",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "VCO"
+      "program" : "VCO",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
@@ -159,7 +175,7 @@
         "range" : 24
       }
     } ],
-    "fx" : [ "Drums", "Fluid" ]
+    "fx" : [ "Drums", "Fluid", "Bass" ]
   }, {
     "type" : "BAR",
     "notes" : "verse",
@@ -170,28 +186,44 @@
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "Pearl"
+      "program" : "Pearl",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "808"
+      "program" : "808",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "Hats"
+      "program" : "Hats",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "VCO"
+      "program" : "VCO",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
@@ -229,18 +261,18 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 4,
-      "amp" : 0.84999996,
+      "amp" : 0.71,
       "mode" : null,
       "program" : "Palm Muted Guitar",
       "arp" : {
         "algo" : "CHRD",
-        "range" : 24
+        "range" : 12
       }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 4,
-      "amp" : 0.39999998,
+      "amp" : 0.56,
       "mode" : null,
       "program" : "Harp",
       "arp" : {
@@ -259,7 +291,7 @@
         "range" : 24
       }
     } ],
-    "fx" : [ "Drums", "Fluid" ]
+    "fx" : [ "Drums", "Fluid", "Bass" ]
   }, {
     "type" : "BAR",
     "notes" : "chorus",
@@ -270,28 +302,44 @@
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "Pearl"
+      "program" : "Pearl",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "808"
+      "program" : "808",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "Hats"
+      "program" : "Hats",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "VCO"
+      "program" : "VCO",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
@@ -329,7 +377,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 4,
-      "amp" : 0.78,
+      "amp" : 0.65999997,
       "mode" : null,
       "program" : "Palm Muted Guitar",
       "arp" : {
@@ -340,7 +388,7 @@
       "active" : true,
       "cycle" : "A",
       "launch" : 0,
-      "amp" : 0.48,
+      "amp" : 0.58,
       "mode" : null,
       "program" : "Harp",
       "arp" : {
@@ -370,28 +418,44 @@
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "Pearl"
+      "program" : "Pearl",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "808"
+      "program" : "808",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "Hats"
+      "program" : "Hats",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "VCO"
+      "program" : "VCO",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
@@ -473,6 +537,9 @@
   }, {
     "channel" : "Fluid",
     "preset" : "Xtraverb"
+  }, {
+    "channel" : "Bass",
+    "preset" : "Verb1"
   } ],
   "record" : [ ]
 }

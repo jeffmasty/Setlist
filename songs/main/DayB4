@@ -35,14 +35,14 @@
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Fluid1",
-    "file" : "8ths",
+    "file" : "16ths",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Fluid2",
-    "file" : "CRDSKNK",
+    "file" : "2s",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "QUARTER"
   }, {
     "track" : "Fluid3",
     "file" : "Synco",
@@ -62,38 +62,54 @@
       "val" : "83"
     } ],
     "tracks" : [ {
-      "active" : false,
+      "active" : true,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.58,
       "mode" : null,
-      "program" : "Pearl"
+      "program" : "Pearl",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.58,
       "mode" : null,
-      "program" : "808"
+      "program" : "808",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 8,
+      "amp" : 0.44,
+      "mode" : null,
+      "program" : "Hats",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.58,
       "mode" : null,
-      "program" : "Hats"
+      "program" : "VCO",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.58,
-      "mode" : null,
-      "program" : "VCO"
-    }, {
-      "active" : false,
-      "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.58,
+      "launch" : 2,
+      "amp" : 0.35,
       "mode" : null,
       "program" : "FeelGood",
       "arp" : {
@@ -112,14 +128,25 @@
         "range" : 24
       }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "AB",
-      "launch" : 0,
+      "launch" : 6,
       "amp" : 0.58,
       "mode" : null,
-      "program" : "Rhodes EP",
+      "program" : "Yamaha Grand Piano",
       "arp" : {
-        "algo" : "Off",
+        "algo" : "UPDN",
+        "range" : 36
+      }
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 22,
+      "amp" : 0.71999997,
+      "mode" : null,
+      "program" : "Acoustic Bass",
+      "arp" : {
+        "algo" : "BASS",
         "range" : 24
       }
     }, {
@@ -128,18 +155,7 @@
       "launch" : 0,
       "amp" : 0.58,
       "mode" : null,
-      "program" : "Palm Muted Guitar",
-      "arp" : {
-        "algo" : "CHRD",
-        "range" : 24
-      }
-    }, {
-      "active" : false,
-      "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.58,
-      "mode" : null,
-      "program" : "Harp",
+      "program" : "Bassoon",
       "arp" : {
         "algo" : "Off",
         "range" : 24
@@ -152,11 +168,11 @@
       "mode" : null,
       "program" : "none",
       "arp" : {
-        "algo" : "BASS",
+        "algo" : "Off",
         "range" : 24
       }
     } ],
-    "fx" : [ ]
+    "fx" : [ "S.One" ]
   } ],
   "fx" : [ {
     "channel" : "Gtr",
@@ -166,7 +182,10 @@
     "preset" : "Drumz"
   }, {
     "channel" : "S.One",
-    "preset" : "Freedist"
+    "preset" : "ChoFo"
+  }, {
+    "channel" : "Fluid",
+    "preset" : "Xtraverb"
   } ],
   "record" : [ ]
 }

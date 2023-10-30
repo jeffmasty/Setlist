@@ -1,92 +1,58 @@
 {
   "timeSig" : "FOURFOUR",
-  "chordpro" : "CmEbFmG7",
+  "chordpro" : "CmEbFmG",
   "key" : "C",
   "scale" : "HARMONIC",
   "tracks" : [ {
     "track" : "Drum1",
     "file" : "Rock1",
-    "program" : "Pearl",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Drum2",
     "file" : "Rap1",
-    "program" : "808",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Hats",
     "file" : "Hats1",
-    "program" : "Hats",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Fills",
     "file" : "Fills1",
-    "program" : "VCO",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "S.One",
     "file" : "16ths",
-    "program" : "FeelGood",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "arp" : {
-      "algo" : "BASS",
-      "range" : 24
-    }
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "S.Two",
     "file" : "SleepArp",
-    "program" : "Drops1",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "arp" : {
-      "algo" : "Off",
-      "range" : 24
-    }
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Fluid1",
     "file" : "SleepString",
-    "program" : "Rhodes EP",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "arp" : {
-      "algo" : "Off",
-      "range" : 24
-    }
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Fluid2",
     "file" : "CRDSKNK",
-    "program" : "Palm Muted Guitar",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "arp" : {
-      "algo" : "CHRD",
-      "range" : 24
-    }
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Fluid3",
     "file" : "SleepArp",
-    "program" : "Harp",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "arp" : {
-      "algo" : "Off",
-      "range" : 24
-    }
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Bass",
-    "file" : "Sleepwalk",
-    "program" : "none",
+    "file" : "SimmerD",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "arp" : {
-      "algo" : "Off",
-      "range" : 24
-    }
+    "gate" : "SIXTEENTH"
   } ],
   "scenes" : [ {
     "type" : "LOOP",
@@ -111,52 +77,112 @@
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.84999996,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.45
+      "amp" : 0.45,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 12,
-      "amp" : 0.84999996
+      "amp" : 0.84999996,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.84999996,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "ABCD",
-      "launch" : 0,
-      "amp" : 0.31
+      "launch" : 4,
+      "amp" : 0.31,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "DWN",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.56
+      "amp" : 0.56,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.81
+      "amp" : 0.81,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 2,
-      "amp" : 0.77
+      "amp" : 0.59,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "CHRD",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.96999997
+      "amp" : 0.96999997,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 1.0
+      "amp" : 1.0,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "BASS",
+        "range" : 12
+      }
     } ],
     "fx" : [ ]
   }, {
@@ -170,52 +196,112 @@
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.84999996,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.45999998
+      "amp" : 0.45999998,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 12,
-      "amp" : 0.84999996
+      "amp" : 0.84999996,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.84999996,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.31
+      "amp" : 0.31,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.56
+      "amp" : 0.56,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.81
+      "amp" : 0.81,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.77
+      "amp" : 0.77,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.98999995
+      "amp" : 0.98999995,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 1.0
+      "amp" : 1.0,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     } ],
     "fx" : [ ]
   }, {
@@ -226,52 +312,112 @@
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.84999996,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.84999996,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 10,
-      "amp" : 0.84999996
+      "amp" : 0.84999996,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.84999996,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.42
+      "amp" : 0.42,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.45
+      "amp" : 0.45,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.44
+      "amp" : 0.44,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.77
+      "amp" : 0.77,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.98999995
+      "amp" : 0.98999995,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 1.0
+      "amp" : 1.0,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     } ],
     "fx" : [ ]
   }, {
@@ -282,52 +428,112 @@
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.84999996,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.48
+      "amp" : 0.48,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 10,
-      "amp" : 0.84999996
+      "amp" : 0.84999996,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.84999996,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.31
+      "amp" : 0.31,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.56
+      "amp" : 0.56,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 4,
-      "amp" : 0.48
+      "amp" : 0.48,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.53999996
+      "amp" : 0.53999996,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.98999995
+      "amp" : 0.98999995,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 1.0
+      "amp" : 1.0,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     } ],
     "fx" : [ ]
   }, {
@@ -338,52 +544,112 @@
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.84999996,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.53
+      "amp" : 0.53,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 8,
-      "amp" : 0.84999996
+      "amp" : 0.84999996,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.84999996,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.31
+      "amp" : 0.31,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.56
+      "amp" : 0.56,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 4,
-      "amp" : 0.55
+      "amp" : 0.55,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.52
+      "amp" : 0.52,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.72999996
+      "amp" : 0.72999996,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 1.0
+      "amp" : 1.0,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     } ],
     "fx" : [ ]
   }, {
@@ -394,52 +660,112 @@
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.84999996,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.65999997
+      "amp" : 0.65999997,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 10,
-      "amp" : 0.57
+      "amp" : 0.57,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.84999996
+      "amp" : 0.84999996,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.31
+      "amp" : 0.31,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.56
+      "amp" : 0.56,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 4,
-      "amp" : 0.53
+      "amp" : 0.53,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.41
+      "amp" : 0.41,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.56
+      "amp" : 0.56,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.65
+      "amp" : 0.65,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     } ],
     "fx" : [ ]
   } ],
@@ -450,8 +776,11 @@
     "channel" : "Drums",
     "preset" : "Drumz"
   }, {
+    "channel" : "S.One",
+    "preset" : "Freedist"
+  }, {
     "channel" : "Fluid",
     "preset" : "Xtraverb"
   } ],
-  "record" : [ ]
+  "record" : [ "Gtr" ]
 }

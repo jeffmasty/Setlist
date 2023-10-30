@@ -10,7 +10,7 @@
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Drum2",
-    "file" : "Rap1",
+    "file" : "Rock1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
@@ -70,28 +70,44 @@
       "launch" : 0,
       "amp" : 0.47,
       "mode" : null,
-      "program" : "Pearl"
+      "program" : "Pearl",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "808"
+      "program" : "Sunset",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 16,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "Hats"
+      "program" : "Hats",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "VCO"
+      "program" : "VCO",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "A",
@@ -159,7 +175,7 @@
         "range" : 24
       }
     } ],
-    "fx" : [ "Gtr" ]
+    "fx" : [ "Gtr", "Bass" ]
   }, {
     "type" : "BAR",
     "notes" : "palm gtr",
@@ -170,28 +186,44 @@
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "Pearl"
+      "program" : "Pearl",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "808"
+      "program" : "808",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 18,
       "amp" : 0.39,
       "mode" : null,
-      "program" : "Hats"
+      "program" : "Hats",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "VCO"
+      "program" : "VCO",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "A",
@@ -229,7 +261,7 @@
       "active" : true,
       "cycle" : "A",
       "launch" : 0,
-      "amp" : 0.5,
+      "amp" : 0.65999997,
       "mode" : null,
       "program" : "Palm Muted Guitar",
       "arp" : {
@@ -259,7 +291,7 @@
         "range" : 24
       }
     } ],
-    "fx" : [ "Gtr", "Drums" ]
+    "fx" : [ "Gtr", "Drums", "Bass" ]
   }, {
     "type" : "BAR",
     "notes" : "arp",
@@ -270,28 +302,44 @@
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "Pearl"
+      "program" : "Pearl",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "808"
+      "program" : "808",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 18,
       "amp" : 0.5,
       "mode" : null,
-      "program" : "Hats"
+      "program" : "Hats",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "VCO"
+      "program" : "VCO",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "A",
@@ -370,6 +418,9 @@
   }, {
     "channel" : "S.One",
     "preset" : "Freedist"
+  }, {
+    "channel" : "S.Two",
+    "preset" : "RevCho"
   }, {
     "channel" : "Fluid",
     "preset" : "Xtraverb"

@@ -71,30 +71,46 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 18,
-      "amp" : 0.79999995,
+      "amp" : 0.78999996,
       "mode" : null,
-      "program" : "BBuddy"
-    }, {
-      "active" : false,
-      "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.79999995,
-      "mode" : null,
-      "program" : "VCO"
+      "program" : "BBuddy",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.78999996,
       "mode" : null,
-      "program" : "Hats"
+      "program" : "VCO",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995,
+      "amp" : 0.78999996,
       "mode" : null,
-      "program" : "VCO"
+      "program" : "Hats",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "VCO",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
@@ -110,7 +126,7 @@
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995,
+      "amp" : 0.78999996,
       "mode" : null,
       "program" : "Drops1",
       "arp" : {
@@ -154,7 +170,7 @@
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.79999995,
+      "amp" : 0.78999996,
       "mode" : null,
       "program" : "none",
       "arp" : {
@@ -172,6 +188,9 @@
     }, {
       "cmd" : "Unmute",
       "val" : "A"
+    }, {
+      "cmd" : "Chords",
+      "val" : "play"
     } ],
     "tracks" : [ {
       "active" : true,
@@ -179,28 +198,44 @@
       "launch" : 18,
       "amp" : 0.79999995,
       "mode" : null,
-      "program" : "BBuddy"
+      "program" : "BBuddy",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.79999995,
       "mode" : null,
-      "program" : "VCO"
+      "program" : "VCO",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.79999995,
       "mode" : null,
-      "program" : "Hats"
+      "program" : "Hats",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.79999995,
       "mode" : null,
-      "program" : "VCO"
+      "program" : "VCO",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
@@ -227,7 +262,7 @@
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 4,
-      "amp" : 0.79999995,
+      "amp" : 0.78999996,
       "mode" : null,
       "program" : "Rhodes EP",
       "arp" : {
@@ -238,7 +273,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 32,
-      "amp" : 0.29999998,
+      "amp" : 0.29,
       "mode" : null,
       "program" : "Percussive Organ",
       "arp" : {
@@ -268,7 +303,7 @@
         "range" : 24
       }
     } ],
-    "fx" : [ ]
+    "fx" : [ "Drums" ]
   }, {
     "type" : "BAR",
     "notes" : "bridge",
@@ -285,28 +320,44 @@
       "launch" : 18,
       "amp" : 0.79999995,
       "mode" : null,
-      "program" : "BBuddy"
+      "program" : "BBuddy",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.79999995,
       "mode" : null,
-      "program" : "VCO"
+      "program" : "VCO",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.79999995,
       "mode" : null,
-      "program" : "Hats"
+      "program" : "Hats",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.79999995,
       "mode" : null,
-      "program" : "VCO"
+      "program" : "VCO",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",

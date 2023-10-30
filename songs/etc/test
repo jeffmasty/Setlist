@@ -35,7 +35,7 @@
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Fluid1",
-    "file" : "8ths",
+    "file" : "SleepString",
     "cue" : "Bar",
     "gate" : "EIGHTH"
   }, {
@@ -50,7 +50,7 @@
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Bass",
-    "file" : "Bass2",
+    "file" : "Sleepwalk",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   } ],
@@ -67,34 +67,6 @@
       "launch" : 0,
       "amp" : 0.6,
       "mode" : null,
-      "program" : null
-    }, {
-      "active" : false,
-      "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.6,
-      "mode" : null,
-      "program" : null
-    }, {
-      "active" : true,
-      "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.6,
-      "mode" : null,
-      "program" : null
-    }, {
-      "active" : false,
-      "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.6,
-      "mode" : null,
-      "program" : null
-    }, {
-      "active" : false,
-      "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.6,
-      "mode" : null,
       "program" : null,
       "arp" : {
         "algo" : "Off",
@@ -114,7 +86,123 @@
     }, {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 32,
+      "launch" : 0,
+      "amp" : 0.6,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.6,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.6,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.6,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.6,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.6,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.6,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 2,
+      "amp" : 0.6,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    } ],
+    "fx" : [ ]
+  }, {
+    "type" : "BAR",
+    "notes" : "",
+    "commands" : [ ],
+    "tracks" : [ {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.6,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.6,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
       "amp" : 0.6,
       "mode" : null,
       "program" : null,
@@ -148,6 +236,50 @@
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
+      "amp" : 0.6,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 2,
+      "amp" : 0.6,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.6,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.6,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 4,
       "amp" : 0.6,
       "mode" : null,
       "program" : null,

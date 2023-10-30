@@ -8,6 +8,6 @@
 [Cm7] // // //
 [Fm7] // // //
 [Cm7] // // //
-[F#dim7] [F7#11] [Edim7#9] [Adim7#9]
+[F#dim7] [F7#11] [Edim7#9] [Adim7#9/Eb]
 [Cm7] // // //
 {end_of_main}

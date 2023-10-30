@@ -10,7 +10,7 @@
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Drum2",
-    "file" : null,
+    "file" : "Rap1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
@@ -65,7 +65,7 @@
       "val" : "Bass"
     }, {
       "cmd" : "Solo",
-      "val" : "true"
+      "val" : "false"
     }, {
       "cmd" : "MPK",
       "val" : "Bass"
@@ -82,28 +82,44 @@
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "Pearl"
+      "program" : "Pearl",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 2,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "808"
+      "program" : "808",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 12,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "Hats"
+      "program" : "Hats",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "VCO"
+      "program" : "VCO",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "ABCD",
@@ -117,17 +133,17 @@
       }
     }, {
       "active" : false,
-      "cycle" : "ABCD",
+      "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
       "program" : "Drops1",
       "arp" : {
-        "algo" : "Off",
+        "algo" : "DWN",
         "range" : 24
       }
     }, {
-      "active" : true,
+      "active" : false,
       "cycle" : "A",
       "launch" : 0,
       "amp" : 0.65,
@@ -139,13 +155,13 @@
       }
     }, {
       "active" : false,
-      "cycle" : "ABCD",
-      "launch" : 0,
+      "cycle" : "AB",
+      "launch" : 12,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "Palm Muted Guitar",
+      "program" : "Rock Organ",
       "arp" : {
-        "algo" : "Off",
+        "algo" : "CHRD",
         "range" : 24
       }
     }, {
@@ -172,6 +188,128 @@
       }
     } ],
     "fx" : [ "Gtr", "Drums", "S.Two" ]
+  }, {
+    "type" : "LOOP",
+    "notes" : "OrganAr",
+    "commands" : [ {
+      "cmd" : "Solo",
+      "val" : "false"
+    }, {
+      "cmd" : "Chords",
+      "val" : "play"
+    } ],
+    "tracks" : [ {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65,
+      "mode" : null,
+      "program" : "Pearl",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 2,
+      "amp" : 0.65,
+      "mode" : null,
+      "program" : "808",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 12,
+      "amp" : 0.65,
+      "mode" : null,
+      "program" : "Hats",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65,
+      "mode" : null,
+      "program" : "VCO",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65,
+      "mode" : null,
+      "program" : "FeelGood",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.65,
+      "mode" : null,
+      "program" : "Drops1",
+      "arp" : {
+        "algo" : "DWN",
+        "range" : 24
+      }
+    }, {
+      "active" : false,
+      "cycle" : "A",
+      "launch" : 0,
+      "amp" : 0.65,
+      "mode" : null,
+      "program" : "Rhodes EP",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 12,
+      "amp" : 0.65,
+      "mode" : null,
+      "program" : "Rock Organ",
+      "arp" : {
+        "algo" : "CHRD",
+        "range" : 24
+      }
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65,
+      "mode" : null,
+      "program" : "Harp",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.65,
+      "mode" : null,
+      "program" : "none",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 24
+      }
+    } ],
+    "fx" : [ "Drums", "S.Two" ]
   } ],
   "fx" : [ {
     "channel" : "Gtr",
@@ -183,8 +321,14 @@
     "channel" : "S.One",
     "preset" : "Freedist"
   }, {
+    "channel" : "S.Two",
+    "preset" : "RevCho"
+  }, {
     "channel" : "Fluid",
     "preset" : "Xtraverb"
+  }, {
+    "channel" : "Bass",
+    "preset" : "Verb1"
   } ],
   "record" : [ "Gtr", "Bass" ]
 }
