@@ -177,5 +177,5 @@
     "channel" : "Fluid",
     "preset" : "Xtraverb"
   } ],
-  "record" : [ "Gtr", "S.One" ]
+  "capture" : [ "Gtr", "S.One" ]
 }

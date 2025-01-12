@@ -13,7 +13,7 @@
 
 [Cm]  [F7]  [Bbmaj7] [Ebmaj7] 
 
-[A7] // 	[D7] //
+[A7]	 | [Dmaj7]  | [D7] 
 
 {end_of_bridge}
 

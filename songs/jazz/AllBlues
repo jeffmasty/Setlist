@@ -312,5 +312,5 @@
     "channel" : "Fluid",
     "preset" : "Xtraverb"
   } ],
-  "record" : [ "Gtr", "Fluid" ]
+  "capture" : [ "Gtr", "Fluid" ]
 }

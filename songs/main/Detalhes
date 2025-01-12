@@ -4,52 +4,52 @@
   "key" : "Bb",
   "scale" : "DOM7",
   "tracks" : [ {
-    "track" : "Drum1",
+    "track" : "D1",
     "file" : "Bossa1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Drum2",
+    "track" : "D2",
     "file" : "Rap1",
     "cue" : "Hot",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Hats",
+    "track" : "H1",
     "file" : "Hats120",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Fills",
+    "track" : "H2",
     "file" : "Fills1",
     "cue" : "Hot",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "S.One",
-    "file" : "0s",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "S.Two",
-    "file" : "0s",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "Fluid1",
-    "file" : "8ths",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "Fluid2",
-    "file" : "0s",
-    "cue" : "Hot",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "Fluid3",
+    "track" : "Bass",
     "file" : "4ths",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Bass",
+    "track" : "TK1",
+    "file" : "0s",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "TK2",
+    "file" : "0s",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "F1",
+    "file" : "0s",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "F2",
+    "file" : "0s",
+    "cue" : "Hot",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "F3",
     "file" : "8ths",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
@@ -85,7 +85,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.65,
+      "amp" : 0.52,
       "mode" : null,
       "program" : null,
       "arp" : {
@@ -96,7 +96,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 16,
-      "amp" : 0.65,
+      "amp" : 0.35,
       "mode" : null,
       "program" : "Hats",
       "arp" : {
@@ -122,7 +122,7 @@
       "mode" : null,
       "program" : null,
       "arp" : {
-        "algo" : "Off",
+        "algo" : "BASS",
         "range" : 12
       }
     }, {
@@ -177,7 +177,7 @@
       "mode" : null,
       "program" : null,
       "arp" : {
-        "algo" : "Off",
+        "algo" : "BASS",
         "range" : 12
       }
     } ],
@@ -215,7 +215,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 18,
-      "amp" : 0.52,
+      "amp" : 0.11,
       "mode" : null,
       "program" : null,
       "arp" : {
@@ -234,14 +234,14 @@
         "range" : 12
       }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "AB",
       "launch" : 2,
       "amp" : 0.29,
       "mode" : null,
       "program" : null,
       "arp" : {
-        "algo" : "Off",
+        "algo" : "BASS",
         "range" : 12
       }
     }, {
@@ -289,18 +289,18 @@
         "range" : 12
       }
     }, {
-      "active" : true,
+      "active" : false,
       "cycle" : "A",
-      "launch" : 0,
+      "launch" : 2,
       "amp" : 0.61,
       "mode" : null,
       "program" : null,
       "arp" : {
-        "algo" : "BASS",
+        "algo" : "UPDN",
         "range" : 12
       }
     } ],
-    "fx" : [ "Gtr", "S.One", "Fluid" ]
+    "fx" : [ "Gtr", "Fluid" ]
   }, {
     "type" : "LOOP",
     "notes" : null,
@@ -350,18 +350,18 @@
         "range" : 12
       }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "AB",
-      "launch" : 2,
+      "launch" : 0,
       "amp" : 0.22,
       "mode" : null,
       "program" : null,
       "arp" : {
-        "algo" : "Off",
+        "algo" : "BASS",
         "range" : 12
       }
     }, {
-      "active" : true,
+      "active" : false,
       "cycle" : "AB",
       "launch" : 4,
       "amp" : 0.25,
@@ -372,7 +372,7 @@
         "range" : 12
       }
     }, {
-      "active" : true,
+      "active" : false,
       "cycle" : "AB",
       "launch" : 6,
       "amp" : 0.37,
@@ -383,10 +383,10 @@
         "range" : 12
       }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "AB",
       "launch" : 4,
-      "amp" : 0.42,
+      "amp" : 0.22,
       "mode" : null,
       "program" : null,
       "arp" : {
@@ -412,27 +412,24 @@
       "mode" : null,
       "program" : null,
       "arp" : {
-        "algo" : "BASS",
+        "algo" : "RND",
         "range" : 12
       }
     } ],
-    "fx" : [ "Gtr", "S.One", "S.Two" ]
+    "fx" : [ "Gtr" ]
   } ],
   "fx" : [ {
     "channel" : "Gtr",
     "preset" : "RevComp"
   }, {
     "channel" : "Drums",
-    "preset" : "Drops"
-  }, {
-    "channel" : "S.One",
-    "preset" : "ChorV3rb"
-  }, {
-    "channel" : "S.Two",
-    "preset" : "RevCho"
+    "preset" : "Delay1"
   }, {
     "channel" : "Fluid",
     "preset" : "Xtraverb"
+  }, {
+    "channel" : "MAIN",
+    "preset" : "Mains"
   } ],
-  "record" : [ "Gtr" ]
+  "capture" : [ "Gtr" ]
 }

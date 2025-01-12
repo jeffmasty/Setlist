@@ -154,7 +154,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 2,
-      "amp" : 0.59,
+      "amp" : 0.58,
       "mode" : null,
       "program" : null,
       "arp" : {
@@ -779,8 +779,14 @@
     "channel" : "S.One",
     "preset" : "Freedist"
   }, {
+    "channel" : "S.Two",
+    "preset" : "ChorV3rb"
+  }, {
     "channel" : "Fluid",
     "preset" : "Xtraverb"
+  }, {
+    "channel" : "MAIN",
+    "preset" : "Mains"
   } ],
-  "record" : [ "Gtr" ]
+  "capture" : [ "Gtr" ]
 }

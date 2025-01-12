@@ -1,0 +1,307 @@
+{
+  "timeSig" : "FOURFOUR",
+  "tracks" : [ {
+    "track" : "D1",
+    "file" : "Latin",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "D2",
+    "file" : "Bossa1",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "H1",
+    "file" : "Hats1",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "H2",
+    "file" : "Fills1",
+    "cue" : "Hot",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "Bass",
+    "file" : "BesameMucho",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "TK1",
+    "file" : "BesameMucho",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "TK2",
+    "file" : "8ths",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "F1",
+    "file" : "8ths",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "F2",
+    "file" : "CRDSKNK",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "F3",
+    "file" : "Synco",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  } ],
+  "scenes" : [ {
+    "type" : "BAR",
+    "notes" : "",
+    "commands" : [ {
+      "cmd" : "Tempo",
+      "val" : "118"
+    }, {
+      "cmd" : "Length",
+      "val" : "24"
+    } ],
+    "tracks" : [ {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 6,
+      "amp" : 0.29,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    } ],
+    "fx" : [ "Gtr", "Drums" ]
+  }, {
+    "type" : "BAR",
+    "notes" : "Ending ",
+    "commands" : [ {
+      "cmd" : "Tempo",
+      "val" : "118"
+    } ],
+    "tracks" : [ {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 12,
+      "amp" : 0.84999996,
+      "mode" : null,
+      "program" : "Sunset",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "ABCD",
+      "launch" : 0,
+      "amp" : 0.41,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 6,
+      "amp" : 0.52,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.48,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.57,
+      "mode" : null,
+      "program" : "Lead1",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    } ],
+    "fx" : [ "Gtr", "Drums" ]
+  } ],
+  "fx" : [ {
+    "channel" : "Gtr",
+    "preset" : "RevComp"
+  }, {
+    "channel" : "Fluid",
+    "preset" : "Xtraverb"
+  }, {
+    "channel" : "MAIN",
+    "preset" : "Mains"
+  } ],
+  "capture" : [ "Gtr", "Taco" ]
+}

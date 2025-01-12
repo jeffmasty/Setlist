@@ -178,5 +178,5 @@
     "channel" : "Drums",
     "preset" : "Drumz"
   } ],
-  "record" : [ "Gtr", "S.One" ]
+  "capture" : [ "Gtr", "S.One" ]
 }

@@ -332,5 +332,5 @@
     "channel" : "Drums",
     "preset" : "Drumz"
   } ],
-  "record" : [ "Gtr" ]
+  "capture" : [ "Gtr" ]
 }

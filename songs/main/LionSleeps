@@ -1,53 +1,53 @@
 {
   "timeSig" : "FOURFOUR",
   "tracks" : [ {
-    "track" : "Drum1",
+    "track" : "D1",
     "file" : "4x4",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Drum2",
+    "track" : "D2",
     "file" : "HappyA",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Hats",
+    "track" : "H1",
     "file" : "Hats1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Fills",
+    "track" : "H2",
     "file" : "Fills1",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "S.One",
-    "file" : "0s",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "S.Two",
-    "file" : "16ths",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "Fluid1",
-    "file" : "8ths",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "Fluid2",
-    "file" : "CRDSKNK",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "Fluid3",
-    "file" : "Synco",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Bass",
     "file" : "Bass2",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "TK1",
+    "file" : "0s",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "TK2",
+    "file" : "16ths",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "F1",
+    "file" : "8ths",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "F2",
+    "file" : "CRDSKNK",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "F3",
+    "file" : "Synco",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   } ],
@@ -67,28 +67,44 @@
       "launch" : 0,
       "amp" : 0.78999996,
       "mode" : null,
-      "program" : "Sunset"
+      "program" : "Sunset",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.78999996,
       "mode" : null,
-      "program" : "808"
+      "program" : "808",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 22,
       "amp" : 0.78999996,
       "mode" : null,
-      "program" : "Hats"
+      "program" : "Hats",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.78999996,
       "mode" : null,
-      "program" : "VCO"
+      "program" : "VCO",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
@@ -165,11 +181,11 @@
     "channel" : "Drums",
     "preset" : "Drumz"
   }, {
-    "channel" : "S.One",
-    "preset" : "Freedist"
-  }, {
     "channel" : "Fluid",
     "preset" : "Xtraverb"
+  }, {
+    "channel" : "MAIN",
+    "preset" : "Mains"
   } ],
-  "record" : [ "Gtr" ]
+  "capture" : [ "Gtr" ]
 }

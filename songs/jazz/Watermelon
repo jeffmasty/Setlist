@@ -330,5 +330,5 @@
     "channel" : "Bass",
     "preset" : "Verb1"
   } ],
-  "record" : [ "Gtr", "Bass" ]
+  "capture" : [ "Gtr", "Bass" ]
 }

@@ -324,7 +324,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995,
+      "amp" : 0.78999996,
       "mode" : null,
       "program" : "BBuddy",
       "arp" : {
@@ -335,7 +335,7 @@
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995,
+      "amp" : 0.78999996,
       "mode" : null,
       "program" : "808",
       "arp" : {
@@ -443,16 +443,16 @@
       "val" : "B"
     }, {
       "cmd" : "TimeCode",
-      "val" : "64"
+      "val" : "60"
     }, {
       "cmd" : "Part",
       "val" : "end"
     } ],
     "tracks" : [ {
-      "active" : true,
+      "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995,
+      "amp" : 1.0,
       "mode" : null,
       "program" : "BBuddy",
       "arp" : {
@@ -463,7 +463,7 @@
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995,
+      "amp" : 0.76,
       "mode" : null,
       "program" : "808",
       "arp" : {
@@ -474,7 +474,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 6,
-      "amp" : 0.78999996,
+      "amp" : 0.90999997,
       "mode" : null,
       "program" : "Hats",
       "arp" : {
@@ -695,6 +695,9 @@
   }, {
     "channel" : "Fluid",
     "preset" : "Xtraverb"
+  }, {
+    "channel" : "MAIN",
+    "preset" : "Mains"
   } ],
-  "record" : [ "Gtr", "Fluid" ]
+  "capture" : [ "Gtr", "Fluid" ]
 }

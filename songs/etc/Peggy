@@ -156,5 +156,5 @@
     "channel" : "Drums",
     "preset" : "Drumz"
   } ],
-  "record" : [ ]
+  "capture" : [ ]
 }
