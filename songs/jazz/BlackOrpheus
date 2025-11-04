@@ -21,7 +21,7 @@
     "cue" : "Hot",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Bass",
+    "track" : "B",
     "file" : "0s",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
@@ -57,6 +57,9 @@
     "commands" : [ {
       "cmd" : "Tempo",
       "val" : "113"
+    }, {
+      "cmd" : "Length",
+      "val" : "32"
     } ],
     "tracks" : [ {
       "active" : true,
@@ -184,7 +187,7 @@
     "channel" : "Fluid",
     "preset" : "Juicy"
   }, {
-    "channel" : "MAIN",
+    "channel" : "Mains",
     "preset" : "Mains"
   } ],
   "capture" : [ "Gtr" ]

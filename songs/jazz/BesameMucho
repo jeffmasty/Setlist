@@ -21,7 +21,7 @@
     "cue" : "Hot",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Bass",
+    "track" : "B",
     "file" : "BesameMucho",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
@@ -297,11 +297,17 @@
     "channel" : "Gtr",
     "preset" : "RevComp"
   }, {
+    "channel" : "Bass",
+    "preset" : "Verb1"
+  }, {
     "channel" : "Fluid",
     "preset" : "Xtraverb"
   }, {
-    "channel" : "MAIN",
+    "channel" : "Drums",
+    "preset" : "Drumz"
+  }, {
+    "channel" : "Mains",
     "preset" : "Mains"
   } ],
-  "capture" : [ "Gtr", "Taco" ]
+  "capture" : [ "Gtr" ]
 }

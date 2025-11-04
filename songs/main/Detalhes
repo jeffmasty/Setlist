@@ -24,7 +24,7 @@
     "cue" : "Hot",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Bass",
+    "track" : "B",
     "file" : "4ths",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
@@ -267,7 +267,7 @@
         "range" : 12
       }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "AB",
       "launch" : 4,
       "amp" : 0.22,
@@ -289,12 +289,12 @@
         "range" : 12
       }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "A",
       "launch" : 2,
-      "amp" : 0.61,
+      "amp" : 0.34,
       "mode" : null,
-      "program" : null,
+      "program" : "Square Lead",
       "arp" : {
         "algo" : "UPDN",
         "range" : 12
@@ -428,7 +428,7 @@
     "channel" : "Fluid",
     "preset" : "Xtraverb"
   }, {
-    "channel" : "MAIN",
+    "channel" : "Mains",
     "preset" : "Mains"
   } ],
   "capture" : [ "Gtr" ]

@@ -5,7 +5,7 @@
 *.log
 
 # legacy
-/TEMP/
+/temp/
 
 # Package Files #
 *.jar

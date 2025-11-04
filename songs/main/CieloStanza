@@ -21,7 +21,7 @@
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Bass",
+    "track" : "B",
     "file" : "Bass2",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
@@ -303,23 +303,20 @@
         "range" : 24
       }
     } ],
-    "fx" : [ "Gtr", "Taco" ]
+    "fx" : [ "Gtr" ]
   } ],
   "fx" : [ {
     "channel" : "Gtr",
     "preset" : "Maria"
   }, {
-    "channel" : "Drums",
-    "preset" : "Drumz"
-  }, {
-    "channel" : "Taco",
-    "preset" : "Freelay"
-  }, {
     "channel" : "Fluid",
     "preset" : "Xtraverb"
   }, {
-    "channel" : "MAIN",
+    "channel" : "Drums",
+    "preset" : "Drumz"
+  }, {
+    "channel" : "Mains",
     "preset" : "Mains"
   } ],
-  "capture" : [ "Gtr", "Taco" ]
+  "capture" : [ "Gtr" ]
 }

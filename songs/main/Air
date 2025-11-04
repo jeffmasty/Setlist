@@ -1,0 +1,182 @@
+{
+  "timeSig" : "FOURFOUR",
+  "tracks" : [ {
+    "track" : "D1",
+    "file" : "Rock1",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "D2",
+    "file" : "Bossa1",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "H1",
+    "file" : "Hats1",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "H2",
+    "file" : "Fills1",
+    "cue" : "Hot",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "B",
+    "file" : "AirB",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "TK1",
+    "file" : "AirV1",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "TK2",
+    "file" : "16ths",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "F1",
+    "file" : "AirV2",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "F2",
+    "file" : "AirViola",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "F3",
+    "file" : "AirCello",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  } ],
+  "scenes" : [ {
+    "type" : "BAR",
+    "notes" : "",
+    "commands" : [ {
+      "cmd" : "Tempo",
+      "val" : "90"
+    } ],
+    "tracks" : [ {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.6,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.6,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.6,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.6,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : true,
+      "cycle" : "ALL",
+      "launch" : 0,
+      "amp" : 0.6,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : true,
+      "cycle" : "ALL",
+      "launch" : 0,
+      "amp" : 0.5,
+      "mode" : null,
+      "program" : "Lead1",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.6,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : true,
+      "cycle" : "ALL",
+      "launch" : 0,
+      "amp" : 0.52,
+      "mode" : null,
+      "program" : "Violin",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : true,
+      "cycle" : "ALL",
+      "launch" : 0,
+      "amp" : 0.56,
+      "mode" : null,
+      "program" : "Viola",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : true,
+      "cycle" : "ALL",
+      "launch" : 0,
+      "amp" : 0.5,
+      "mode" : null,
+      "program" : "Cello",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    } ],
+    "fx" : [ "Fluid" ]
+  } ],
+  "fx" : [ {
+    "channel" : "Fluid",
+    "preset" : "Strings"
+  }, {
+    "channel" : "Drums",
+    "preset" : "Drumz"
+  } ],
+  "capture" : [ "Gtr", "Drums" ]
+}

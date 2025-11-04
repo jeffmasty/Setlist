@@ -1,18 +1,19 @@
 ideas:
 
-Watermelon - stop drums and bass on bar 14
+
+By Your Side https://youtu.be/32rSJOiw-9Y?si=JI3qoK5iNXrmhWLJ
+Getting away with it - Strings then Rock, then Strings + Rock.
+d.summer-feellove FFTEyez
 
 Quando quando quando
+Quando 3    bridge stabs, high piano arp, maybe bridge drums
+Quando 2, no
+Quando 1, Bass drums
 
-I go to Rio
-Welcome back carter
-hey yeah medieval https://youtu.be/nKGsnHF7PTI
-everly brothers dream
-dern kala https://youtu.be/DSjkXnYd9Ys https://youtu.be/tAakgOSBBLM
 Julia Fordham Happy Ever After
-
-and I love Her:
-
+dern kala https://youtu.be/DSjkXnYd9Ys https://youtu.be/tAakgOSBBLM
+Welcome back carter
+Watermelon - stop drums and bass on bar 14
 
 Jazz:
 Bird Blues(F): NowsTheTime+Blues4Alice+AuPrivave
@@ -28,8 +29,6 @@ Emily OddTime4@95
 All Blues bass
 Midgnight in Moscow pg 358
 I Remember When (Si Tu Vois Me Mere) JazzFake 162
-
-I Feel Love
 
 Wave:
 shakers midi track, volume adjusted
@@ -68,9 +67,6 @@ loop 5:  Arpeggiator
 loop 6:  drums3
 loop 7:  melody B 
 
-Checklist:
-PulseAudio volume
-
 Englishman in New York https://youtu.be/rDj8kDZBjdc https://youtu.be/KaSpaetlPXg 
 https://youtu.be/JE-oE6uTiQg https://youtu.be/nJO4Tgpf5cY
 
@@ -83,21 +79,9 @@ Autumn Leaves - (B)AAB  (head is 1/2 of bridge)
                *
                *
           1/2 loop -> record head, overwrite(ch2) -> bridge(drive)    
-
-
-
-And I Love Her MidiMap
-{ trigger x2, 
-    "command" : "seq:volume",
-    "props" : {
-      "volume" : null,
-      "name" : "bassdrum,snare,hihats"
-    }
-  }, {
-    "name" : "",
-    "command" : "midi:volume",
-    "midi" : "sBMA",
-    "props" : {
-      "volume" : null
-    }
-  }
+  
+  Yumeji's Theme https://www.youtube.com/watch?v=V2vTg6zSdSg https://www.youtube.com/watch?v=S19pFNGbbhY
+  pizzicato w/ creek and birds  bass vs. cello
+  https://chordify.net/chords/shigeru-umebayashi-yumeji-s-theme-in-the-mood-for-love-isabel-risques
+  
+  

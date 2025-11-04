@@ -4,53 +4,53 @@
   "key" : "Eb",
   "scale" : "MAJOR",
   "tracks" : [ {
-    "track" : "Drum1",
+    "track" : "D1",
     "file" : "Rap1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Drum2",
+    "track" : "D2",
     "file" : "Rock1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Hats",
+    "track" : "H1",
     "file" : "Hats1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Fills",
+    "track" : "H2",
     "file" : "Fills1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "S.One",
+    "track" : "B",
+    "file" : "Bass2",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "TK1",
     "file" : "0s",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "S.Two",
+    "track" : "TK2",
     "file" : "16ths",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Fluid1",
+    "track" : "F1",
     "file" : "8ths",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Fluid2",
+    "track" : "F2",
     "file" : "CRDSKNK",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Fluid3",
+    "track" : "F3",
     "file" : "Synco",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "Bass",
-    "file" : "Bass2",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   } ],
@@ -415,12 +415,6 @@
   }, {
     "channel" : "Drums",
     "preset" : "Drumz"
-  }, {
-    "channel" : "S.One",
-    "preset" : "Freedist"
-  }, {
-    "channel" : "S.Two",
-    "preset" : "RevCho"
   }, {
     "channel" : "Fluid",
     "preset" : "Xtraverb"

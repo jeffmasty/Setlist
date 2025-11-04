@@ -1,100 +1,122 @@
 {
   "timeSig" : "FOURFOUR",
+  "chordpro" : "TayoriNi",
+  "key" : "F",
+  "scale" : "MAJOR",
   "tracks" : [ {
-    "track" : "Drum1",
-    "file" : "Rock1",
+    "track" : "D1",
+    "file" : "4x4",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Drum2",
-    "file" : "Rap1",
+    "track" : "D2",
+    "file" : "Shuffle.mid",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Hats",
+    "track" : "H1",
     "file" : "Hats1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Fills",
+    "track" : "H2",
     "file" : "Fills1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "S.One",
+    "track" : "B",
+    "file" : "TayoriNiBass",
+    "cue" : "Bar",
+    "gate" : "EIGHTH"
+  }, {
+    "track" : "TK1",
     "file" : "0s",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "S.Two",
+    "track" : "TK2",
     "file" : "16ths",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Fluid1",
-    "file" : "8ths",
+    "track" : "F1",
+    "file" : "0s",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Fluid2",
+    "track" : "F2",
     "file" : "CRDSKNK",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Fluid3",
+    "track" : "F3",
     "file" : "Synco",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "Bass",
-    "file" : "Bass2",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   } ],
   "scenes" : [ {
     "type" : "BAR",
-    "notes" : null,
+    "notes" : "Intr",
     "commands" : [ {
       "cmd" : "Length",
       "val" : "8"
     }, {
       "cmd" : "Tempo",
-      "val" : "94"
+      "val" : "92"
     }, {
       "cmd" : "Unmute",
       "val" : "C"
     }, {
       "cmd" : "Unmute",
       "val" : "D"
+    }, {
+      "cmd" : "Chords",
+      "val" : "play"
     } ],
     "tracks" : [ {
-      "active" : true,
+      "active" : false,
       "cycle" : "AB",
       "launch" : 2,
       "amp" : 0.78999996,
       "mode" : null,
-      "program" : "Pearl"
-    }, {
-      "active" : true,
-      "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.78999996,
-      "mode" : null,
-      "program" : "808"
+      "program" : "Sunset",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.78999996,
       "mode" : null,
-      "program" : "Hats"
+      "program" : "Pearl",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.78999996,
       "mode" : null,
-      "program" : "VCO"
+      "program" : "Hats",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.78999996,
+      "mode" : null,
+      "program" : "VCO",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
@@ -129,14 +151,14 @@
         "range" : 24
       }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.78999996,
+      "launch" : 2,
+      "amp" : 0.5,
       "mode" : null,
-      "program" : "Palm Muted Guitar",
+      "program" : "Halo Pad",
       "arp" : {
-        "algo" : "Off",
+        "algo" : "ETH",
         "range" : 24
       }
     }, {
@@ -165,41 +187,57 @@
     "fx" : [ "Drums" ]
   }, {
     "type" : "BAR",
-    "notes" : "EPIC",
+    "notes" : "Hat",
     "commands" : [ ],
     "tracks" : [ {
-      "active" : true,
+      "active" : false,
       "cycle" : "AB",
       "launch" : 2,
-      "amp" : 0.79999995,
+      "amp" : 0.78999996,
       "mode" : null,
-      "program" : "Pearl"
+      "program" : "Sunset",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 4,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : "Pearl",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995,
+      "amp" : 0.78999996,
       "mode" : null,
-      "program" : "808"
+      "program" : "Hats",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995,
+      "amp" : 0.78999996,
       "mode" : null,
-      "program" : "Hats"
+      "program" : "VCO",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995,
-      "mode" : null,
-      "program" : "VCO"
-    }, {
-      "active" : false,
-      "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.79999995,
+      "amp" : 0.78999996,
       "mode" : null,
       "program" : "FeelGood",
       "arp" : {
@@ -210,7 +248,7 @@
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995,
+      "amp" : 0.78999996,
       "mode" : null,
       "program" : "Drops1",
       "arp" : {
@@ -221,7 +259,7 @@
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995,
+      "amp" : 0.78999996,
       "mode" : null,
       "program" : "Rhodes EP",
       "arp" : {
@@ -229,21 +267,21 @@
         "range" : 24
       }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.79999995,
+      "launch" : 2,
+      "amp" : 0.48,
       "mode" : null,
-      "program" : "Palm Muted Guitar",
+      "program" : "Halo Pad",
       "arp" : {
-        "algo" : "Off",
+        "algo" : "ETH",
         "range" : 24
       }
     }, {
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995,
+      "amp" : 0.78999996,
       "mode" : null,
       "program" : "Harp",
       "arp" : {
@@ -254,7 +292,7 @@
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995,
+      "amp" : 0.78999996,
       "mode" : null,
       "program" : "none",
       "arp" : {
@@ -263,10 +301,248 @@
       }
     } ],
     "fx" : [ "Drums" ]
+  }, {
+    "type" : "BAR",
+    "notes" : "4x4",
+    "commands" : [ ],
+    "tracks" : [ {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 4,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 2,
+      "amp" : 0.45,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "ETH",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    } ],
+    "fx" : [ "Drums" ]
+  }, {
+    "type" : "BAR",
+    "notes" : "Bass ",
+    "commands" : [ ],
+    "tracks" : [ {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 4,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : true,
+      "cycle" : "ABCD",
+      "launch" : 4,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 2,
+      "amp" : 0.52,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "ETH",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : "Palm Muted Guitar",
+      "arp" : {
+        "algo" : "CHRD",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
+      "amp" : 0.58,
+      "mode" : null,
+      "program" : null,
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    } ],
+    "fx" : [ "Drums" ]
   } ],
   "fx" : [ {
+    "channel" : "Gtr",
+    "preset" : "Delay1"
+  }, {
     "channel" : "Drums",
     "preset" : "Drumz"
+  }, {
+    "channel" : "Mains",
+    "preset" : "Mains"
   } ],
   "capture" : [ ]
 }

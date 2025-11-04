@@ -4,53 +4,53 @@
   "key" : "G",
   "scale" : "HARMONIC",
   "tracks" : [ {
-    "track" : "Drum1",
-    "file" : "Bossa1",
+    "track" : "D1",
+    "file" : "BusyBusy",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Drum2",
-    "file" : "Fills1",
+    "track" : "D2",
+    "file" : "4x4",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Hats",
+    "track" : "H1",
     "file" : "Hats1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Fills",
+    "track" : "H2",
     "file" : "Fills1",
-    "cue" : "Bar",
+    "cue" : "Hot",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "S.One",
+    "track" : "B",
     "file" : "Synco",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "S.Two",
-    "file" : "16ths",
+    "track" : "TK1",
+    "file" : "8ths",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Fluid1",
+    "track" : "TK2",
     "file" : "0s",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Fluid2",
+    "track" : "F1",
     "file" : "0s",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Fluid3",
+    "track" : "F2",
     "file" : "0s",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Bass",
-    "file" : "Bass2",
+    "track" : "F3",
+    "file" : "0s",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   } ],
@@ -72,8 +72,8 @@
     } ],
     "tracks" : [ {
       "active" : true,
-      "cycle" : "ABCD",
-      "launch" : 0,
+      "cycle" : "AB",
+      "launch" : 2,
       "amp" : 0.78999996,
       "mode" : null,
       "program" : "BBuddy",
@@ -193,10 +193,10 @@
       "val" : "end"
     } ],
     "tracks" : [ {
-      "active" : true,
+      "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995,
+      "amp" : 0.58,
       "mode" : null,
       "program" : "BBuddy",
       "arp" : {
@@ -204,10 +204,10 @@
         "range" : 12
       }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995,
+      "amp" : 0.69,
       "mode" : null,
       "program" : "808",
       "arp" : {
@@ -218,7 +218,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 12,
-      "amp" : 0.79999995,
+      "amp" : 0.44,
       "mode" : null,
       "program" : "Hats",
       "arp" : {
@@ -251,7 +251,7 @@
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995,
+      "amp" : 0.78999996,
       "mode" : null,
       "program" : "Drops1",
       "arp" : {
@@ -273,7 +273,7 @@
       "active" : true,
       "cycle" : "A",
       "launch" : 0,
-      "amp" : 0.78999996,
+      "amp" : 0.69,
       "mode" : null,
       "program" : "Bright Yamaha Grand",
       "arp" : {
@@ -282,9 +282,9 @@
       }
     }, {
       "active" : true,
-      "cycle" : "AB",
+      "cycle" : "A",
       "launch" : 2,
-      "amp" : 0.79999995,
+      "amp" : 0.58,
       "mode" : null,
       "program" : "Bright Yamaha Grand",
       "arp" : {
@@ -295,9 +295,9 @@
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996,
+      "amp" : 0.5,
       "mode" : null,
-      "program" : "none",
+      "program" : "Cello",
       "arp" : {
         "algo" : "BASS",
         "range" : 24
@@ -319,9 +319,12 @@
     }, {
       "cmd" : "Chords",
       "val" : "play"
+    }, {
+      "cmd" : "Beats",
+      "val" : "60"
     } ],
     "tracks" : [ {
-      "active" : true,
+      "active" : false,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.78999996,
@@ -332,10 +335,10 @@
         "range" : 12
       }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996,
+      "amp" : 0.71999997,
       "mode" : null,
       "program" : "808",
       "arp" : {
@@ -345,7 +348,7 @@
     }, {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 0,
+      "launch" : 8,
       "amp" : 0.78999996,
       "mode" : null,
       "program" : "Hats",
@@ -390,9 +393,9 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 6,
-      "amp" : 0.52,
+      "amp" : 0.29,
       "mode" : null,
-      "program" : "Flute",
+      "program" : "FeelDrops",
       "arp" : {
         "algo" : "CHRD",
         "range" : 12
@@ -422,7 +425,7 @@
     }, {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 0,
+      "launch" : 2,
       "amp" : 0.5,
       "mode" : null,
       "program" : "none",
@@ -433,7 +436,7 @@
     } ],
     "fx" : [ "Gtr" ]
   }, {
-    "type" : "REL",
+    "type" : "BAR",
     "notes" : "",
     "commands" : [ {
       "cmd" : "Unmute",
@@ -442,19 +445,16 @@
       "cmd" : "Unmute",
       "val" : "B"
     }, {
-      "cmd" : "TimeCode",
-      "val" : "60"
-    }, {
       "cmd" : "Part",
       "val" : "end"
     } ],
     "tracks" : [ {
-      "active" : false,
-      "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 1.0,
+      "active" : true,
+      "cycle" : "TO8",
+      "launch" : 14,
+      "amp" : 0.5,
       "mode" : null,
-      "program" : "BBuddy",
+      "program" : "808",
       "arp" : {
         "algo" : "Off",
         "range" : 12
@@ -471,7 +471,7 @@
         "range" : 12
       }
     }, {
-      "active" : true,
+      "active" : false,
       "cycle" : "AB",
       "launch" : 6,
       "amp" : 0.90999997,
@@ -500,14 +500,14 @@
       "mode" : null,
       "program" : "FeelGood",
       "arp" : {
-        "algo" : "DWN",
+        "algo" : "BASS",
         "range" : 24
       }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "AB",
       "launch" : 2,
-      "amp" : 0.78999996,
+      "amp" : 0.35999998,
       "mode" : null,
       "program" : "Drops1",
       "arp" : {
@@ -538,7 +538,7 @@
       }
     }, {
       "active" : true,
-      "cycle" : "AB",
+      "cycle" : "A",
       "launch" : 2,
       "amp" : 0.65999997,
       "mode" : null,
@@ -548,10 +548,10 @@
         "range" : 24
       }
     }, {
-      "active" : false,
-      "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.78999996,
+      "active" : true,
+      "cycle" : "A",
+      "launch" : 2,
+      "amp" : 0.48,
       "mode" : null,
       "program" : "none",
       "arp" : {
@@ -559,7 +559,7 @@
         "range" : 24
       }
     } ],
-    "fx" : [ "Gtr", "S.One" ]
+    "fx" : [ "Gtr" ]
   }, {
     "type" : "LOOP",
     "notes" : "end",
@@ -571,7 +571,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995,
+      "amp" : 0.64,
       "mode" : null,
       "program" : "BBuddy",
       "arp" : {
@@ -582,9 +582,9 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 10,
-      "amp" : 0.59,
+      "amp" : 0.58,
       "mode" : null,
-      "program" : "Pearl",
+      "program" : "Perks",
       "arp" : {
         "algo" : "Off",
         "range" : 12
@@ -593,7 +593,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 24,
-      "amp" : 0.58,
+      "amp" : 0.34,
       "mode" : null,
       "program" : "Hats",
       "arp" : {
@@ -604,7 +604,7 @@
       "active" : false,
       "cycle" : "AB",
       "launch" : 4,
-      "amp" : 0.79999995,
+      "amp" : 0.63,
       "mode" : null,
       "program" : "VCO",
       "arp" : {
@@ -637,7 +637,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 8,
-      "amp" : 0.29,
+      "amp" : 0.19,
       "mode" : null,
       "program" : "Halo Pad",
       "arp" : {
@@ -669,35 +669,29 @@
     }, {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.65999997,
+      "launch" : 2,
+      "amp" : 0.52,
       "mode" : null,
-      "program" : "none",
+      "program" : "Cello",
       "arp" : {
         "algo" : "BASS",
         "range" : 24
       }
     } ],
-    "fx" : [ "Gtr", "Drums", "S.One", "S.Two" ]
+    "fx" : [ "Gtr", "Drums" ]
   } ],
   "fx" : [ {
     "channel" : "Gtr",
     "preset" : "RevComp"
   }, {
-    "channel" : "Drums",
-    "preset" : "Drumz"
-  }, {
-    "channel" : "S.One",
-    "preset" : "Freedist"
-  }, {
-    "channel" : "S.Two",
-    "preset" : "RevCho"
-  }, {
     "channel" : "Fluid",
     "preset" : "Xtraverb"
   }, {
-    "channel" : "MAIN",
+    "channel" : "Drums",
+    "preset" : "Drumz"
+  }, {
+    "channel" : "Mains",
     "preset" : "Mains"
   } ],
-  "capture" : [ "Gtr", "Fluid" ]
+  "capture" : [ "Gtr" ]
 }

@@ -5,7 +5,7 @@
   "scale" : "HARMONIC",
   "tracks" : [ {
     "track" : "D1",
-    "file" : "DnB",
+    "file" : "Ikereta",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
@@ -24,13 +24,13 @@
     "cue" : "Hot",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Bass",
+    "track" : "B",
     "file" : "Ikereta",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "TK1",
-    "file" : "0s",
+    "file" : "Synco",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
@@ -65,12 +65,12 @@
       "val" : "play"
     } ],
     "tracks" : [ {
-      "active" : false,
-      "cycle" : "AB",
+      "active" : true,
+      "cycle" : "A3B",
       "launch" : 0,
-      "amp" : 0.58,
+      "amp" : 0.35,
       "mode" : null,
-      "program" : null,
+      "program" : "909",
       "arp" : {
         "algo" : "Off",
         "range" : 12
@@ -90,7 +90,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 8,
-      "amp" : 0.42,
+      "amp" : 0.58,
       "mode" : null,
       "program" : "Sunset",
       "arp" : {
@@ -109,7 +109,7 @@
         "range" : 12
       }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.58,
@@ -120,14 +120,14 @@
         "range" : 12
       }
     }, {
-      "active" : true,
-      "cycle" : "ABCD",
-      "launch" : 6,
+      "active" : false,
+      "cycle" : "AB",
+      "launch" : 0,
       "amp" : 0.39,
       "mode" : null,
       "program" : "Bass1",
       "arp" : {
-        "algo" : "Off",
+        "algo" : "BASS",
         "range" : 12
       }
     }, {
@@ -139,28 +139,28 @@
       "program" : null,
       "arp" : {
         "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : false,
+      "cycle" : "A",
+      "launch" : 4,
+      "amp" : 0.45,
+      "mode" : null,
+      "program" : "Halo Pad",
+      "arp" : {
+        "algo" : "UP",
         "range" : 12
       }
     }, {
       "active" : true,
       "cycle" : "A",
-      "launch" : 40,
-      "amp" : 0.45,
+      "launch" : 2,
+      "amp" : 0.42,
       "mode" : null,
-      "program" : "Yamaha Grand Piano",
+      "program" : "Palm Muted Guitar",
       "arp" : {
-        "algo" : "Off",
-        "range" : 12
-      }
-    }, {
-      "active" : false,
-      "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.58,
-      "mode" : null,
-      "program" : null,
-      "arp" : {
-        "algo" : "Off",
+        "algo" : "CHRD",
         "range" : 12
       }
     }, {
@@ -300,7 +300,7 @@
     "channel" : "Drums",
     "preset" : "Drumz"
   }, {
-    "channel" : "MAIN",
+    "channel" : "Mains",
     "preset" : "Mains"
   } ],
   "capture" : [ "Gtr" ]

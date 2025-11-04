@@ -4,53 +4,53 @@
   "key" : "C",
   "scale" : "HARMONIC",
   "tracks" : [ {
-    "track" : "Drum1",
+    "track" : "D1",
     "file" : "Rock1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Drum2",
+    "track" : "D2",
     "file" : "Rap1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Hats",
+    "track" : "H1",
     "file" : "Hats1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Fills",
+    "track" : "H2",
     "file" : "Fills1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "S.One",
-    "file" : "0s",
+    "track" : "B",
+    "file" : "Bass2",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "S.Two",
+    "track" : "TK1",
+    "file" : "8ths",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "TK2",
     "file" : "16ths",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Fluid1",
+    "track" : "F1",
     "file" : "16ths",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Fluid2",
+    "track" : "F2",
     "file" : "2s",
     "cue" : "Bar",
     "gate" : "QUARTER"
   }, {
-    "track" : "Fluid3",
+    "track" : "F3",
     "file" : "Synco",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "Bass",
-    "file" : "Bass2",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   } ],
@@ -172,20 +172,17 @@
         "range" : 24
       }
     } ],
-    "fx" : [ "S.One" ]
+    "fx" : [ ]
   } ],
   "fx" : [ {
     "channel" : "Gtr",
     "preset" : "Maria"
   }, {
-    "channel" : "Drums",
-    "preset" : "Drumz"
-  }, {
-    "channel" : "S.One",
-    "preset" : "ChoFo"
-  }, {
     "channel" : "Fluid",
     "preset" : "Xtraverb"
+  }, {
+    "channel" : "Drums",
+    "preset" : "Drumz"
   } ],
   "capture" : [ ]
 }

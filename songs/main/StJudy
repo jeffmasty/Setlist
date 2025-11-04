@@ -4,53 +4,53 @@
   "key" : "E",
   "scale" : "DOM7",
   "tracks" : [ {
-    "track" : "Drum1",
+    "track" : "D1",
     "file" : "Rock1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Drum2",
+    "track" : "D2",
     "file" : "Rap1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Hats",
+    "track" : "H1",
     "file" : "Hats1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Fills",
+    "track" : "H2",
     "file" : "Fills1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "S.One",
+    "track" : "B",
+    "file" : "StJudy",
+    "cue" : "Bar",
+    "gate" : "SIXTEENTH"
+  }, {
+    "track" : "TK1",
     "file" : "0s",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "S.Two",
+    "track" : "TK2",
     "file" : "16ths",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Fluid1",
+    "track" : "F1",
     "file" : "8ths",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Fluid2",
+    "track" : "F2",
     "file" : "CRDSKNK",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Fluid3",
+    "track" : "F3",
     "file" : "Synco",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "Bass",
-    "file" : "StJudy",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   } ],
@@ -175,7 +175,7 @@
         "range" : 24
       }
     } ],
-    "fx" : [ "Drums", "Fluid", "Bass" ]
+    "fx" : [ "Bass", "Fluid", "Drums" ]
   }, {
     "type" : "BAR",
     "notes" : "verse",
@@ -529,17 +529,17 @@
     "channel" : "Gtr",
     "preset" : "RevComp"
   }, {
-    "channel" : "Drums",
-    "preset" : "Drumz"
-  }, {
-    "channel" : "S.One",
-    "preset" : "Freedist"
+    "channel" : "Bass",
+    "preset" : "Verb1"
   }, {
     "channel" : "Fluid",
     "preset" : "Xtraverb"
   }, {
-    "channel" : "Bass",
-    "preset" : "Verb1"
+    "channel" : "Drums",
+    "preset" : "Drumz"
+  }, {
+    "channel" : "Mains",
+    "preset" : "Mains"
   } ],
   "capture" : [ ]
 }
