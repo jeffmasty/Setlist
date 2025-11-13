@@ -73,7 +73,7 @@
       "launch" : 0,
       "amp" : 0.78999996,
       "mode" : null,
-      "program" : "Pearl",
+      "program" : "Sunset",
       "arp" : {
         "algo" : "Off",
         "range" : 12
@@ -93,7 +93,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 2,
-      "amp" : 0.78999996,
+      "amp" : 0.29999998,
       "mode" : null,
       "program" : "Hats",
       "arp" : {
@@ -212,7 +212,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995,
+      "amp" : 0.78999996,
       "mode" : null,
       "program" : "Hats",
       "arp" : {
@@ -395,7 +395,7 @@
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.44,
+      "amp" : 0.32999998,
       "mode" : null,
       "program" : "Violin",
       "arp" : {
@@ -544,7 +544,7 @@
         "range" : 24
       }
     } ],
-    "fx" : [ "Gtr", "Fluid" ]
+    "fx" : [ "Gtr" ]
   }, {
     "type" : "LOOP",
     "notes" : "",
@@ -828,7 +828,7 @@
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 20,
-      "amp" : 0.78999996,
+      "amp" : 0.58,
       "mode" : null,
       "program" : "Hats",
       "arp" : {
@@ -850,7 +850,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.69,
+      "amp" : 0.58,
       "mode" : null,
       "program" : "FeelGood",
       "arp" : {
@@ -905,7 +905,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.42,
+      "amp" : 0.39,
       "mode" : null,
       "program" : "Ice Rain",
       "arp" : {

@@ -3,6 +3,12 @@
   "chordpro" : "Ikareta",
   "key" : "E",
   "scale" : "HARMONIC",
+  "kit" : {
+    "vol" : [ 50, 38, 57, 59, 50, 50, 50, 50 ],
+    "pan" : [ 50, 50, 50, 50, 50, 50, 50, 50 ],
+    "atk" : [ 1, 1, 1, 1, 1, 1, 1, 1 ],
+    "dk" : [ 20, 73, 100, 100, 100, 100, 100, 100 ]
+  },
   "tracks" : [ {
     "track" : "D1",
     "file" : "Ikereta",
@@ -156,7 +162,7 @@
       "active" : true,
       "cycle" : "A",
       "launch" : 2,
-      "amp" : 0.42,
+      "amp" : 0.78739995,
       "mode" : null,
       "program" : "Palm Muted Guitar",
       "arp" : {
@@ -175,7 +181,7 @@
         "range" : 12
       }
     } ],
-    "fx" : [ ]
+    "fx" : [ "Gtr", "Mains" ]
   }, {
     "type" : "BAR",
     "notes" : "",
@@ -295,7 +301,7 @@
   } ],
   "fx" : [ {
     "channel" : "Gtr",
-    "preset" : "Delay1"
+    "preset" : "Phaser"
   }, {
     "channel" : "Drums",
     "preset" : "Drumz"

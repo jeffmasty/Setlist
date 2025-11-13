@@ -1,8 +1,14 @@
 {
   "timeSig" : "FOURFOUR",
+  "kit" : {
+    "vol" : [ 50, 50, 50, 50, 50, 50, 50, 50 ],
+    "pan" : [ 50, 66, 66, 50, 33, 50, 50, 50 ],
+    "atk" : [ 1, 1, 1, 1, 1, 1, 1, 1 ],
+    "dk" : [ 35, 100, 100, 100, 100, 100, 100, 100 ]
+  },
   "tracks" : [ {
     "track" : "D1",
-    "file" : "Rock1",
+    "file" : "Vibrate",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
@@ -22,32 +28,32 @@
     "gate" : "SIXTEENTH"
   }, {
     "track" : "B",
-    "file" : "AirB",
+    "file" : "Vibrate",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "TK1",
-    "file" : "AirV1",
+    "file" : "VibrateM",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "TK2",
-    "file" : "16ths",
+    "file" : "VibrateV",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "F1",
-    "file" : "AirV2",
+    "file" : "VibrateO",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "F2",
-    "file" : "AirViola",
+    "file" : "VibrateC",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "F3",
-    "file" : "AirCello",
+    "file" : "VibrateF",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   } ],
@@ -56,15 +62,15 @@
     "notes" : "",
     "commands" : [ {
       "cmd" : "Tempo",
-      "val" : "90"
+      "val" : "114"
     } ],
     "tracks" : [ {
-      "active" : false,
-      "cycle" : "AB",
+      "active" : true,
+      "cycle" : "ALL",
       "launch" : 0,
-      "amp" : 0.6,
+      "amp" : 0.58,
       "mode" : null,
-      "program" : null,
+      "program" : "808-UFO",
       "arp" : {
         "algo" : "Off",
         "range" : 12
@@ -106,7 +112,7 @@
       "active" : true,
       "cycle" : "ALL",
       "launch" : 0,
-      "amp" : 0.6,
+      "amp" : 0.96999997,
       "mode" : null,
       "program" : null,
       "arp" : {
@@ -117,18 +123,7 @@
       "active" : true,
       "cycle" : "ALL",
       "launch" : 0,
-      "amp" : 0.5,
-      "mode" : null,
-      "program" : "Lead1",
-      "arp" : {
-        "algo" : "Off",
-        "range" : 12
-      }
-    }, {
-      "active" : false,
-      "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.6,
+      "amp" : 0.96999997,
       "mode" : null,
       "program" : null,
       "arp" : {
@@ -139,9 +134,9 @@
       "active" : true,
       "cycle" : "ALL",
       "launch" : 0,
-      "amp" : 0.61,
+      "amp" : 0.56,
       "mode" : null,
-      "program" : "Violin",
+      "program" : null,
       "arp" : {
         "algo" : "Off",
         "range" : 12
@@ -150,9 +145,9 @@
       "active" : true,
       "cycle" : "ALL",
       "launch" : 0,
-      "amp" : 0.5,
+      "amp" : 0.58,
       "mode" : null,
-      "program" : "Viola",
+      "program" : "Rock Organ",
       "arp" : {
         "algo" : "Off",
         "range" : 12
@@ -161,22 +156,36 @@
       "active" : true,
       "cycle" : "ALL",
       "launch" : 0,
-      "amp" : 0.65,
+      "amp" : 0.96999997,
       "mode" : null,
-      "program" : "?",
+      "program" : "Contrabass",
+      "arp" : {
+        "algo" : "Off",
+        "range" : 12
+      }
+    }, {
+      "active" : true,
+      "cycle" : "ALL",
+      "launch" : 0,
+      "amp" : 0.96999997,
+      "mode" : null,
+      "program" : "Ohh Voices",
       "arp" : {
         "algo" : "Off",
         "range" : 12
       }
     } ],
-    "fx" : [ ]
+    "fx" : [ "Drums", "Mains" ]
   } ],
   "fx" : [ {
-    "channel" : "Fluid",
-    "preset" : "Strings"
+    "channel" : "TK1",
+    "preset" : "Phaser"
   }, {
     "channel" : "Drums",
     "preset" : "Drumz"
+  }, {
+    "channel" : "Mains",
+    "preset" : "RevComp"
   } ],
-  "capture" : [ "Gtr", "Drums" ]
+  "capture" : [ "Gtr", "TK1", "Drums" ]
 }

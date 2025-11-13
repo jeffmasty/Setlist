@@ -3,6 +3,12 @@
   "chordpro" : "StJudy",
   "key" : "E",
   "scale" : "DOM7",
+  "kit" : {
+    "vol" : [ 50, 50, 50, 50, 29, 50, 50, 50 ],
+    "pan" : [ 37, 50, 64, 50, 50, 50, 50, 50 ],
+    "atk" : [ 1, 1, 1, 1, 1, 1, 1, 1 ],
+    "dk" : [ 100, 100, 100, 100, 100, 100, 100, 100 ]
+  },
   "tracks" : [ {
     "track" : "D1",
     "file" : "Rock1",
@@ -40,12 +46,12 @@
     "gate" : "SIXTEENTH"
   }, {
     "track" : "F1",
-    "file" : "8ths",
+    "file" : "CRDSKNK",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "F2",
-    "file" : "CRDSKNK",
+    "file" : "8ths",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
@@ -247,10 +253,10 @@
         "range" : 24
       }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "AB",
-      "launch" : 4,
-      "amp" : 0.52,
+      "launch" : 2,
+      "amp" : 0.17,
       "mode" : null,
       "program" : "Rhodes EP",
       "arp" : {
@@ -261,7 +267,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 4,
-      "amp" : 0.71,
+      "amp" : 0.44,
       "mode" : null,
       "program" : "Palm Muted Guitar",
       "arp" : {
@@ -291,7 +297,7 @@
         "range" : 24
       }
     } ],
-    "fx" : [ "Drums", "Fluid", "Bass" ]
+    "fx" : [ "Bass", "Fluid", "Drums" ]
   }, {
     "type" : "BAR",
     "notes" : "chorus",
@@ -344,11 +350,11 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 26,
-      "amp" : 0.11,
+      "amp" : 0.5,
       "mode" : null,
       "program" : "FeelGood",
       "arp" : {
-        "algo" : "Off",
+        "algo" : "BASS",
         "range" : 24
       }
     }, {
@@ -363,10 +369,10 @@
         "range" : 24
       }
     }, {
-      "active" : false,
-      "cycle" : "ALL",
-      "launch" : 30,
-      "amp" : 0.41,
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 4,
+      "amp" : 0.089999996,
       "mode" : null,
       "program" : "Rhodes EP",
       "arp" : {
@@ -385,18 +391,18 @@
         "range" : 24
       }
     }, {
-      "active" : true,
+      "active" : false,
       "cycle" : "A",
       "launch" : 0,
       "amp" : 0.58,
       "mode" : null,
       "program" : "Harp",
       "arp" : {
-        "algo" : "UPDN",
+        "algo" : "CHRD",
         "range" : 24
       }
     }, {
-      "active" : true,
+      "active" : false,
       "cycle" : "AB",
       "launch" : 10,
       "amp" : 0.74,
@@ -407,7 +413,7 @@
         "range" : 24
       }
     } ],
-    "fx" : [ "Drums", "Fluid" ]
+    "fx" : [ "Fluid", "Drums" ]
   }, {
     "type" : "BAR",
     "notes" : "bridge",
@@ -482,7 +488,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.47,
+      "amp" : 0.22,
       "mode" : null,
       "program" : "Rhodes EP",
       "arp" : {
@@ -493,7 +499,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 2,
-      "amp" : 0.78999996,
+      "amp" : 0.48,
       "mode" : null,
       "program" : "Palm Muted Guitar",
       "arp" : {
@@ -503,19 +509,19 @@
     }, {
       "active" : true,
       "cycle" : "A",
-      "launch" : 0,
-      "amp" : 0.9,
+      "launch" : 2,
+      "amp" : 0.39,
       "mode" : null,
       "program" : "Harp",
       "arp" : {
-        "algo" : "UPDN",
+        "algo" : "DWN",
         "range" : 24
       }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.65,
+      "amp" : 0.44,
       "mode" : null,
       "program" : "none",
       "arp" : {

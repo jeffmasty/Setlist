@@ -25,7 +25,7 @@
     "gate" : "SIXTEENTH"
   }, {
     "track" : "B",
-    "file" : "Bass2",
+    "file" : "TayoriNiBass",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
@@ -341,8 +341,8 @@
         "range" : 12
       }
     }, {
-      "active" : false,
-      "cycle" : "AB",
+      "active" : true,
+      "cycle" : "ALL",
       "launch" : 0,
       "amp" : 0.58,
       "mode" : null,
@@ -388,9 +388,9 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 2,
-      "amp" : 0.29999998,
+      "amp" : 0.7874,
       "mode" : null,
-      "program" : null,
+      "program" : "Yamaha Grand Piano",
       "arp" : {
         "algo" : "CHRD",
         "range" : 12
@@ -457,7 +457,7 @@
         "range" : 12
       }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.58,
@@ -504,9 +504,9 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 2,
-      "amp" : 0.39,
+      "amp" : 0.7874,
       "mode" : null,
-      "program" : "Strings",
+      "program" : "Yamaha Grand Piano",
       "arp" : {
         "algo" : "CHRD",
         "range" : 12

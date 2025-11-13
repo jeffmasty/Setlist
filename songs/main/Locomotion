@@ -25,7 +25,7 @@
     "gate" : "SIXTEENTH"
   }, {
     "track" : "B",
-    "file" : "Bass2",
+    "file" : "Synco",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
@@ -40,7 +40,7 @@
     "gate" : "SIXTEENTH"
   }, {
     "track" : "F1",
-    "file" : "8ths",
+    "file" : "CRDSKNK",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
@@ -109,14 +109,14 @@
         "range" : 12
       }
     }, {
-      "active" : false,
-      "cycle" : "A",
+      "active" : true,
+      "cycle" : "ALL",
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
       "program" : "FeelGood",
       "arp" : {
-        "algo" : "Off",
+        "algo" : "BASS",
         "range" : 24
       }
     }, {
@@ -164,7 +164,7 @@
         "range" : 24
       }
     }, {
-      "active" : true,
+      "active" : false,
       "cycle" : "ABCD",
       "launch" : 2,
       "amp" : 0.65,
@@ -225,14 +225,14 @@
         "range" : 12
       }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "A",
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
       "program" : "FeelGood",
       "arp" : {
-        "algo" : "Off",
+        "algo" : "BASS",
         "range" : 24
       }
     }, {
@@ -259,11 +259,11 @@
       }
     }, {
       "active" : true,
-      "cycle" : "A",
-      "launch" : 0,
-      "amp" : 0.65999997,
+      "cycle" : "AB",
+      "launch" : 6,
+      "amp" : 0.7874,
       "mode" : null,
-      "program" : "Palm Muted Guitar",
+      "program" : "Clean Guitar",
       "arp" : {
         "algo" : "CHRD",
         "range" : 24
@@ -280,7 +280,7 @@
         "range" : 24
       }
     }, {
-      "active" : true,
+      "active" : false,
       "cycle" : "ABCD",
       "launch" : 2,
       "amp" : 0.65,
@@ -291,7 +291,7 @@
         "range" : 24
       }
     } ],
-    "fx" : [ "Gtr", "Drums", "Bass" ]
+    "fx" : [ "Gtr", "Bass", "Drums" ]
   }, {
     "type" : "BAR",
     "notes" : "arp",
@@ -341,7 +341,7 @@
         "range" : 12
       }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "A",
       "launch" : 0,
       "amp" : 0.65,
@@ -366,7 +366,7 @@
       "active" : true,
       "cycle" : "A",
       "launch" : 6,
-      "amp" : 0.38,
+      "amp" : 0.29,
       "mode" : null,
       "program" : "Nylon String Guitar",
       "arp" : {
@@ -396,7 +396,7 @@
         "range" : 24
       }
     }, {
-      "active" : true,
+      "active" : false,
       "cycle" : "A",
       "launch" : 4,
       "amp" : 0.44,
@@ -413,11 +413,11 @@
     "channel" : "Gtr",
     "preset" : "RevComp"
   }, {
-    "channel" : "Drums",
-    "preset" : "Drumz"
-  }, {
     "channel" : "Fluid",
     "preset" : "Xtraverb"
+  }, {
+    "channel" : "Drums",
+    "preset" : "Drumz"
   } ],
   "capture" : [ ]
 }

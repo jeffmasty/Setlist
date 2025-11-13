@@ -24,7 +24,7 @@
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "Bass",
+    "track" : "B",
     "file" : "8ths",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
@@ -109,7 +109,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.57,
+      "amp" : 0.45,
       "mode" : null,
       "program" : null,
       "arp" : {
@@ -153,7 +153,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 4,
-      "amp" : 0.28,
+      "amp" : 0.44,
       "mode" : null,
       "program" : "Tremolo",
       "arp" : {
@@ -164,7 +164,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 4,
-      "amp" : 0.32999998,
+      "amp" : 0.45,
       "mode" : null,
       "program" : "Harp",
       "arp" : {
@@ -172,7 +172,7 @@
         "range" : 12
       }
     } ],
-    "fx" : [ "Gtr" ]
+    "fx" : [ "Gtr", "Drums" ]
   }, {
     "type" : "BAR",
     "notes" : "Different",
@@ -247,18 +247,18 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 4,
-      "amp" : 0.19,
+      "amp" : 0.44,
       "mode" : null,
       "program" : null,
       "arp" : {
-        "algo" : "DWN",
-        "range" : 12
+        "algo" : "DNUP",
+        "range" : 24
       }
     }, {
       "active" : true,
       "cycle" : "AB",
       "launch" : 8,
-      "amp" : 0.45,
+      "amp" : 0.7874,
       "mode" : null,
       "program" : "Palm Muted Guitar",
       "arp" : {
@@ -294,13 +294,13 @@
     "channel" : "Gtr",
     "preset" : "RevComp"
   }, {
-    "channel" : "Drums",
-    "preset" : "Drumz"
-  }, {
     "channel" : "Fluid",
     "preset" : "Xtraverb"
   }, {
-    "channel" : "MAIN",
+    "channel" : "Drums",
+    "preset" : "Drumz"
+  }, {
+    "channel" : "Mains",
     "preset" : "Mains"
   } ],
   "capture" : [ "Gtr", "Mic" ]
