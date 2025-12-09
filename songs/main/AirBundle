@@ -1,56 +1,7 @@
 {
   "timeSig" : "FOURFOUR",
-  "bundle" : null,
-  "tracks" : [ {
-    "track" : "Drum1",
-    "file" : "Rock1",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "Drum2",
-    "file" : "HipHop",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "Hats",
-    "file" : "Hats1",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "Fills",
-    "file" : "Fills1",
-    "cue" : "Hot",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "Bass",
-    "file" : "AirB",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "Taco",
-    "file" : "AirV1",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "program" : "Lead1"
-  }, {
-    "track" : "Tk2",
-    "file" : "AirCello",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "program" : "Pads1"
-  }, {
-    "track" : "Fluid",
-    "file" : "AirV2",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "program" : "Violin"
-  }, {
-    "track" : "F3rd",
-    "file" : "AirViola",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "program" : "Viola"
-  } ],
+  "bundle" : "7830586605620422158",
+  "tracks" : [ ],
   "scenes" : [ {
     "type" : "BAR",
     "notes" : "",
@@ -72,7 +23,7 @@
     }, {
       "active" : false,
       "cycle" : "AB",
-      "launch" : 8,
+      "launch" : 0,
       "amp" : 0.6,
       "mode" : null,
       "program" : null,
@@ -106,7 +57,7 @@
       "active" : true,
       "cycle" : "ALL",
       "launch" : 0,
-      "amp" : 0.39999998,
+      "amp" : 0.6,
       "mode" : null,
       "program" : null,
       "arp" : {
@@ -117,7 +68,7 @@
       "active" : true,
       "cycle" : "ALL",
       "launch" : 0,
-      "amp" : 0.37,
+      "amp" : 0.5,
       "mode" : null,
       "program" : "Lead1",
       "arp" : {
@@ -128,7 +79,7 @@
       "active" : true,
       "cycle" : "ALL",
       "launch" : 0,
-      "amp" : 0.44,
+      "amp" : 0.6,
       "mode" : null,
       "program" : "Pads1",
       "arp" : {
@@ -136,10 +87,10 @@
         "range" : 12
       }
     }, {
-      "active" : true,
+      "active" : false,
       "cycle" : "ALL",
       "launch" : 0,
-      "amp" : 0.39999998,
+      "amp" : 0.61,
       "mode" : null,
       "program" : "Violin",
       "arp" : {
@@ -150,20 +101,20 @@
       "active" : true,
       "cycle" : "ALL",
       "launch" : 0,
-      "amp" : 0.57,
+      "amp" : 0.5,
       "mode" : null,
-      "program" : "Viola",
+      "program" : "Synth Strings 1",
       "arp" : {
         "algo" : "Off",
         "range" : 12
       }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "ALL",
       "launch" : 0,
-      "amp" : 0.45999998,
+      "amp" : 0.65,
       "mode" : null,
-      "program" : "Cello",
+      "program" : "Synth Strings 1",
       "arp" : {
         "algo" : "Off",
         "range" : 12
@@ -172,6 +123,9 @@
     "fx" : [ ]
   } ],
   "fx" : [ {
+    "channel" : "Taco",
+    "preset" : "AirViolin"
+  }, {
     "channel" : "Fluid",
     "preset" : "Strings"
   }, {

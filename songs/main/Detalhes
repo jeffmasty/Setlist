@@ -1,59 +1,10 @@
 {
   "timeSig" : "FOURFOUR",
+  "bundle" : "false",
   "chordpro" : "Detalhes",
   "key" : "Bb",
   "scale" : "DOM7",
-  "tracks" : [ {
-    "track" : "D1",
-    "file" : "Bossa1",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "D2",
-    "file" : "Rap1",
-    "cue" : "Hot",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "H1",
-    "file" : "Hats120",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "H2",
-    "file" : "Fills1",
-    "cue" : "Hot",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "B",
-    "file" : "4ths",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "TK1",
-    "file" : "0s",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "TK2",
-    "file" : "0s",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "F1",
-    "file" : "0s",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "F2",
-    "file" : "0s",
-    "cue" : "Hot",
-    "gate" : "SIXTEENTH"
-  }, {
-    "track" : "F3",
-    "file" : "8ths",
-    "cue" : "Bar",
-    "gate" : "SIXTEENTH"
-  } ],
+  "tracks" : [ ],
   "scenes" : [ {
     "type" : "BAR",
     "notes" : null,
@@ -87,7 +38,7 @@
       "launch" : 0,
       "amp" : 0.52,
       "mode" : null,
-      "program" : null,
+      "program" : "BBuddy",
       "arp" : {
         "algo" : "Off",
         "range" : 12
@@ -153,7 +104,7 @@
       "launch" : 0,
       "amp" : 0.76,
       "mode" : null,
-      "program" : null,
+      "program" : "Slow Strings",
       "arp" : {
         "algo" : "Off",
         "range" : 12
@@ -164,7 +115,7 @@
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : null,
+      "program" : "Polysynth",
       "arp" : {
         "algo" : "Off",
         "range" : 12
@@ -175,7 +126,7 @@
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : null,
+      "program" : "Square Lead",
       "arp" : {
         "algo" : "BASS",
         "range" : 12
@@ -236,7 +187,7 @@
     }, {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 2,
+      "launch" : 0,
       "amp" : 0.29,
       "mode" : null,
       "program" : null,
@@ -268,9 +219,9 @@
       }
     }, {
       "active" : true,
-      "cycle" : "AB",
+      "cycle" : "ABCD",
       "launch" : 4,
-      "amp" : 0.22,
+      "amp" : 0.28,
       "mode" : null,
       "program" : "Slow Strings",
       "arp" : {
@@ -290,7 +241,7 @@
       }
     }, {
       "active" : true,
-      "cycle" : "A",
+      "cycle" : "AB",
       "launch" : 2,
       "amp" : 0.34,
       "mode" : null,
@@ -422,14 +373,14 @@
     "channel" : "Gtr",
     "preset" : "RevComp"
   }, {
-    "channel" : "Drums",
-    "preset" : "Delay1"
-  }, {
     "channel" : "Fluid",
     "preset" : "Xtraverb"
+  }, {
+    "channel" : "Drums",
+    "preset" : "Drumz"
   }, {
     "channel" : "Mains",
     "preset" : "Mains"
   } ],
-  "capture" : [ "Gtr" ]
+  "capture" : [ "Gtr", "Taco" ]
 }

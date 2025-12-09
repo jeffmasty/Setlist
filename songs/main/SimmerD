@@ -1,58 +1,69 @@
 {
   "timeSig" : "FOURFOUR",
+  "midiBundle" : false,
   "chordpro" : "SimmerD",
   "key" : "Bb",
   "scale" : "MAJOR",
   "tracks" : [ {
-    "track" : "D1",
+    "track" : "Drum1",
     "file" : "Rock1",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "Pearl"
   }, {
-    "track" : "D2",
+    "track" : "Drum2",
     "file" : "Rap1",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "808"
   }, {
-    "track" : "H1",
+    "track" : "Hats",
     "file" : "Hats1",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "Hats"
   }, {
-    "track" : "H2",
+    "track" : "Fills",
     "file" : "Fills1",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "VCO"
   }, {
-    "track" : "B",
-    "file" : "Bass2",
+    "track" : "Bass",
+    "file" : "4ths",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "FeelGood"
   }, {
-    "track" : "TK1",
-    "file" : "0s",
+    "track" : "Taco",
+    "file" : "4ths",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "Drops1"
   }, {
-    "track" : "TK2",
+    "track" : "Tk2",
     "file" : "16ths",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "Trombone"
   }, {
-    "track" : "F1",
+    "track" : "Fluid",
     "file" : "8ths",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "Rock Organ"
   }, {
     "track" : "F2",
     "file" : "CRDSKNK",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "Harp"
   }, {
     "track" : "F3",
     "file" : "Synco",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "none"
   } ],
   "scenes" : [ {
     "type" : "BAR",
@@ -71,7 +82,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.78999996,
+      "amp" : 0.65999997,
       "mode" : null,
       "program" : "Pearl",
       "arp" : {
@@ -93,7 +104,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.65,
+      "amp" : 0.5,
       "mode" : null,
       "program" : "Hats",
       "arp" : {
@@ -112,25 +123,25 @@
         "range" : 12
       }
     }, {
-      "active" : false,
-      "cycle" : "ABCD",
+      "active" : true,
+      "cycle" : "ALL",
       "launch" : 0,
-      "amp" : 0.65,
+      "amp" : 0.11,
       "mode" : null,
       "program" : "Lead1",
       "arp" : {
-        "algo" : "Off",
+        "algo" : "BASS",
         "range" : 24
       }
     }, {
-      "active" : false,
-      "cycle" : "ABCD",
-      "launch" : 0,
+      "active" : true,
+      "cycle" : "ALL",
+      "launch" : 6,
       "amp" : 0.65,
       "mode" : null,
       "program" : "Drops1",
       "arp" : {
-        "algo" : "Off",
+        "algo" : "BASS",
         "range" : 24
       }
     }, {
@@ -150,31 +161,31 @@
       "launch" : 0,
       "amp" : 0.65,
       "mode" : null,
-      "program" : "Palm Muted Guitar",
+      "program" : "Rock Organ",
       "arp" : {
         "algo" : "Off",
         "range" : 24
       }
     }, {
-      "active" : false,
-      "cycle" : "ABCD",
-      "launch" : 0,
-      "amp" : 0.65,
+      "active" : true,
+      "cycle" : "AB",
+      "launch" : 2,
+      "amp" : 0.42,
       "mode" : null,
       "program" : "Harp",
       "arp" : {
-        "algo" : "Off",
+        "algo" : "CHRD",
         "range" : 24
       }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "AB",
-      "launch" : 8,
-      "amp" : 0.65,
+      "launch" : 0,
+      "amp" : 0.35,
       "mode" : null,
       "program" : "none",
       "arp" : {
-        "algo" : "BASS",
+        "algo" : "RND",
         "range" : 24
       }
     } ],
@@ -193,7 +204,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.79999995,
+      "amp" : 0.78999996,
       "mode" : null,
       "program" : "Pearl",
       "arp" : {
@@ -269,8 +280,8 @@
     }, {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 26,
-      "amp" : 0.52,
+      "launch" : 6,
+      "amp" : 0.47,
       "mode" : null,
       "program" : "Rock Organ",
       "arp" : {
@@ -300,7 +311,7 @@
         "range" : 24
       }
     } ],
-    "fx" : [ "Drums", "S.One", "Fluid" ]
+    "fx" : [ "Fluid", "Drums" ]
   }, {
     "type" : "BAR",
     "notes" : "FadeOut",
@@ -425,11 +436,11 @@
     "channel" : "Gtr",
     "preset" : "RevComp"
   }, {
-    "channel" : "Drums",
-    "preset" : "Drumz"
-  }, {
     "channel" : "Fluid",
     "preset" : "Xtraverb"
+  }, {
+    "channel" : "Drums",
+    "preset" : "Drumz"
   } ],
-  "capture" : [ "Gtr", "Fluid" ]
+  "capture" : [ "Gtr", "Taco" ]
 }

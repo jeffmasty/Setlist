@@ -1,45 +1,53 @@
 {
   "timeSig" : "FOURFOUR",
+  "bundle" : null,
   "chordpro" : "TayoriNi",
   "key" : "F",
   "scale" : "MAJOR",
+  "kit" : {
+    "vol" : [ 50, 50, 50, 50, 50, 50, 50, 50 ],
+    "pan" : [ 50, 50, 50, 31, 74, 50, 50, 50 ],
+    "atk" : [ 1, 1, 1, 1, 1, 1, 1, 1 ],
+    "dk" : [ 100, 100, 100, 100, 100, 100, 100, 100 ]
+  },
   "tracks" : [ {
-    "track" : "D1",
+    "track" : "Drum1",
     "file" : "4x4",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "D2",
-    "file" : "Shuffle.mid",
+    "track" : "Drum2",
+    "file" : "Reqggea2",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "BBuddy"
   }, {
-    "track" : "H1",
+    "track" : "Hats",
     "file" : "Hats1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "H2",
+    "track" : "Fills",
     "file" : "Fills1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "B",
+    "track" : "Bass",
     "file" : "TayoriNiBass",
     "cue" : "Bar",
     "gate" : "EIGHTH"
   }, {
-    "track" : "TK1",
+    "track" : "Taco",
     "file" : "0s",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "TK2",
+    "track" : "Tk2",
     "file" : "16ths",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "F1",
+    "track" : "Fluid",
     "file" : "0s",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
@@ -47,7 +55,8 @@
     "track" : "F2",
     "file" : "CRDSKNK",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "Palm Muted Guitar"
   }, {
     "track" : "F3",
     "file" : "Synco",
@@ -154,7 +163,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 2,
-      "amp" : 0.5,
+      "amp" : 0.58,
       "mode" : null,
       "program" : "Halo Pad",
       "arp" : {
@@ -167,7 +176,7 @@
       "launch" : 0,
       "amp" : 0.78999996,
       "mode" : null,
-      "program" : "Harp",
+      "program" : "Palm Muted Guitar",
       "arp" : {
         "algo" : "Off",
         "range" : 24
@@ -201,8 +210,8 @@
         "range" : 12
       }
     }, {
-      "active" : true,
-      "cycle" : "AB",
+      "active" : false,
+      "cycle" : "A",
       "launch" : 4,
       "amp" : 0.58,
       "mode" : null,
@@ -212,7 +221,7 @@
         "range" : 12
       }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.78999996,
@@ -317,7 +326,7 @@
         "range" : 12
       }
     }, {
-      "active" : true,
+      "active" : false,
       "cycle" : "AB",
       "launch" : 4,
       "amp" : 0.58,
@@ -328,7 +337,7 @@
         "range" : 12
       }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.58,
@@ -399,7 +408,7 @@
       "launch" : 0,
       "amp" : 0.58,
       "mode" : null,
-      "program" : null,
+      "program" : "Palm Muted Guitar",
       "arp" : {
         "algo" : "Off",
         "range" : 12
@@ -435,10 +444,10 @@
     }, {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 4,
-      "amp" : 0.58,
+      "launch" : 2,
+      "amp" : 0.31,
       "mode" : null,
-      "program" : null,
+      "program" : "BBuddy",
       "arp" : {
         "algo" : "Off",
         "range" : 12
@@ -467,13 +476,13 @@
       }
     }, {
       "active" : true,
-      "cycle" : "ABCD",
-      "launch" : 4,
-      "amp" : 0.58,
+      "cycle" : "AB",
+      "launch" : 2,
+      "amp" : 0.16,
       "mode" : null,
       "program" : null,
       "arp" : {
-        "algo" : "Off",
+        "algo" : "BASS",
         "range" : 12
       }
     }, {
@@ -512,8 +521,8 @@
     }, {
       "active" : false,
       "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.58,
+      "launch" : 2,
+      "amp" : 0.55,
       "mode" : null,
       "program" : "Palm Muted Guitar",
       "arp" : {
@@ -538,8 +547,11 @@
     "channel" : "Gtr",
     "preset" : "Delay1"
   }, {
+    "channel" : "Fluid",
+    "preset" : "Strings"
+  }, {
     "channel" : "Drums",
-    "preset" : "Drumz"
+    "preset" : "Temperate"
   }, {
     "channel" : "Mains",
     "preset" : "Mains"

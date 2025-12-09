@@ -184,7 +184,7 @@
       "active" : true,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.65,
+      "amp" : 0.39,
       "mode" : null,
       "program" : "Pearl",
       "arp" : {
@@ -239,7 +239,7 @@
       "active" : false,
       "cycle" : "ABCD",
       "launch" : 0,
-      "amp" : 0.65,
+      "amp" : 0.52,
       "mode" : null,
       "program" : "Drops1",
       "arp" : {
@@ -247,10 +247,10 @@
         "range" : 24
       }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "A",
       "launch" : 6,
-      "amp" : 0.65,
+      "amp" : 0.39999998,
       "mode" : null,
       "program" : "Nylon String Guitar",
       "arp" : {
@@ -261,9 +261,9 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 6,
-      "amp" : 0.7874,
+      "amp" : 0.44,
       "mode" : null,
-      "program" : "Clean Guitar",
+      "program" : "Rhodes EP",
       "arp" : {
         "algo" : "CHRD",
         "range" : 24

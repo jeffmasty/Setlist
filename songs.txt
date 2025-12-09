@@ -1,7 +1,15 @@
 ideas:
 
-
 By Your Side https://youtu.be/32rSJOiw-9Y?si=JI3qoK5iNXrmhWLJ
+DTMF Signalling keypad frequencies 
+Low tone		High tone
+	   1209 Hz 1336 Hz 1477 Hz	
+697 Hzⓘ	 1  ⓘ	 2  ⓘ	 3  ⓘ	 
+770 Hzⓘ	 4  ⓘ	 5  ⓘ	 6  ⓘ	 
+852 Hzⓘ	 7  ⓘ	 8  ⓘ	 9  ⓘ	 
+941 Hzⓘ	 *  ⓘ	 0  ⓘ	 #  ⓘ
+
+
 Getting away with it - Strings then Rock, then Strings + Rock.
 d.summer-feellove FFTEyez
 

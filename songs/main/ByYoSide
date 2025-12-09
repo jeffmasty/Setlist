@@ -3,53 +3,59 @@
   "chordpro" : "ByYoSide",
   "key" : "C",
   "scale" : "MAJOR",
+  "kit" : {
+    "vol" : [ 50, 50, 50, 50, 50, 50, 50, 50 ],
+    "pan" : [ 51, 35, 50, 50, 69, 50, 65, 59 ],
+    "atk" : [ 1, 1, 1, 1, 1, 1, 1, 1 ],
+    "dk" : [ 100, 100, 100, 100, 100, 100, 100, 100 ]
+  },
   "tracks" : [ {
-    "track" : "D1",
+    "track" : "??",
     "file" : "Rock1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "D2",
+    "track" : "REGGAE- Beat 6- straight one drop sync rim sparse off beat hats+",
     "file" : "Reqggea1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "H1",
+    "track" : "??",
     "file" : "Hats1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "H2",
+    "track" : "??",
     "file" : "Fills1",
     "cue" : "Hot",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "B",
-    "file" : "YoSideB1",
+    "track" : "Bass",
+    "file" : null,
     "cue" : "Bar",
     "gate" : "EIGHTH"
   }, {
-    "track" : "TK1",
+    "track" : "Yikes",
     "file" : "8ths",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "TK2",
-    "file" : "16ths",
+    "track" : "??",
+    "file" : "8ths",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "F1",
+    "track" : "??",
     "file" : "CRDSKNK",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "F2",
+    "track" : "??",
     "file" : "CRDSKNK",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "F3",
+    "track" : "??",
     "file" : "8ths",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
@@ -78,7 +84,7 @@
     }, {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 0,
+      "launch" : 6,
       "amp" : 0.58,
       "mode" : null,
       "program" : "BBuddy",
@@ -100,7 +106,7 @@
     }, {
       "active" : false,
       "cycle" : "AB",
-      "launch" : 0,
+      "launch" : 6,
       "amp" : 0.58,
       "mode" : null,
       "program" : null,
@@ -123,22 +129,22 @@
       "active" : false,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.58,
+      "amp" : 0.089999996,
       "mode" : null,
       "program" : "Bass1",
       "arp" : {
-        "algo" : "Off",
+        "algo" : "ETH",
         "range" : 12
       }
     }, {
-      "active" : false,
+      "active" : true,
       "cycle" : "AB",
-      "launch" : 0,
+      "launch" : 22,
       "amp" : 0.58,
       "mode" : null,
       "program" : null,
       "arp" : {
-        "algo" : "Off",
+        "algo" : "BASS",
         "range" : 12
       }
     }, {
@@ -158,7 +164,7 @@
       "launch" : 14,
       "amp" : 0.58,
       "mode" : null,
-      "program" : "Jazz Guitar",
+      "program" : "Palm Muted Guitar",
       "arp" : {
         "algo" : "CHRD",
         "range" : 12
@@ -166,10 +172,10 @@
     }, {
       "active" : true,
       "cycle" : "AB",
-      "launch" : 0,
-      "amp" : 0.88,
+      "launch" : 2,
+      "amp" : 0.55,
       "mode" : null,
-      "program" : null,
+      "program" : "Harp",
       "arp" : {
         "algo" : "UPDN",
         "range" : 12
@@ -190,5 +196,5 @@
     "channel" : "Mains",
     "preset" : "Mains"
   } ],
-  "capture" : [ "Gtr", "Drums" ]
+  "capture" : [ "Gtr", "Taco" ]
 }

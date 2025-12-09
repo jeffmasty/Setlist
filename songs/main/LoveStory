@@ -1,58 +1,69 @@
 {
   "timeSig" : "FOURFOUR",
+  "bundle" : null,
   "chordpro" : "LoveStory",
   "key" : "G",
   "scale" : "HARMONIC",
   "tracks" : [ {
-    "track" : "D1",
+    "track" : "Drum1",
     "file" : "BusyBusy",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "808"
   }, {
-    "track" : "D2",
+    "track" : "Drum2",
     "file" : "4x4",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "808"
   }, {
-    "track" : "H1",
+    "track" : "Hats",
     "file" : "Hats1",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "Hats"
   }, {
-    "track" : "H2",
+    "track" : "Fills",
     "file" : "Fills1",
     "cue" : "Hot",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "VCO"
   }, {
-    "track" : "B",
+    "track" : "Bass",
     "file" : "Synco",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "FeelGood"
   }, {
-    "track" : "TK1",
+    "track" : "Taco",
     "file" : "8ths",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "Drops1"
   }, {
-    "track" : "TK2",
+    "track" : "Tk2",
     "file" : "0s",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "Flute"
   }, {
-    "track" : "F1",
+    "track" : "Fluid",
     "file" : "0s",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "Bright Yamaha Grand"
   }, {
     "track" : "F2",
     "file" : "0s",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "Bright Yamaha Grand"
   }, {
     "track" : "F3",
     "file" : "0s",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "Cello"
   } ],
   "scenes" : [ {
     "type" : "BAR",
@@ -142,7 +153,7 @@
       "launch" : 6,
       "amp" : 0.78999996,
       "mode" : null,
-      "program" : "Flute",
+      "program" : "FeelDrops",
       "arp" : {
         "algo" : "CHRD",
         "range" : 12
@@ -329,7 +340,7 @@
       "launch" : 0,
       "amp" : 0.78999996,
       "mode" : null,
-      "program" : "BBuddy",
+      "program" : "808",
       "arp" : {
         "algo" : "Off",
         "range" : 12
@@ -496,7 +507,7 @@
       "active" : true,
       "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.84999996,
+      "amp" : 0.51,
       "mode" : null,
       "program" : "FeelGood",
       "arp" : {
@@ -553,7 +564,7 @@
       "launch" : 2,
       "amp" : 0.48,
       "mode" : null,
-      "program" : "none",
+      "program" : "Cello",
       "arp" : {
         "algo" : "BASS",
         "range" : 24

@@ -8,7 +8,7 @@
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Drum2",
-    "file" : "HipHop",
+    "file" : "Bossa1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
@@ -23,40 +23,37 @@
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Bass",
-    "file" : "AirB",
+    "file" : null,
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
     "track" : "Taco",
-    "file" : "AirV1",
+    "file" : null,
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "program" : "Lead1"
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Tk2",
-    "file" : "AirCello",
+    "file" : null,
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "program" : "Pads1"
+    "gate" : "SIXTEENTH"
   }, {
     "track" : "Fluid",
-    "file" : "AirV2",
+    "file" : null,
     "cue" : "Bar",
-    "gate" : "SIXTEENTH",
-    "program" : "Violin"
+    "gate" : "SIXTEENTH"
   }, {
-    "track" : "F3rd",
-    "file" : "AirViola",
+    "track" : "Mic",
+    "file" : null,
     "cue" : "Bar",
     "gate" : "SIXTEENTH",
-    "program" : "Viola"
+    "channel" : "Mic"
   } ],
   "scenes" : [ {
     "type" : "BAR",
     "notes" : "",
     "commands" : [ {
       "cmd" : "Tempo",
-      "val" : "90"
+      "val" : "84"
     } ],
     "tracks" : [ {
       "active" : false,
@@ -72,17 +69,6 @@
     }, {
       "active" : false,
       "cycle" : "AB",
-      "launch" : 8,
-      "amp" : 0.6,
-      "mode" : null,
-      "program" : null,
-      "arp" : {
-        "algo" : "Off",
-        "range" : 12
-      }
-    }, {
-      "active" : false,
-      "cycle" : "AB",
       "launch" : 0,
       "amp" : 0.6,
       "mode" : null,
@@ -103,67 +89,12 @@
         "range" : 12
       }
     }, {
-      "active" : true,
-      "cycle" : "ALL",
+      "active" : false,
+      "cycle" : "AB",
       "launch" : 0,
-      "amp" : 0.39999998,
+      "amp" : 0.6,
       "mode" : null,
       "program" : null,
-      "arp" : {
-        "algo" : "Off",
-        "range" : 12
-      }
-    }, {
-      "active" : true,
-      "cycle" : "ALL",
-      "launch" : 0,
-      "amp" : 0.37,
-      "mode" : null,
-      "program" : "Lead1",
-      "arp" : {
-        "algo" : "Off",
-        "range" : 12
-      }
-    }, {
-      "active" : true,
-      "cycle" : "ALL",
-      "launch" : 0,
-      "amp" : 0.44,
-      "mode" : null,
-      "program" : "Pads1",
-      "arp" : {
-        "algo" : "Off",
-        "range" : 12
-      }
-    }, {
-      "active" : true,
-      "cycle" : "ALL",
-      "launch" : 0,
-      "amp" : 0.39999998,
-      "mode" : null,
-      "program" : "Violin",
-      "arp" : {
-        "algo" : "Off",
-        "range" : 12
-      }
-    }, {
-      "active" : true,
-      "cycle" : "ALL",
-      "launch" : 0,
-      "amp" : 0.57,
-      "mode" : null,
-      "program" : "Viola",
-      "arp" : {
-        "algo" : "Off",
-        "range" : 12
-      }
-    }, {
-      "active" : false,
-      "cycle" : "ALL",
-      "launch" : 0,
-      "amp" : 0.45999998,
-      "mode" : null,
-      "program" : "Cello",
       "arp" : {
         "algo" : "Off",
         "range" : 12
@@ -172,11 +103,17 @@
     "fx" : [ ]
   } ],
   "fx" : [ {
+    "channel" : "Gtr",
+    "preset" : "RevComp"
+  }, {
     "channel" : "Fluid",
-    "preset" : "Strings"
+    "preset" : "Xtraverb"
   }, {
     "channel" : "Drums",
     "preset" : "Drumz"
+  }, {
+    "channel" : "Mains",
+    "preset" : "Mains"
   } ],
   "capture" : [ "Gtr", "Taco" ]
 }

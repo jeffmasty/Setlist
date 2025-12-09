@@ -1,5 +1,6 @@
 {
   "timeSig" : "FOURFOUR",
+  "midiBundle" : false,
   "kit" : {
     "vol" : [ 50, 50, 50, 50, 50, 50, 50, 50 ],
     "pan" : [ 50, 66, 66, 50, 33, 50, 50, 50 ],
@@ -7,55 +8,61 @@
     "dk" : [ 35, 100, 100, 100, 100, 100, 100, 100 ]
   },
   "tracks" : [ {
-    "track" : "D1",
+    "track" : "Drum1",
     "file" : "Vibrate",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "808-UFO"
   }, {
-    "track" : "D2",
+    "track" : "Drum2",
     "file" : "Bossa1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "H1",
+    "track" : "Hats",
     "file" : "Hats1",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "H2",
+    "track" : "Fills",
     "file" : "Fills1",
     "cue" : "Hot",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "B",
-    "file" : "Vibrate",
+    "track" : "Bass",
+    "file" : "VibrateB",
     "cue" : "Bar",
     "gate" : "SIXTEENTH"
   }, {
-    "track" : "TK1",
+    "track" : "Taco",
     "file" : "VibrateM",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "Detune1"
   }, {
-    "track" : "TK2",
+    "track" : "Tk2",
     "file" : "VibrateV",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "FeelGood"
   }, {
-    "track" : "F1",
+    "track" : "Fluid",
     "file" : "VibrateO",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "Rock Organ"
   }, {
-    "track" : "F2",
+    "track" : "Fluid",
     "file" : "VibrateC",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "Contrabass"
   }, {
-    "track" : "F3",
+    "track" : "F2",
     "file" : "VibrateF",
     "cue" : "Bar",
-    "gate" : "SIXTEENTH"
+    "gate" : "SIXTEENTH",
+    "program" : "Ohh Voices"
   } ],
   "scenes" : [ {
     "type" : "BAR",
@@ -112,7 +119,7 @@
       "active" : true,
       "cycle" : "ALL",
       "launch" : 0,
-      "amp" : 0.96999997,
+      "amp" : 0.999998,
       "mode" : null,
       "program" : null,
       "arp" : {
@@ -125,7 +132,7 @@
       "launch" : 0,
       "amp" : 0.96999997,
       "mode" : null,
-      "program" : null,
+      "program" : "Detune1",
       "arp" : {
         "algo" : "Off",
         "range" : 12
@@ -136,7 +143,7 @@
       "launch" : 0,
       "amp" : 0.56,
       "mode" : null,
-      "program" : null,
+      "program" : "FeelGood",
       "arp" : {
         "algo" : "Off",
         "range" : 12
@@ -145,7 +152,7 @@
       "active" : true,
       "cycle" : "ALL",
       "launch" : 0,
-      "amp" : 0.58,
+      "amp" : 0.582676,
       "mode" : null,
       "program" : "Rock Organ",
       "arp" : {
@@ -156,7 +163,7 @@
       "active" : true,
       "cycle" : "ALL",
       "launch" : 0,
-      "amp" : 0.96999997,
+      "amp" : 0.999998,
       "mode" : null,
       "program" : "Contrabass",
       "arp" : {
@@ -167,7 +174,7 @@
       "active" : true,
       "cycle" : "ALL",
       "launch" : 0,
-      "amp" : 0.96999997,
+      "amp" : 0.999998,
       "mode" : null,
       "program" : "Ohh Voices",
       "arp" : {
@@ -178,14 +185,11 @@
     "fx" : [ "Drums", "Mains" ]
   } ],
   "fx" : [ {
-    "channel" : "TK1",
-    "preset" : "Phaser"
-  }, {
     "channel" : "Drums",
     "preset" : "Drumz"
   }, {
     "channel" : "Mains",
     "preset" : "RevComp"
   } ],
-  "capture" : [ "Gtr", "TK1", "Drums" ]
+  "capture" : [ "Gtr", "Taco" ]
 }
